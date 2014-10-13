@@ -1,0 +1,90 @@
+<link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl()?>/css/jquery.tagsinput.css" />
+	<script type="text/javascript" src="<?php echo $this->baseUrl()?>/js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $this->baseUrl()?>/js/jquery.tagsinput.min.js"></script>
+	<script type='text/javascript' src='<?php echo $this->baseUrl()?>/js/jquery-ui.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl()?>/css/jquery-ui.css" />
+		<script src="<?php echo $this->baseUrl()?>/js/jquery.maskedinput.min.js"></script>	
+	<script src="<?php echo $this->baseUrl()?>/js/jquery.maskMoney.min.js"></script>
+	
+
+	<script type="text/javascript">
+		
+		function onAddTag(tag) {
+			alert("Added a tag: " + tag);
+			
+		}
+		function onRemoveTag(tag) {
+			alert("Removed a tag: " + tag);
+		}
+		
+		function onChangeTag(input,tag) {
+			alert("Changed a tag: " + tag);
+		}
+		
+		jQuery.noConflict();
+		jQuery(function() {
+			//jQuery('#saldo').mask('?9999');
+			jQuery("#precode,#fretemedio,#precopor").maskMoney({prefix:'R$ ', allowNegative: true, thousands:'', decimal:'.', affixesStay: false});
+			jQuery('#palavrachave').tagsInput({
+				width: 'auto',
+				
+				onAddTag:function(elem, elem_tags){
+					console.log(elem_tags+"onAddTag"+elem); 
+				
+				},freeInput: true,
+				onChange: function(elem, elem_tags)
+				{
+					
+				},
+				autocomplete_url:'http://127.0.0.1/exemplos/jQuery-Tags-Input-master/test/fake_json_endpoint.html' // jquery ui autocomplete requires a json endpoint
+			});
+			
+			jQuery("#adicionarCaract").click(function(){
+			     var cont = 0;
+			     console.log("entrou adicionarCaract"); 
+			     if(jQuery("#nomecaract").val() == "")
+			     {
+			       jQuery("#nomecaract").css({"border" : "1px solid #F00", "padding": "2px"});
+			       //return false;
+			     }else{
+			       jQuery("#nomecaract").css({"border" : "1px solid #ccc", "padding": "0px"});
+			     }
+			     if(jQuery("#valorcaract").val() == "")
+		         {
+			    	
+			        jQuery("#valorcaract").css({"border" : "1px solid #F00", "padding": "2px"});
+			        return false;
+		          }else{
+			         jQuery("#valorcaract").css({"border" : "1px solid #ccc", "padding": "0px"});
+			    }
+				    
+			     jQuery('#tabelaCaracteristicas > tbody:last').append('<tr><input type="hidden" name="nomeCaracteristica[]" id="nomeCaracteristica" value="'+jQuery("#nomecaract").val()+'" /><input type="hidden" value="'+jQuery("#valorcaract").val()+'" name="valorCaracteristica[]" id="valorCaracteristica" /><td>'+jQuery("#nomecaract").val()+'</td><td>'+jQuery("#valorcaract").val()+'</td><td><a href="#tabelaCaracteristicas"  class="del" title="deletar" name="deletar"></a></td></tr>');
+			     jQuery("#nomecaract").val("")   ;  
+			     jQuery("#valorcaract").val("");
+			    
+			    });
+			jQuery(".del").live('click', function(event) {
+				$(this).parent().parent().remove();
+			});
+			jQuery("#nomecaract,#valorcaract").blur(function(){
+			     if($(this).val() == "")
+			         {
+			             $(this).css({"border" : "1px solid #F00", "padding": "2px"});
+			         }else{
+			        	 $(this).css({"border" : "1px solid #ccc", "padding": "0px"});   
+			    }
+			 });
+
+
+
+		
+
+		});
+	
+	</script>
+<?php
+	$this->title = "Adicionar Produto";
+	$this->headTitle($this->title);
+	echo $this->form ;
+	
+?>

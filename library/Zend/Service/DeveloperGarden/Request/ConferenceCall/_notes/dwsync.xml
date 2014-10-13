@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AddConferenceTemplateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603469361" remote="130377009000000000" />
+<file name="CommitConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603519364" remote="130377009000000000" />
+<file name="CreateConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603559366" remote="130377009000000000" />
+<file name="CreateConferenceTemplateRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603609369" remote="130377009000000000" />
+<file name="GetConferenceListRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603649371" remote="130377009000000000" />
+<file name="GetConferenceStatusRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603699374" remote="130377009000000000" />
+<file name="GetConferenceTemplateListRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603739376" remote="130377009000000000" />
+<file name="GetConferenceTemplateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603759378" remote="130377009600000000" />
+<file name="GetConferenceTemplateRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603799380" remote="130377009600000000" />
+<file name="GetParticipantStatusRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603839382" remote="130377009600000000" />
+<file name="GetRunningConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603889385" remote="130377009600000000" />
+<file name="NewParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603929387" remote="130377009600000000" />
+<file name="RemoveConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558603969390" remote="130377009600000000" />
+<file name="RemoveConferenceTemplateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558604029393" remote="130377009600000000" />
+<file name="RemoveConferenceTemplateRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558604079396" remote="130377009600000000" />
+<file name="RemoveParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558604139399" remote="130377009600000000" />
+<file name="UpdateConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558604199403" remote="130377009600000000" />
+<file name="UpdateConferenceTemplateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558604249406" remote="130377009600000000" />
+<file name="UpdateConferenceTemplateRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558604299408" remote="130377009600000000" />
+<file name="UpdateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558604369412" remote="130377009600000000" />
+<file name="AddConferenceTemplateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603469361" remote="130379194800000000" />
+<file name="CommitConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603519364" remote="130379194800000000" />
+<file name="CreateConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603559366" remote="130379194800000000" />
+<file name="CreateConferenceTemplateRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603609369" remote="130379194800000000" />
+<file name="GetConferenceListRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603649371" remote="130379194800000000" />
+<file name="GetConferenceStatusRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603699374" remote="130379194800000000" />
+<file name="GetConferenceTemplateListRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603739376" remote="130379194800000000" />
+<file name="GetConferenceTemplateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603759378" remote="130379194800000000" />
+<file name="GetConferenceTemplateRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603799380" remote="130379194800000000" />
+<file name="GetParticipantStatusRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603839382" remote="130379194800000000" />
+<file name="GetRunningConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603889385" remote="130379194800000000" />
+<file name="NewParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603929387" remote="130379194800000000" />
+<file name="RemoveConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558603969390" remote="130379194800000000" />
+<file name="RemoveConferenceTemplateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558604029393" remote="130379194800000000" />
+<file name="RemoveConferenceTemplateRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558604079396" remote="130379194800000000" />
+<file name="RemoveParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558604139399" remote="130379194800000000" />
+<file name="UpdateConferenceRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558604199403" remote="130379194800000000" />
+<file name="UpdateConferenceTemplateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558604249406" remote="130379194800000000" />
+<file name="UpdateConferenceTemplateRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558604299408" remote="130379194800000000" />
+<file name="UpdateParticipantRequest.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558604369412" remote="130379194800000000" />
+</dwsync>

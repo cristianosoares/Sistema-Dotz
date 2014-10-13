@@ -1,0 +1,42 @@
+<?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/site.css'); ?>
+<div class="tituloDestaque">Listar Usuário</div>
+<!--  <a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-usuario'));?>">Adicionar usuário</a>-->
+<div class="envolveTabela">
+<table width="100%" class="bordasimples" cellpadding="5" cellspacing="0">
+	<tr>
+		<th class="arredondarEsq">NOME</th>
+		
+		<th>E-MAIL</th>
+		
+		<th>AÇÃO</th>
+		
+	</tr>
+
+	<?php if(count($this->usuarios)>0){
+  $class="dif";
+foreach($this->usuarios as $usuarios) : ?>
+  
+  
+  <?php
+  if($class=="dif")$class="cinzaClaro";
+  else $class="dif";
+  
+  	?>
+  <tr class="<?php echo $class?>">
+		<td>
+			<?php echo  utf8_encode( $usuarios["nome"]);?>
+		</td>
+		<td>
+			<?php echo utf8_encode( $usuarios["email"]);?>
+		</td>
+		<td>
+			<a href="<?php echo $this->url(array('controller'=>'index','action'=>'edit-usuario', 'id'=>$usuarios["id_usuario"]));?>" class="edit" alt="edit" title="edit"></a>
+			<a href="<?php echo $this->url(array('controller'=>'index','action'=>'delete-usuario', 'id'=>$usuarios["id_usuario"]));?>" class="del" alt="delete" title="delete"></a>
+		</td>
+	</tr>
+	<?php endforeach; ?>
+	<?php }?>
+</table>
+</div>
+<!-- <a href="<?php echo $this->url(array('controller'=>'index','action'=>'index'));?>">Voltar HOME</a> -->
+

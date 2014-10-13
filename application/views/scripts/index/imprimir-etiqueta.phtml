@@ -1,0 +1,10 @@
+<?php
+                    
+                    // Logo da empresa remetente
+                    $plp = $this->imprimirEtiqueta;
+                    $logoFile = __DIR__ . '/logo-etiqueta.png';
+
+                    $pdf = new \PhpSigep\Pdf\CartaoDePostagem($plp, time(), $logoFile);
+                    $pdf = $pdf->render($plp);
+                    var_dump($pdf);die;
+?>                

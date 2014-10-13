@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RASTREAMENTO>
+  <ARQUIVO>
+    <VERSAO>1.0</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <IDPEDIDODOTZ>84403</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>84403a</IDPEDIDOFORN>
+      <ITENS>
+        <ITEM>
+          <IDITEMDOTZ>84404</IDITEMDOTZ>
+          <IDITEMFORN>84404a</IDITEMFORN>
+          <FRETE>10.00</FRETE>
+          <PRECO>82.42</PRECO>
+          <PESO>82.42</PESO>
+          <NRRASTREIO></NRRASTREIO>
+          <NFCOBRANCA>
+            <NUMERONF>123</NUMERONF>
+            <NUMEROLINHA>2</NUMEROLINHA>
+          </NFCOBRANCA>
+          <OCORRENCIAS>
+            <OCORRENCIA>
+              <OCORRENCIAID>5000</OCORRENCIAID>
+              <DESCRICAO>Entregue</DESCRICAO>
+              <DATAHORA>2011-01-01 00:00:00</DATAHORA>
+              <FINAL>1</FINAL>
+              <OBSERVACAO></OBSERVACAO>
+            </OCORRENCIA>
+          </OCORRENCIAS>
+        </ITEM>
+      </ITENS>
+    </PEDIDO>
+  </PEDIDOS>
+</RASTREAMENTO>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ConfigurationDataSources.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558647611886" remote="130377013200000000" />
+<file name="ConfigurationDiagnosticInfrastructureLogs.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558647911903" remote="130377013200000000" />
+<file name="ConfigurationDirectories.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558648021909" remote="130377013200000000" />
+<file name="ConfigurationInstance.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558648091913" remote="130377013200000000" />
+<file name="ConfigurationLogs.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558648151917" remote="130377013200000000" />
+<file name="ConfigurationObjectBaseAbstract.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558648201920" remote="130377013200000000" />
+<file name="ConfigurationPerformanceCounters.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558648251922" remote="130377013200000000" />
+<file name="ConfigurationWindowsEventLog.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558648301925" remote="130377013200000000" />
+<file name="DirectoryConfigurationSubscription.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558648371929" remote="130377013200000000" />
+<file name="Exception.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558648421932" remote="130377013200000000" />
+<file name="LogLevel.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558651462106" remote="130377013200000000" />
+<file name="Manager.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558651592113" remote="130377013800000000" />
+<file name="PerformanceCounterSubscription.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558651692119" remote="130377013800000000" />
+<file name="ConfigurationDataSources.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558647611886" remote="130379195400000000" />
+<file name="ConfigurationDiagnosticInfrastructureLogs.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558647911903" remote="130379195400000000" />
+<file name="ConfigurationDirectories.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558648021909" remote="130379195400000000" />
+<file name="ConfigurationInstance.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558648091913" remote="130379195400000000" />
+<file name="ConfigurationLogs.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558648151917" remote="130379195400000000" />
+<file name="ConfigurationObjectBaseAbstract.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558648201920" remote="130379195400000000" />
+<file name="ConfigurationPerformanceCounters.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558648251922" remote="130379195400000000" />
+<file name="ConfigurationWindowsEventLog.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558648301925" remote="130379195400000000" />
+<file name="DirectoryConfigurationSubscription.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558648371929" remote="130379195400000000" />
+<file name="Exception.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558648421932" remote="130379195400000000" />
+<file name="LogLevel.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558651462106" remote="130379195400000000" />
+<file name="Manager.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558651592113" remote="130379195400000000" />
+<file name="PerformanceCounterSubscription.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558651692119" remote="130379195400000000" />
+</dwsync>

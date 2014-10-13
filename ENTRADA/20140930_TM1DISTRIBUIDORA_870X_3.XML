@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RASTREAMENTO>
+  <ARQUIVO>
+    <VERSAO>1.0</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <IDPEDIDODOTZ>8746891</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>1</IDPEDIDOFORN>
+      <ITENS>
+        <ITEM>
+          <IDITEMDOTZ>33605</IDITEMDOTZ>
+          <IDITEMFORN>1</IDITEMFORN>
+          <FRETE>15.00</FRETE>
+          <PRECO>24.31</PRECO>
+          <PESO>0</PESO>
+          <NRRASTREIO>0</NRRASTREIO>
+          <NFCOBRANCA>
+            <NUMERONF>0</NUMERONF>
+            <NUMEROLINHA>0</NUMEROLINHA>
+          </NFCOBRANCA>
+          <OCORRENCIAS>
+            <OCORRENCIA>
+              <OCORRENCIAID>3</OCORRENCIAID>
+              <DESCRICAO>PEDIDO NÃO ENTREGUE</DESCRICAO>
+              <DATAHORA>2014-09-30 13:52:28</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO></OBSERVACAO>
+            </OCORRENCIA>
+            <OCORRENCIA>
+              <OCORRENCIAID>5</OCORRENCIAID>
+              <DESCRICAO>PEDIDO A CAMINHO</DESCRICAO>
+              <DATAHORA>2014-09-30 16:43:05</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO></OBSERVACAO>
+            </OCORRENCIA>
+            <OCORRENCIA>
+              <OCORRENCIAID>5</OCORRENCIAID>
+              <DESCRICAO>PEDIDO A CAMINHO</DESCRICAO>
+              <DATAHORA>2014-09-30 16:48:02</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO></OBSERVACAO>
+            </OCORRENCIA>
+          </OCORRENCIAS>
+        </ITEM>
+      </ITENS>
+    </PEDIDO>
+  </PEDIDOS>
+</RASTREAMENTO>

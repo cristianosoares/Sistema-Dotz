@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>6</PRODUTOID>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>7</PRODUTOIDREFERENCIA>
+          <ATIVO>0</ATIVO>
+          <DISPONIVEL>0</DISPONIVEL>
+          <PRECODE>269.00</PRECODE>
+          <PRECOPOR>269.00</PRECOPOR>
+          <FRETEMEDIO>0.00</FRETEMEDIO>
+          <SALDO>1000</SALDO>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+    </PRODUTO>
+    <PRODUTO>
+      <PRODUTOID>5</PRODUTOID>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>6</PRODUTOIDREFERENCIA>
+          <ATIVO>0</ATIVO>
+          <DISPONIVEL>0</DISPONIVEL>
+          <PRECODE>129.00</PRECODE>
+          <PRECOPOR>129.00</PRECOPOR>
+          <FRETEMEDIO>30.00</FRETEMEDIO>
+          <SALDO>1000</SALDO>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

@@ -1,0 +1,74 @@
+<?php
+	$this->title = "Listar arquivos";
+	$this->headTitle($this->title);
+	//echo $this->form ;
+	
+?>
+<div class="box">
+                                <div class="box-header">
+                                    <h3 class="box-title">Lista Ocorrências</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body table-responsive">
+  <div class="callout callout-danger">
+                                        <h4>Atenção!</h4>
+                                        <p>**Ocorrências: São os status do pedido. As dificuldades próprias do negócio que impedem de entregar o pedido, até a última: OK – PEDIDO ENTREGUE. O fornecedor deve criar códigos + significados para cada ocorrência/status e nos enviar a lista para configurarmos e atrelarmos aos nossos status.
+                                        <br>
+                                        Se adicionar/alterar/excluir Ocorrência entre em contato com a Dotz para enviar a nova lista com o Código ocorrência e Descrição
+                                        </p>
+                                    </div>
+                                
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Código ocorrência</th>
+                                                <th>Descrição</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php if($this->listaOcorrencia>0){
+                                        foreach ($this->listaOcorrencia as $value){
+                                        ?>
+                                            <tr>
+                                                <td><?php echo $value["id_ocorrencia"]?></td>
+                                                
+                                                <td><?php echo $value["descricao"]?></td>
+                                                <td> 
+                                                 <a alt="Excluir" title="Excluir" href="<?php echo $this->url(array('controller'=>'index','action'=>'delete-ocorrencia', 'id'=>$value["id_ocorrencia"]),null, true);?>" class="btn-sm  btn-danger"><i class="glyphicon glyphicon-trash"></i></a>
+                                                
+                                                </td>
+                                            </tr>
+                                          <?php }}?> 
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                 <th>Código ocorrência</th>
+                                                <th>Descrição</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                            <div class="form-group">
+                                 <a alt="Excluir" title="Excluir" style="font-family: inherit;" href="<?php echo $this->url(array('controller'=>'index','action'=>'add-ocorrencia'),null, true);?>" class="btn-sm  "><i class="btn btn-primary">Adicionar Ocorrência</i></a>   		
+                                     		
+
+                                    		</div>
+<link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
+<!-- page script -->
+<script type="text/javascript">
+            $(function() {
+                $("#example1").dataTable();
+                $('#example2').dataTable({
+                    "bPaginate": true,
+                    "bLengthChange": false,
+                    "bFilter": false,
+                    "bSort": true,
+                    "bInfo": true,
+                    "bAutoWidth": false
+                });
+            });
+</script>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RASTREAMENTO>
+  <ARQUIVO>
+    <VERSAO>1.0</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <IDPEDIDODOTZ>1234</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>10</IDPEDIDOFORN>
+      <ITENS>
+        <ITEM>
+          <IDITEMDOTZ>84404</IDITEMDOTZ>
+          <IDITEMFORN>19</IDITEMFORN>
+          <FRETE>10.00</FRETE>
+          <PRECO>82.42</PRECO>
+          <PESO>123456</PESO>
+          <NRRASTREIO>sdadfe111</NRRASTREIO>
+          <NFCOBRANCA>
+            <NUMERONF>123456</NUMERONF>
+            <NUMEROLINHA>233334444</NUMEROLINHA>
+          </NFCOBRANCA>
+          <OCORRENCIAS>
+            <OCORRENCIA>
+              <OCORRENCIAID>6</OCORRENCIAID>
+              <DESCRICAO>A caminho</DESCRICAO>
+              <DATAHORA>2014-09-16 00:00:00</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO></OBSERVACAO>
+            </OCORRENCIA>
+            <OCORRENCIA>
+              <OCORRENCIAID>7</OCORRENCIAID>
+              <DESCRICAO>Separado para entrega</DESCRICAO>
+              <DATAHORA>2014-09-16 00:00:00</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO>obbbbb</OBSERVACAO>
+            </OCORRENCIA>
+            <OCORRENCIA>
+              <OCORRENCIAID>7</OCORRENCIAID>
+              <DESCRICAO>Separado para entrega</DESCRICAO>
+              <DATAHORA>2014-09-16 00:32:28</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO>obbbbb</OBSERVACAO>
+            </OCORRENCIA>
+            <OCORRENCIA>
+              <OCORRENCIAID>7</OCORRENCIAID>
+              <DESCRICAO>Separado para entrega</DESCRICAO>
+              <DATAHORA>2014-09-16 00:32:38</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO>obbbbb</OBSERVACAO>
+            </OCORRENCIA>
+            <OCORRENCIA>
+              <OCORRENCIAID>6</OCORRENCIAID>
+              <DESCRICAO>A caminho</DESCRICAO>
+              <DATAHORA>2014-09-16 20:59:29</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO>asdfasdfas</OBSERVACAO>
+            </OCORRENCIA>
+            <OCORRENCIA>
+              <OCORRENCIAID>5</OCORRENCIAID>
+              <DESCRICAO>Pedido Entregue</DESCRICAO>
+              <DATAHORA>2014-09-16 21:28:16</DATAHORA>
+              <FINAL>0</FINAL>
+              <OBSERVACAO>aaaa</OBSERVACAO>
+            </OCORRENCIA>
+          </OCORRENCIAS>
+        </ITEM>
+      </ITENS>
+    </PEDIDO>
+  </PEDIDOS>
+</RASTREAMENTO>

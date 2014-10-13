@@ -1,0 +1,127 @@
+<ul class="sidebar-menu">
+                        <li style="display: none">
+                            <a href="../../index.html">
+                                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li style="display: none">
+                            <a href="../widgets.html">
+                                <i class="fa fa-th"></i> <span>Widgets</span> <small class="badge pull-right bg-green">new</small>
+                            </a>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-th"></i>
+                                <span>Usuários</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-usuario'),null, true);?>"><i class="fa fa-angle-double-right"></i> Lista Usuário</a></li>
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-usuario'),null, true);?>"><i class="fa fa-angle-double-right"></i> Adicionar Usuário</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-th"></i>
+                                <span>Produtos</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-produto'),null, true);?>"><i class="fa fa-angle-double-right"></i> Lista Produto</a></li>
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-produto'),null, true);?>"><i class="fa fa-angle-double-right"></i> Adicionar Produto</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-th"></i>
+                                <span>Pedidos</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                            	<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-pedido'),null, true);?>"><i class="fa fa-angle-double-right"></i> Lista Pedidos</a></li>
+                            	 <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'romaneio-eletronico'),null, true);?>"><i class="fa fa-angle-double-right"></i>Romaneio Eletrônico</a></li>
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-ocorrencia'),null, true);?>"><i class="fa fa-angle-double-right"></i> Lista Ocorrência</a></li>
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-ocorrencia'),null, true);?>"><i class="fa fa-angle-double-right"></i> Adicionar Ocorrência</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-th"></i>
+                                <span>Ftp</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                            	<!--<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'upload-ftp'),null, true);?>"><i class="fa fa-angle-double-right"></i>Upload arquivos ftp</a></li>-->
+                            	<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-arquivos-ftp'),null, true);?>"><i class="fa fa-angle-double-right"></i>Lista arquivos ftp</a></li>
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'enviar-novo-produto'),null, true);?>"><i class="fa fa-angle-double-right"></i>Enviar novos produtos na DOTZ</a></li>
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'enviar-produto-atualizar'),null, true);?>"><i class="fa fa-angle-double-right"></i>Atualizar produtos na DOTZ</a></li>
+                                <!--  <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'ftp-entrada'),null, true);?>"><i class="fa fa-angle-double-right"></i>Ftp Entrada</a></li>-->
+                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'buscar-pedidos-dotz'),null, true);?>"><i class="fa fa-angle-double-right"></i>Buscar novos pedidos DOTZ</a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview" style="display: none">
+                            <a href="#">
+                                <i class="fa fa-laptop"></i>
+                                <span>UI Elements</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="../UI/general.html"><i class="fa fa-angle-double-right"></i> General</a></li>
+                                <li><a href="../UI/icons.html"><i class="fa fa-angle-double-right"></i> Icons</a></li>
+                                <li><a href="../UI/buttons.html"><i class="fa fa-angle-double-right"></i> Buttons</a></li>
+                                <li><a href="../UI/sliders.html"><i class="fa fa-angle-double-right"></i> Sliders</a></li>
+                                <li><a href="../UI/timeline.html"><i class="fa fa-angle-double-right"></i> Timeline</a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview active" style="display: none">
+                            <a href="#">
+                                <i class="fa fa-edit"></i> <span>Forms</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li class="active"><a href="general.html"><i class="fa fa-angle-double-right"></i> General Elements</a></li>
+                                <li><a href="advanced.html"><i class="fa fa-angle-double-right"></i> Advanced Elements</a></li>
+                                <li><a href="editors.html"><i class="fa fa-angle-double-right"></i> Editors</a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview" style="display: none">
+                            <a href="#">
+                                <i class="fa fa-table"></i> <span>Tables</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="../tables/simple.html"><i class="fa fa-angle-double-right"></i> Simple tables</a></li>
+                                <li><a href="../tables/data.html"><i class="fa fa-angle-double-right"></i> Data tables</a></li>
+                            </ul>
+                        </li>
+                        <li style="display: none">
+                            <a href="../calendar.html">
+                                <i class="fa fa-calendar"></i> <span>Calendar</span>
+                                <small class="badge pull-right bg-red">3</small>
+                            </a>
+                        </li>
+                        <li style="display: none">
+                            <a href="../mailbox.html">
+                                <i class="fa fa-envelope"></i> <span>Mailbox</span>
+                                <small class="badge pull-right bg-yellow">12</small>
+                            </a>
+                        </li>
+                        <li class="treeview" style="display: none">
+                            <a href="#">
+                                <i class="fa fa-folder"></i> <span>Examples</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="../examples/invoice.html"><i class="fa fa-angle-double-right"></i> Invoice</a></li>
+                                <li><a href="../examples/login.html"><i class="fa fa-angle-double-right"></i> Login</a></li>
+                                <li><a href="../examples/register.html"><i class="fa fa-angle-double-right"></i> Register</a></li>
+                                <li><a href="../examples/lockscreen.html"><i class="fa fa-angle-double-right"></i> Lockscreen</a></li>
+                                <li><a href="../examples/404.html"><i class="fa fa-angle-double-right"></i> 404 Error</a></li>
+                                <li><a href="../examples/500.html"><i class="fa fa-angle-double-right"></i> 500 Error</a></li>
+                                <li><a href="../examples/blank.html"><i class="fa fa-angle-double-right"></i> Blank Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>

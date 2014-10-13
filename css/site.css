@@ -1,0 +1,940 @@
+body,html {
+	margin: 0 0px;
+	   background: url("../images/shared/content_repeat.jpg") repeat-x scroll 0 -2px transparent;
+	font-family: Arial,Helvetica,sans-serif;
+}
+h4 {
+	color: #7f7f7f;
+    font-size: 60px;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+}
+h5{
+	
+	font-size:20px;
+	color:#7f7f7f;
+	text-align: center;
+}
+h1 {
+	font-size: 1.4em;
+	color: #008000;
+}
+
+a {
+	color: #008000;
+}
+
+/* Table */
+th {
+	text-align: left;
+}
+
+td,th {
+	padding-right:0;
+}
+
+/* style form */
+form dt {
+	 clear: left;
+    display: block;
+    float: left;
+    min-width: 148px;
+    width: auto;
+}
+
+form dd {
+	margin-left: 0;
+	float: left;
+}
+
+form #submitbutton {
+    margin-top: 10px;
+}
+body{
+/*	background: url("../img/fundo.png") no-repeat scroll left top #22438c;*/
+background:#FFFFF;
+	 color: #000000;
+}
+a{
+	color: #000000;
+}
+.header {
+  float: left;
+    height: auto;
+    width: 100%;
+  
+}
+.topoImg{
+float: left;
+    height: 86px;
+    margin-bottom: 49px;
+    margin-left: 100px;
+    margin-top: 24px;
+}
+.header .cabecalho {
+    font-size: 12px;
+    height: 100%;
+    margin: auto;
+    width: 1006px;
+ 
+}
+.content {
+     
+    float: left;
+ 
+    width: 100%;
+}
+.content .conteudo {
+    
+  margin: auto;
+    min-height: 346px;
+    width: 1006px;
+}
+.contentRodape {
+    
+    float: left;
+ 
+    width: 100%;
+}
+.content .rodape {
+    
+    margin: auto;
+    width: 1006px;
+}
+.cabecalho .perfilUsuario{
+	clear: both;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-transform: uppercase;
+	
+}
+.cabecalho .ultimaAtualizacao{
+	background: none repeat scroll 0 0 #1F61C1;
+    clear: both;
+    color: #FFFFFF;
+    float: left;
+    font-size: 10px;
+    
+    padding: 5px;
+    width: 124px;
+}
+.cabecalho .ultimaAtualizacao span{
+	float: left;
+	width: 100%;
+	margin-bottom: 3px;
+}
+.perfiDireitaTopo{
+	float: right;
+    padding: 24px;
+	
+}
+.perfiDireitaTopo .bemVindo{
+float:left;
+clear: both;
+width: 100%;
+}/*
+.cabecalho .menu{
+	clear: both;
+    float: left;
+    padding: 0;
+  
+     margin-bottom: 20px;
+    margin-top: 40px;
+   
+}
+.cabecalho .nav li{
+	border: 0px;
+}
+.cabecalho .menu li{
+	background: none repeat scroll 0 0 #4f81bd;
+    float: left;
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-right: 0;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+     border-left: 1px solid #ffffff;
+	
+}
+.cabecalho .menu li a{
+ color: #fff;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.cabecalho .menu li a:hover{
+	background: #bdd6fb;
+	color: #000;
+}
+*/
+.content .conteudo .interno {
+     /*background: none repeat scroll 0 0 #f2f2f2;*/
+    float: left;
+    min-height: 600px;
+    width: 100%;
+}
+
+table.bordasimples{
+	text-align: center;
+	border-collapse: collapse;
+	width: 100% !important;
+}
+table.bordasimples tr td ,table.bordasimples tr th{border: 1px solid #D2D2D2;
+    padding: 10px 0 10px 10px; font-size: 12px;}
+table.bordasimples tr td { /* Toda a tabela com fundo creme */
+	
+	color: #524a48;
+	} 
+	
+table.bordasimples tr.dif td {
+/* 	background: #1px solid #D2D2D2; Linhas com fundo cinza */
+	color: #524a48;
+	} 
+	table.bordasimples tr.dif td a,table.bordasimples tr td a{
+			color: #524a48;
+}
+	#fancybox-close {
+    background: url("../fancybox/fancy_close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+table.bordasimples tr th{
+	background: #4f81bd;
+	height: 30px;
+	color:#fff;
+	 text-align: center;
+	
+}
+input[type=text],input[type=password]{
+	width: 204px;
+	height: 20px;
+	margin-bottom: 10px;
+	 border: 1px solid #E2E2E2;
+    
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+	
+}
+textarea {
+	margin-bottom: 10px;
+}
+input[type=submit]{
+	 background: none repeat scroll 0 0 #1F61C1;
+    border: 0 none;
+    color: #FFFFFF;
+	
+	
+}
+select{
+	 width: 209px;
+	height: 20px;
+	margin-bottom: 10px;
+	 border: 1px solid #E2E2E2;
+    
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	
+	
+}
+.ui-datepicker-trigger{
+	margin-left: 10px;
+}
+input[type="submit"]{
+	background: #4F81BD !important;
+	color:#FFFFFF !important;
+	padding: 5px;
+}
+.formularioLogin form{
+	 padding: 10px;
+background: none repeat scroll 0 0 #D3D3D3;
+    border-radius: 10px;
+    float: left;
+    height: auto;
+    width: 286px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.formularioLogin form dt{
+	color:#000;
+	font-weight: bold;
+	   font-size: 13px;
+}
+.imagemUsuario{
+	float: right;
+    height: 50px;
+    margin-top: 18px;
+}
+.formularioLogin form .zend_form{
+	 padding: 24px;
+}
+.formularioLogin form .zend_form #login{
+	
+}
+.formularioLogin form .zend_form #login,.formularioLogin form .zend_form #senha{
+	 height: 22px;
+    width: 231px;
+    margin: 0px;
+    border: 1px solid #E2E2E2;
+    
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+.formularioLogin .errors li{
+	margin-top: 13px;
+}
+.formularioLogin form .zend_form #senha-label{
+	margin-top: 20px;
+}
+.formularioLogin form .zend_form #senha{
+	margin-top: 1px;
+}
+.formularioLogin form #submit-element{
+	width: 100%;
+}
+.formularioLogin form #login-label{
+	/*  margin-top: 120px; */
+	
+}
+.formularioLogin form #submit-element #submitbutton{
+	 background: url("../images/key.png") no-repeat scroll 9px center #4F81BD !important;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    color: #000000;
+    float: right;
+    margin-top: 5px;
+    padding: 6px;
+    text-indent: 14px;
+    text-transform: capitalize;
+    width: 88px;
+    
+}
+.formularioLogin .logotipo{
+	 margin-bottom: 20px;
+    margin-left: 82px;
+    padding: 5px;
+}
+.internoLogo{
+	 float: left;
+    margin-right: 132px;
+    margin-top: 15px;
+}
+.headerCentro{
+	float: left;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.headerCentro h1{
+	color: #000;
+}
+.headerCentro span{
+clear: both;
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+	
+}
+.headerCentro select{
+	float: left;
+	clear: both;
+}
+.formularioLogin .mensagemLogin{
+   clear: both;
+    float: left;
+    text-align: left;
+    color:#9177a5;
+    width: 100%;
+}
+.formularioLogin {
+       margin: 10% auto auto;
+    
+    width: 306px;
+}
+.sair{
+float: left;
+    margin-right: 12px;
+    margin-top: 10px;
+    text-align: right;
+    width: auto;
+}
+.tituloRanking{
+clear: both;
+    color: #000000;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: none;
+}
+
+.fileupload-buttonbar {
+    background: none repeat scroll 0 0 #1F61C1;
+    border: 0 none;
+    padding: 0.2em 0.4em;
+}
+
+.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text{
+	background: none repeat scroll 0 0 #1F61C1 !important;
+	background-image:none;
+    border: 0  !important;
+    color:#fff;
+}
+.fileinput-button {
+    border: 0 none !important;
+    overflow: hidden;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background: none repeat scroll 0 0 #1F61C1 !important;
+	background-image:none !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	border: 0 none !important;
+}
+.observacaoEvento,.observacaoEvento2 {
+
+	display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    clear: both;
+}
+.botaoAdicionarComentario,.botaoAdicionarComentario2{
+	clear: both;
+    display: block;
+    float: left;
+    margin-left: -280px;
+    margin-top: 10px;
+    width: 165px;
+    padding: 10px;
+}
+.botaoAdicionarComentario2{
+	 margin-left: 0px;
+}
+.observacaoEvento2{
+	font-size: 17px;
+    font-weight: 400;
+}
+.textAreaObservacao .envolveRadio .optional{
+	visibility: hidden;
+	display: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: url("images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6 !important;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    font-weight: normal;
+}
+.conteundoObservacao{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 3px solid #BDD6FB;
+    color: #524A48;
+    float: left;
+    height: 337px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+	
+}
+th{
+	text-transform: uppercase;
+}
+.envolveRadio {
+   
+}
+.envolveRadio label{
+	margin-right: 15px;
+}
+#pergunta1-label{
+	margin-top: 20px;
+}
+.avaliacaoEvento{
+	float:left;
+	margin-left: 100px;
+	width: 100%;
+	margin-top: 20px;
+}
+.envolveTituloSub{
+	float: left;
+	width: 100%;
+	padding: 10px;
+    width: 98%;
+}
+.textAreaObservacao{
+	 float: left;
+	 width: 100%;
+}
+.tituloAprovar{
+	background: none repeat scroll 0 0 #1E63BB;
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    width: 98%;	
+}
+.avaliacaoEvento  .titulo{
+	background: none repeat scroll 0 0 #1E63BB;
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    width: 98%;
+}
+.envolveRadio #aprovado_observacao,.envolveRadio #qt_garrafas{
+	height: 31px;
+    margin-top: 10px;
+    padding: 7px;
+}
+.envolveRadio #qt_garrafas{
+	height: 15px;
+}
+.avaliacaoEvento .envolveTituloSub .subTitulo{
+	float:left;
+	 width: 98%;
+	   font-weight: bold;
+	     padding: 10px;
+	     
+}
+.avaliacaoEvento .envolveTituloSub  .ruim{
+	float: left;
+    margin-left: 20px;
+    margin-right: 13px;
+}
+.excelente{
+		float:left;
+}
+.avaliacaoEvento .envolveRadio{
+	float:left;
+}
+.fundoBranco{
+	background: none repeat scroll 0 0 #FFFFFF;
+    color: #524A48;
+}
+.fundoAzul{
+background: none repeat scroll 0 0 #BDD6FB;
+    color: #524A48;	
+}
+
+/*Menuu*/
+.jMenu {
+   clear: both;
+    width: 100%;
+     padding: 10px 0 !important;
+     display: table;
+    list-style: none outside none;
+   
+}
+.jMenu li {
+    background-color: #4f81bd;
+   
+}
+
+.jMenu li a { 
+    background-color: #4f81bd !important;
+    color: #fff !important;
+     padding: 17px 15px !important;
+      text-decoration: none !important;
+         text-align: center !important;
+    text-transform: uppercase;
+}
+.jMenu li a:hover {
+ background: #bdd6fb  !important;
+	color: #000  !important;
+}
+/*=== submenu ===*/
+/*
+.nav ul {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+.nav ul li {
+	width: 200px;
+	float: left;
+	border: none !important;
+}
+ul.over{
+	display: block;
+    left: 200px;
+    position: absolute;
+    top: 0;
+}
+li:hover ul, li.over ul { 
+	display: block; 
+	}
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	}
+.nav ul a {
+	display: block;
+	height: 15px;
+	
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.nav ul li a:hover {
+	color: #069;
+}
+.nav {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+	 width: 200px;
+	position: relative;
+}
+
+.nav li a {
+	
+	display: block;
+	
+	text-decoration: none;
+	
+}
+
+.nav li a:hover {
+	color: #069;
+}*/
+.fluxograma{
+	float: left;
+	
+}
+.caixaRoxo{
+	background:#8A2BE2;
+}
+
+.caixaVerde{
+	background:#228B22;
+}
+.caixaRosa{
+	background:#FF1493;
+}
+.caixaAzul{
+	background: #4682B4;
+}
+.statusProjeto{
+	margin-left: 30px;
+	float: left;
+	clear: both;
+}
+.tituloDestaque{
+	/* float: left;
+	width: 100%;
+	
+	background-color: #4f81bd !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 10px; */
+	 color: #4B4B4B;
+    font-family: Tahoma;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 24px;
+    padding-bottom: 14px;
+    padding-top: 36px;
+}
+.envolveStatusProjeto{
+	float: left;
+	
+}
+.statusProjeto h1{
+	color: black;
+}
+.statusProjeto label{
+	float: left;
+	clear: both;
+}
+
+.fluxograma .caixa{
+	border-radius: 5px 5px 5px 5px;
+    float: left;
+    min-height: 50px;
+    min-width: 60px;
+    padding: 5px;
+    position: relative;
+    color:#fff;
+    width: 109px;
+    z-index: 0;
+	
+}
+.vermelho{
+	color:#FF0000;
+}
+.botaoAdicionar{
+    background: none repeat scroll 0 0 #4f81bd !important;
+    color: #ffffff !important;
+    float: left;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.fluxograma .filho {
+    border-left: 2px solid #104E8B;
+    clear: both;
+    float: left;
+    margin-left: 8px;
+    margin-top: -24px;
+    min-height: 100px;
+    min-width: 50px;
+}
+
+.fluxograma .filho .ligaCaixa {
+    border-top: 2px solid #104E8B;
+    float: left;
+    margin-top: 50%;
+    width: 20px;
+}
+
+.fluxograma .filho .ligaCaixaVertical {
+   /* border-left: 3px solid #104E8B;*/
+    float: left;
+    height: 80px;
+}
+
+.fluxograma .filho .caixaFilho {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #104E8B;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin-top: 38px;
+    min-width: 60px;
+     font-size: 12px;
+    padding: 2px;
+   width: 95px;
+}
+.fluxograma .filho .caixaFilho a{
+	
+	text-decoration: none;
+}
+.fluxograma .filho .caixaFilho a:HOVER{
+	
+	text-decoration: underline;
+}
+.arrow-body {
+   display: inline;
+    float: left;
+    height: 25px;
+    margin-top: 17px;
+    width: 30px;
+}
+.arrow-bodyRoxo {
+    background: none repeat scroll 0 0 #8A2BE2;
+     margin-left: -13px;
+    
+}
+.arrow-bodyAzul {
+    background: none repeat scroll 0 0 #4682B4;
+     margin-left: -13px;
+}
+.arrow-bodyVerde {
+    background: none repeat scroll 0 0 #228B22;
+     margin-left: -13px;
+}
+.arrow-bodyRosa {
+    background: none repeat scroll 0 0 #FF1493;
+     margin-left: -13px;
+}
+.arrow-head {
+  border-color: transparent transparent transparent lightblue !important;
+    border-style: solid;
+    border-width: 25px 0 25px 30.9091px;
+    display: inline;
+    float: left;
+    height: 0;
+    left: 174.545px;
+   margin-right: 2px;
+    margin-top: 5px;
+    top: 25px;
+    width: 0;
+    
+}
+.arrow-headRoxo {
+    border-color: transparent transparent transparent #8A2BE2 !important;
+}
+.arrow-headAzul {
+    border-color: transparent transparent transparent #4682B4 !important;
+}
+
+.arrow-headVerde {
+    border-color: transparent transparent transparent #228B22 !important;
+}
+
+.arrow-headRosa {
+    border-color: transparent transparent transparent #FF1493 !important;
+}
+
+
+/*Fim Menuu*/
+
+.azulEscuro{
+	 background: none repeat scroll 0 0 #4682B4 !important;
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+.azulClaro{
+	background: none repeat scroll 0 0 #BDD6FB !important;
+    color: #000000 !important;
+    text-align: left;
+	
+}
+.azulClaro h1 a{
+	 color: #000000 !important;
+}
+.cinzaClaro{
+	background: #ECECEC !important;
+	
+}
+.voltar{
+	float: left;
+	width: 15%;
+	
+}
+.buttons{
+	 clear: both;
+    float: left;
+    margin-left: 283px;
+	
+}
+.errors {
+	
+    list-style: none outside none;
+    margin: -10px 0 10px;
+    padding: 0;
+}
+.errors li{
+	color: red;
+    font-family: Arial;
+    font-size: 13px;
+}
+.mensagemResposta{
+	float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 43px;
+    text-align: justify;
+    width: 100%;
+}
+
+.green-left {
+    background: url("../images/table/message_green.gif") no-repeat scroll left top transparent;
+    color: #6DA827;
+    font-family: Tahoma;
+    font-weight: bold;
+    line-height: 12px;
+    padding: 0 0 0 20px;
+}
+
+.red-left {
+    background: url("../images/table/message_red.gif") no-repeat scroll left top transparent;
+    color: #CE2700;
+    font-family: Tahoma;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+}
+
+.red-left a {
+    color: #CE2700;
+    font-family: Tahoma;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.green-left a {
+    color: #6DA827;
+    font-family: Tahoma;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.green-right a {
+    cursor: pointer;
+}
+
+.green-right {
+    width: 55px;
+}
+
+.red-right a {
+    cursor: pointer;
+}
+
+.red-right {
+    width: 55px;
+}
+.ui-widget-header{
+	 background-color: #4f81bd !important;
+    color: #fff !important;
+}
+.ui-widget-content {
+    color: #222222;
+    font-size: 16px;
+}
+.formularioLogin #message-green, #message-red {
+	font-size:11px;
+}
+#message-green, #message-red {
+  float: left;
+    margin-top: 11px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.del{
+	 background: url("../images/del.png") no-repeat scroll left top transparent;
+	 padding: 0 0 0 14px;
+}
+.edit{
+	 background: url("../images/edit.gif") no-repeat scroll left top transparent;
+	 padding: 0 0 0 14px;
+	   margin-right: 9px;
+}
+.view{
+	 background: url("../images/vis.png") no-repeat scroll left top transparent;
+	 padding: 0 0 0 14px;
+	   margin-right: 9px;
+}
+.envolveTabela{
+	  border: 1px solid #D2D2D2;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    padding: 20px;
+    width: 96%;
+}
+
+h1 {
+    color: #4B4B4B;
+    font-family: Tahoma;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.bordasimples tr th:first-child{
+	 border-radius: 5px 0px 0px 0px;
+	  border: 0 none;
+}
+.bordasimples tr th:last-child {
+	 border-radius: 0px 5px 0px 0px;
+	  border: 0 none;
+}
+label{
+	
+
+	font-size: 13px;	
+}

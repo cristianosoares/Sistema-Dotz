@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CATALOGO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="PRODUTOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRODUTO" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="PRODUTOID"/>
+                    <xs:element type="xs:string" name="NOMEPRODUTO"/>
+                    <xs:element type="xs:string" name="DESCRICAO"/>
+                    <xs:element type="xs:string" name="URL"/>
+                    <xs:element name="PALAVRASCHAVE">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="PALAVRA" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="REFERENCIAS">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="REFERENCIA"  maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="PRODUTOIDREFERENCIA"/>
+                                <xs:element type="xs:byte" name="ATIVO"/>
+                                <xs:element type="xs:byte" name="DISPONIVEL"/>
+                                <xs:element type="xs:float" name="PRECODE"/>
+                                <xs:element type="xs:float" name="PRECOPOR"/>
+                                <xs:element type="xs:float" name="FRETEMEDIO"/>
+                                <xs:element type="xs:integer" name="SALDO"/>
+                                <xs:element type="xs:string" name="CODIGOEAN"/>
+                                <xs:element name="CARACTERISTICAS">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="CARACTERISTICA" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="NOME"/>
+                                            <xs:element type="xs:string" name="VALOR"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="IMAGENS">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="URLIMAGEM"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="LOJAS">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="LOJA">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:integer" name="ID"/>
+                                <xs:element type="xs:string" name="NOME"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="DEPARTAMENTOS">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:integer" name="ID"/>
+                          <xs:element type="xs:string" name="NOME"/>
+                          <xs:element type="xs:integer" name="IDPAI"/>
+                           <xs:element type="xs:string" name="NOMEPAI"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

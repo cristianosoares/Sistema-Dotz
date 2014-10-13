@@ -1,0 +1,79 @@
+<?php
+	$this->title = "Listar arquivos";
+	$this->headTitle($this->title);
+	//echo $this->form ;
+	
+?>
+<div class="box">
+                                <div class="box-header">
+                                    <h3 class="box-title">Lista Pedidos Troca</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body table-responsive">
+  
+                                
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Código pedido dotz</th>
+                                                <th>Código pedido TM1</th>
+                                                <th>Data criação</th>
+                                                <th>Canal do pedido</th>
+                                                <th>Tipo de cliente</th>
+                                                <th>Prioridade</th>
+                                                <th>Observação</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php if($this->listaPedido>0){
+                                        foreach ($this->listaPedido as $value){
+                                        ?>
+                                            <tr>
+                                                <td><?php echo $value["id_pedido"]?></td>
+                                                <td><?php echo $value["id_pedido_dotz"]?></td>
+                                                <td><?php echo $value["datacriacao"]?></td>
+                                                <td><?php echo $value["canalpedido"]?></td>
+                                                <td><?php echo $value["tipocliente"]?></td>
+                                                <td><?php echo $value["prioridade"]?></td>
+                                                <td><?php echo $value["observacao"]?></td>
+                                                <td> 
+                                                 
+                                                <a alt="Rastreamento entrega" title="Rastreamento entrega" href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-pedido-item', 'id'=>$value["id_pedido"]),null, true);?>" class="btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i></a>
+                                                <a alt="Imprimir Etiqueta" title="Imprimir Etiqueta" href="<?php echo $this->url(array('controller'=>'index','action'=>'imprimir-etiqueta', 'id'=>$value["id_pedido"]),null, true);?>" class="btn-sm btn-warning"><i class="glyphicon glyphicon-print"></i></a>
+                                                </td>
+                                            </tr>
+                                          <?php }}?> 
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>Código pedido dotz</th>
+                                                <th>Código pedido TM1</th>
+                                                <th>Data criação</th>
+                                                <th>Canal do pedido</th>
+                                                <th>Tipo de cliente</th>
+                                                <th>Prioridade</th>
+                                                <th>Observação</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                           
+<link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
+<!-- page script -->
+<script type="text/javascript">
+            $(function() {
+                $("#example1").dataTable();
+                $('#example2').dataTable({
+                    "bPaginate": true,
+                    "bLengthChange": false,
+                    "bFilter": false,
+                    "bSort": true,
+                    "bInfo": true,
+                    "bAutoWidth": false
+                });
+            });
+</script>

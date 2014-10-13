@@ -1,0 +1,17 @@
+<head>
+<script type="text/javascript" src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+</head>
+<form  id="myform" method="POST" enctype="multipart/form-data" action=" <?php echo $this->url(array('controller'=>'upload','action'=>'index'),null,true);?>">
+    <?php 
+    //print_r($this->datas);
+   //echo "teste";
+    echo $this->partial('forms/myform.phtml', array('data'=>$this->data)) ;
+    
+
+   
+    ?>
+    <button type="submit" name="signup">  Enviar</button> 
+</form>
+<script> 
+$("#myform").validator();
+</script> 

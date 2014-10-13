@@ -1,0 +1,201 @@
+<?php
+	$this->headMeta()->appendHttpEquiv('Content-Type', 'text/html;charset=utf-8');
+	$this->headTitle()->setSeparator(' - ');
+	$this->headTitle('CROSS-SALE PROJECT');
+	echo $this->doctype();
+?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<?php echo $this->headMeta();?>
+		<?php echo $this->headTitle();?>
+		<?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/site.css'); ?>
+		<?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/jmenu.css'); ?>
+		<?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/jquery-ui.css'); ?>
+	
+		<!-- <script src="http://code.jquery.com/jquery-2.1.1.js" ></script>-->
+		<link rel="stylesheet" href="css/jmenu.css" type="text/css" />
+		<script src="<?php echo $this->baseUrl()?>/js/jquery.js" ></script>
+		<script src="<?php echo $this->baseUrl()?>/js/jMenu.jquery.js" ></script>
+      <!--  <script type="text/javascript" src="js/jquery.js"></script>-->
+    
+	<script src="<?php echo $this->baseUrl()?>/js/funcao.js" ></script>
+	
+	<script src="<?php echo $this->baseUrl()?>/js/jquery-1.10.2.js" ></script>
+	<script src="<?php echo $this->baseUrl()?>/js/jquery-ui.js"></script>
+	<script>
+  $(function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      'width':'700',
+      show: {
+        effect: "clip",
+        duration: 500
+      },
+      hide: {
+        effect: "clip",
+        duration: 500
+      }
+    });
+ 
+    $( ".detalhesErro" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+    $( ".close-red,.close-green" ).click(function() {
+       console.log("erro");
+      
+  	  $( "#message-green,#message-red" ).fadeOut( "slow", function() {
+  	    // Animation complete
+  	  });
+  	});
+  });
+  </script>
+	</head>
+	<body>
+	
+	<div class="header">
+		<div class="cabecalho">
+		
+		<a href="<?php echo $this->url(array('controller'=>'index','action'=>'index'),null, true);?>"><img src="<?php echo $this->baseUrl()?>/img/logotipo.png" width="170" height="73" class="logotipo internoLogo" ></a>
+		<div class="headerCentro">
+			<h1>CROSS-SALE PROJECT</h1>
+			<span>For Momentum</span>
+		</div>
+		<?php 
+		
+		$usuarios = new Application_Model_DbTable_Usuario();
+		$usuarioLogado=new Aplicacao_Plugin_Auth();
+       	$this->user = $usuarioLogado->_auth->getIdentity();
+       	$usuarios->getUsuarioImagem($this->user->getId() );
+		
+        //  Zend_Registry::get('logger')->log( $this->user->getImagem(), Zend_Log::INFO);
+		?>
+		<img src="<?php echo $this->baseUrl()?>/upload/<?php echo $usuarios->getUsuarioImagem($this->user->getId() );?>"  class="imagemUsuario" >
+		<div class="perfiDireitaTopo">
+		<span class="bemVindo">Bem vindo <?php echo $this->usuario?></span>
+			<a class="sair" style="clear: both;" href="<?php echo $this->url(array('controller'=>'index','action'=>'edit-alterar-perfil'),null, true);?>">Perfil</a>
+			<a class="sair" href="<?php echo $this->url(array('controller'=>'index','action'=>'ajuda'),null, true);?>">Ajuda</a>
+			<a class="sair" href="<?php echo $this->url(array('controller'=>'index','action'=>'logout'),null, true);?>">Sair</a> 
+		</div> 
+		
+		<ul id="jMenu">
+            <li>
+                <a href="<?php echo $this->url(array('controller'=>'index','action'=>'index'),null, true);?>">STAKEHOLDERS</a>
+                <ul>
+                    <li>
+                        <a href="#">Usuário</a>
+                        <ul>
+                            <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-usuario'),null, true);?>">Listar usuários</a></li>
+  							<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-usuario'),null, true);?>">Adicionar usuário</a></li>
+                           
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Empresa</a>
+                        <ul>
+                           <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-empresa'),null, true);?>">Listar empresa</a></li>
+  						   <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-empresa'),null, true);?>">Adicionar empresa</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Cliente</a>
+                        <ul>
+                          <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-cliente'),null, true);?>">Listar cliente</a></li>
+  					<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-cliente'),null, true);?>">Adicionar cliente</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+			<li><a href="#">MEETINGS</a>
+				<ul>
+                          <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-reunioes'),null, true);?>">Listar reunião</a></li>
+  					<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-reuniao'),null, true);?>">Adicionar reunião</a></li>
+                        </ul>
+			</li>
+  
+           	 <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-projeto-risk'),null, true);?>">RISK TRACKER</a></li>
+			
+			
+			<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-arquivos'),null, true);?>">DOCUMENTS</a></li>        
+        	<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-projeto'),null, true);?>">PROJECT LIFE CYCLE</a>
+           		<ul>
+                    <li>
+                        <a href="#">Projeto</a>
+                        <ul>
+                            <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-projeto'),null, true);?>">Listar projetos</a></li>
+  							<li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'add-projeto'),null, true);?>">Adicionar projeto</a></li>
+                           
+                        </ul>
+                    </li>
+                </ul>
+           	</li>
+        </ul>
+		</div>
+		
+		
+	</div>
+	
+	
+	<div class="content">
+		<div class="conteudo">
+		
+		<div id="dialog" title="Warning">
+  			<?php echo $this->mensagemExcecao?>
+		</div>
+		
+		
+		
+		
+		<?php if ($this->mensagem !=""){
+			
+			Zend_Registry::get('logger')->log("Erro = ".$this->erro, Zend_Log::INFO);
+			if($this->erro=="0"){
+				?>
+				<div id="message-green">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+				<tbody><tr>
+					<td class="green-left"><?php  echo $this->mensagem?> </td>
+					<td class="green-right"><a class="close-green"><img alt="" src="<?php echo $this->baseUrl(); ?>/images/table/icon_close_green.gif"></a></td>
+				</tr>
+				</tbody></table>
+				</div>
+				<?php 
+			}else{
+				?>
+				<div id="message-red">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+				<tbody><tr>
+					<td class="red-left">Error: <?php  echo $this->mensagem." "?><a href="#" class="detalhesErro">  Error Details</a></td>
+					<td class="red-right"><a class="close-red"><img alt="" src="<?php echo $this->baseUrl(); ?>/images/table/icon_close_red.gif"></a></td>
+				</tr>
+				</tbody></table>
+				</div>
+			<?php }
+			$this->erro=0;
+			
+			
+			?>
+			
+			<?php }?>
+			<div class="interno">
+			<?php
+					echo $this->layout()->content;
+				?>
+		</div>
+		</div>
+		
+	</div>
+	<div class="contentRodape">
+	<?php 
+	
+	 $front      = Zend_Controller_Front::getInstance()->getRequest();
+    
+    $action     = $front->action;
+   // echo $action;
+   
+	?>
+		<div class="rodape">
+		
+		</div>
+	</div>	
+	</body>
+</html>

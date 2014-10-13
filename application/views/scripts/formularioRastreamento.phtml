@@ -1,0 +1,73 @@
+
+<div class="row">
+                        <!-- left column -->
+                        <div class="col-md-12">
+                            <!-- general form elements -->
+                             <form role="form" action="" method="<?php echo $this->element->getMethod() ?>" id="<?php echo $this->element->getName()?>" enctype="multipart/form-data">
+                            <div class="box box-primary">
+                                <div class="box-header">
+                                    <h3 class="box-title">Detalhes Produto</h3>
+                                    <div class="box-tools pull-right">
+                                        <button data-widget="collapse" class="btn btn-primary btn-sm" type="button"><i class="fa fa-minus"></i></button>
+                                       
+                                    </div>
+                                </div><!-- /.box-header -->
+                                <!-- form start -->
+							<div class="box-body">
+                                    
+                                        
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->id_pedido_dotz->getLabel(); ?></label>
+                                           <?php echo $this->element->id_pedido_dotz; ?>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->id_pedido->getLabel(); ?></label>
+                                           <?php echo $this->element->id_pedido; ?>
+                                        </div>
+                                           <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->produtoiddotz->getLabel(); ?></label>
+                                           <?php echo $this->element->produtoiddotz; ?>
+                                        </div>
+                                         <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->id_item->getLabel(); ?></label>
+                                           <?php echo $this->element->id_item; ?>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->preco->getLabel(); ?></label>
+                                           <?php echo $this->element->preco; ?>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->frete->getLabel(); ?></label>
+                                           <?php echo $this->element->frete; ?>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->peso->getLabel(); ?></label>
+                                           <?php echo $this->element->peso; ?>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->nr_rastreio->getLabel(); ?></label>
+                                           <?php echo $this->element->nr_rastreio; ?>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->numero_nf->getLabel(); ?></label>
+                                           <?php echo $this->element->numero_nf; ?>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"><?php echo $this->element->numero_linha_nf->getLabel(); ?></label>
+                                           <?php echo $this->element->numero_linha_nf; ?>
+                                        </div>
+                                        <div class="form-group">
+                                        	 <?php  echo $this->element->voltar;?>
+                                            <?php  echo $this->element->submit;?>
+                                          
+                                        		<?php // echo $this->element->vincularReferencia;?>
+                                        		<button style="display: none" type="submit" name="vincularReferencia" id="vincularReferencia" class="btn btn-primary" value="vincular">Vincular Refêrencia</button>
+                                        </div>
+                            </div><!-- /.box-body -->
+                            </div>
+                            
+                     
+                           </form>
+
+                        </div><!--/.col (left) -->
+                    </div>   <!-- /.row -->

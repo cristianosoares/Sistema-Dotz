@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CATALOGO>
+	<PRODUTOS>
+		<PRODUTO>
+			<PRODUTOID>1</PRODUTOID>
+			<NOMEPRODUTO>Produto X</NOMEPRODUTO>
+			<DESCRICAO>Descrição X</DESCRICAO>				
+			<URL>http://www.tm1.com.br/dotz/produto1.png</URL>
+			<PALAVRASCHAVE>
+				<PALAVRA>Palavra chave A</PALAVRA>
+				<PALAVRA>Palavra chave B</PALAVRA>
+				<PALAVRA>Palavra chave C</PALAVRA>
+			</PALAVRASCHAVE>
+			<REFERENCIAS>
+				<REFERENCIA>
+					<PRODUTOIDREFERENCIA>1</PRODUTOIDREFERENCIA>
+					<ATIVO>1</ATIVO>
+					<DISPONIVEL>1</DISPONIVEL>
+					<PRECODE>30.90</PRECODE>
+					<PRECOPOR>35.00</PRECOPOR>
+					<FRETEMEDIO>10.00</FRETEMEDIO>
+					<SALDO>20</SALDO>
+					<CODIGOEAN>12456478</CODIGOEAN>
+					<CARACTERISTICAS>
+						<CARACTERISTICA>
+							<NOME>Tamanho</NOME>
+							<VALOR>2 Litros</VALOR>
+						</CARACTERISTICA>
+						<CARACTERISTICA>
+							<NOME>Cor</NOME>
+							<VALOR>Branca</VALOR>
+						</CARACTERISTICA>
+					</CARACTERISTICAS>
+					<IMAGENS>
+						<URLIMAGEM>http://www.tm1.com.br/dotz/produto1.png</URLIMAGEM>
+					</IMAGENS>
+				</REFERENCIA>
+				<REFERENCIA>
+					<PRODUTOIDREFERENCIA>2</PRODUTOIDREFERENCIA>
+					<ATIVO>1</ATIVO>
+					<DISPONIVEL>1</DISPONIVEL>
+					<PRECODE>10.70</PRECODE>
+					<PRECOPOR>11.00</PRECOPOR>
+					<FRETEMEDIO>9.00</FRETEMEDIO>
+					<SALDO>8</SALDO>
+					<CARACTERISTICAS>
+						<CARACTERISTICA>
+							<NOME>Tamanho</NOME>
+							<VALOR>2 Litros</VALOR>
+						</CARACTERISTICA>
+						<CARACTERISTICA>
+							<NOME>Cor</NOME>
+							<VALOR>Azul</VALOR>
+						</CARACTERISTICA>
+					</CARACTERISTICAS>
+					<IMAGENS>
+						<URLIMAGEM>http://www.tm1.com.br/dotz/produto2.png</URLIMAGEM>
+					</IMAGENS>
+				</REFERENCIA>
+			</REFERENCIAS>
+			<LOJAS>
+				<LOJA>
+					<ID>1</ID>
+					<NOME>TemperoMidia</NOME>
+				</LOJA>
+			</LOJAS>
+			<DEPARTAMENTOS>
+				<ID>1</ID>
+				<NOME>1</NOME>
+				<IDPAI>1</IDPAI>
+				<NOMEPAI>1</NOMEPAI>
+			</DEPARTAMENTOS>
+		</PRODUTO>
+		<PRODUTO>
+			<PRODUTOID>5</PRODUTOID>
+			<NOMEPRODUTO>Produto Y</NOMEPRODUTO>
+			<DESCRICAO>Descri��o Y</DESCRICAO>				
+			<URL>http://www.tm1.com.br/dotz/produto5.png</URL>
+			<PALAVRASCHAVE>
+				<PALAVRA>Palavra chave A</PALAVRA>
+				<PALAVRA>Palavra chave B</PALAVRA>
+				<PALAVRA>Palavra chave C</PALAVRA>
+			</PALAVRASCHAVE>
+			<REFERENCIAS>
+				<REFERENCIA>
+					<PRODUTOIDREFERENCIA>5</PRODUTOIDREFERENCIA>
+					<ATIVO>1</ATIVO>
+					<DISPONIVEL>1</DISPONIVEL>
+					<PRECODE>15.00</PRECODE>
+					<PRECOPOR>16.00</PRECOPOR>
+					<FRETEMEDIO>10.00</FRETEMEDIO>
+					<SALDO>10</SALDO>
+					<CODIGOEAN>12456478</CODIGOEAN>
+					<CARACTERISTICAS>
+						<CARACTERISTICA>
+							<NOME>Tamanho</NOME>
+							<VALOR>1 Litros</VALOR>
+						</CARACTERISTICA>
+						<CARACTERISTICA>
+							<NOME>Cor</NOME>
+							<VALOR>Verde</VALOR>
+						</CARACTERISTICA>
+					</CARACTERISTICAS>
+					<IMAGENS>
+						<URLIMAGEM>http://www.tm1.com.br/dotz/produto5.png</URLIMAGEM>
+					</IMAGENS>
+				</REFERENCIA>
+			
+			</REFERENCIAS>
+			<LOJAS>
+				<LOJA>
+					<ID>1</ID>
+					<NOME>TemperoMidia</NOME>
+				</LOJA>
+			</LOJAS>
+			<DEPARTAMENTOS>
+				<ID>1</ID>
+				<NOME>1</NOME>
+				<IDPAI>1</IDPAI>
+				<NOMEPAI>1</NOMEPAI>
+			</DEPARTAMENTOS>
+		</PRODUTO>
+	</PRODUTOS>
+</CATALOGO>
+
+

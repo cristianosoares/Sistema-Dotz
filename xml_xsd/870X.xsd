@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RASTREAMENTO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ARQUIVO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:float" name="VERSAO"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PEDIDOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PEDIDO">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:integer" name="IDPEDIDODOTZ"/>
+                    <xs:element type="xs:byte" name="IDPEDIDOFORN"/>
+                    <xs:element name="ITENS">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ITEM">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:integer" name="IDITEMDOTZ"/>
+                                <xs:element type="xs:string" name="IDITEMFORN"/>
+                                <xs:element type="xs:float" name="FRETE"/>
+                                <xs:element type="xs:float" name="PRECO"/>
+                                <xs:element type="xs:integer" name="PESO"/>
+                                <xs:element type="xs:string" name="NRRASTREIO"/>
+                                <xs:element name="NFCOBRANCA">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="NUMERONF"/>
+                                      <xs:element type="xs:integer" name="NUMEROLINHA"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="OCORRENCIAS">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="OCORRENCIA" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="OCORRENCIAID"/>
+                                            <xs:element type="xs:string" name="DESCRICAO"/>
+                                            <xs:element type="xs:string" name="DATAHORA"/>
+                                            <xs:element type="xs:boolean" name="FINAL"/>
+                                            <xs:element type="xs:string" name="OBSERVACAO"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

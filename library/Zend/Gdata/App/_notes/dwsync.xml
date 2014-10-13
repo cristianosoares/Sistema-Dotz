@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AuthException.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558346444660" remote="130376985000000000" />
+<file name="BadMethodCallException.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558346464661" remote="130376985000000000" />
+<file name="Base.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558346484662" remote="130376985000000000" />
+<file name="BaseMediaSource.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558346504663" remote="130376985000000000" />
+<file name="CaptchaRequiredException.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558346524665" remote="130376985000000000" />
+<file name="Entry.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558346544666" remote="130376985000000000" />
+<file name="Exception.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558346564667" remote="130376985000000000" />
+<file name="Extension.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347084697" remote="130376985000000000" />
+<file name="Feed.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347104698" remote="130376985000000000" />
+<file name="FeedEntryParent.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347124699" remote="130376985000000000" />
+<file name="FeedSourceParent.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347144700" remote="130376985000000000" />
+<file name="HttpException.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347164701" remote="130376985000000000" />
+<file name="InvalidArgumentException.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347184702" remote="130376985000000000" />
+<file name="IOException.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347204703" remote="130376985000000000" />
+<file name="LoggingHttpClientAdapterSocket.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347214704" remote="130376985000000000" />
+<file name="MediaEntry.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347234705" remote="130376985000000000" />
+<file name="MediaFileSource.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347254706" remote="130376985000000000" />
+<file name="MediaSource.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347274707" remote="130376985000000000" />
+<file name="Util.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347314710" remote="130376985000000000" />
+<file name="VersionException.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558347334711" remote="130376985000000000" />
+<file name="AuthException.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558346444660" remote="130379190600000000" />
+<file name="BadMethodCallException.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558346464661" remote="130379190600000000" />
+<file name="Base.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558346484662" remote="130379190600000000" />
+<file name="BaseMediaSource.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558346504663" remote="130379190600000000" />
+<file name="CaptchaRequiredException.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558346524665" remote="130379190600000000" />
+<file name="Entry.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558346544666" remote="130379190600000000" />
+<file name="Exception.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558346564667" remote="130379190600000000" />
+<file name="Extension.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347084697" remote="130379191200000000" />
+<file name="Feed.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347104698" remote="130379191200000000" />
+<file name="FeedEntryParent.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347124699" remote="130379191200000000" />
+<file name="FeedSourceParent.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347144700" remote="130379191200000000" />
+<file name="HttpException.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347164701" remote="130379191200000000" />
+<file name="InvalidArgumentException.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347184702" remote="130379191200000000" />
+<file name="IOException.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347204703" remote="130379191200000000" />
+<file name="LoggingHttpClientAdapterSocket.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347214704" remote="130379191200000000" />
+<file name="MediaEntry.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347234705" remote="130379191200000000" />
+<file name="MediaFileSource.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347254706" remote="130379191200000000" />
+<file name="MediaSource.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347274707" remote="130379191200000000" />
+<file name="Util.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347314710" remote="130379191200000000" />
+<file name="VersionException.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558347334711" remote="130379191200000000" />
+</dwsync>

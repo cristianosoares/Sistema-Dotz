@@ -1,0 +1,47 @@
+
+
+<div class="formularioLogin" >
+<img src="<?php echo $this->baseUrl()?>/img/logotipo.png" class="logotipo">
+
+<?php echo $this->form; ?>
+<!--<div class="mensagemLogin"><?php echo ( sizeof( $this->messages ) > 0 ) ? $this->messages[0] : ""; ?></div>-->
+<div id="dialog" title="Warning">
+  			<?php echo $this->mensagemExcecao?>
+		</div>
+		
+		
+		
+		
+		<?php if ($this->mensagem !=""){
+			
+			Zend_Registry::get('logger')->log("Erro = ".$this->erro, Zend_Log::INFO);
+			if($this->erro=="0"){
+				?>
+				<div id="message-green">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+				<tbody><tr>
+					<td class="green-left"><?php  echo $this->mensagem?> </td>
+					<td class="green-right"><a class="close-green"><img alt="" src="<?php echo $this->baseUrl(); ?>/images/table/icon_close_green.gif"></a></td>
+				</tr>
+				</tbody></table>
+				</div>
+				<?php 
+			}else{
+				?>
+				<div id="message-red">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+				<tbody><tr>
+					<td class="red-left"><?php  echo $this->mensagem." "?><a href="#" class="detalhesErro">  Error Details</a></td>
+					<td class="red-right"><a class="close-red"><img alt="" src="<?php echo $this->baseUrl(); ?>/images/table/icon_close_red.gif"></a></td>
+				</tr>
+				</tbody></table>
+				</div>
+			<?php }
+			$this->erro=0;
+			
+			
+			?>
+			
+			<?php }?>
+</div>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CATALOGO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="PRODUTOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRODUTO" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="PRODUTOID"/>
+                    <xs:element name="REFERENCIAS">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="REFERENCIA" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="PRODUTOIDREFERENCIA"/>
+                                <xs:element type="xs:byte" name="ATIVO"/>
+                                <xs:element type="xs:byte" name="DISPONIVEL"/>
+                                <xs:element type="xs:float" name="PRECODE"/>
+                                <xs:element type="xs:float" name="PRECOPOR"/>
+                                <xs:element type="xs:float" name="FRETEMEDIO"/>
+                                <xs:element type="xs:short" name="SALDO"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="LOJAS">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="LOJA">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="ID"/>
+                                <xs:element type="xs:string" name="NOME"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
