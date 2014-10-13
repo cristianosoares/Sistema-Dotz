@@ -10,9 +10,9 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 	protected $identificacaoParceiro="";
 	protected $caminhoPastaFtp = BASE_PATH;
 	protected $pastaFtp ='/uploadXml/';
-	//protected $ftp_server = "FTP.DOTZ.COM.BR"; // Nome ou IP do Servidor
-	//protected $login      = "FTPTM1"; // UsuÃ¡rio
-	//protected $senha      = "Pdk1#bue";   // Senha
+	//protected $ftp_server = ""; // Nome ou IP do Servidor
+	//protected $login      = ""; // UsuÃ¡rio
+	//protected $senha      = "";   // Senha
         protected $ftp_server = ""; // Nome ou IP do Servidor
 	protected $login      = ""; // UsuÃ¡rio
 	protected $senha      = "";   // Senha
