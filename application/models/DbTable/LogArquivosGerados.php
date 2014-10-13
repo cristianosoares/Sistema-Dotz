@@ -6,16 +6,16 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 
     protected $_name = 'log_arquivos_gerados';
 	protected $_primary = 'id_log_arquivos_gerados';
-	protected $urlCompleta='www.tm1.com.br\\dotz\\upload\\';
-	protected $identificacaoParceiro="TM1DISTRIBUIDORA";
+	protected $urlCompleta='';
+	protected $identificacaoParceiro="";
 	protected $caminhoPastaFtp = BASE_PATH;
 	protected $pastaFtp ='/uploadXml/';
-	//protected $ftp_server = "FTP.DOTZ.COM.BR"; // Nome ou IP do Servidor
-	//protected $login      = "FTPTM1"; // UsuÃ¡rio
-	//protected $senha      = "Pdk1#bue";   // Senha
-        protected $ftp_server = "ftp.made4u.com.br"; // Nome ou IP do Servidor
-	protected $login      = "made4u"; // UsuÃ¡rio
-	protected $senha      = "digital4u887";   // Senha
+	//protected $ftp_server = ""; // Nome ou IP do Servidor
+	//protected $login      = ""; // UsuÃ¡rio
+	//protected $senha      = "";   // Senha
+        protected $ftp_server = ""; // Nome ou IP do Servidor
+	protected $login      = ""; // UsuÃ¡rio
+	protected $senha      = "";   // Senha
         
 	protected $diretorioEntrada  = "/ENTRADA/"; // DiretÃ³rio onde deverÃ¡ acessar (default)
 	protected $diretorioEntradaLocal  = "ENTRADA"; // DiretÃ³rio onde deverÃ¡ acessar (default)
