@@ -26,8 +26,10 @@ class Application_Model_DbTable_Pedido extends Zend_Db_Table_Abstract
     	$result = $this->getAdapter()->fetchRow($select);
     	return $result;
     }    public  function  getRomaneioEletronico($mes,$ano){    	$select =$this->_db->select()->from(array('p' => 'pedido'))    	->joinInner(array('i' => 'item'),('p.id_pedido =i.fk_pedido'),array("*",'vlrpedido' => new Zend_Db_Expr("i.frete+ i.preco")))    	->joinInner(array('iho' => 'item_has_ocorrencia'),('iho.fk_item =i.id_item'))    	->joinInner(array('r' => 'referencia'),('r.id_referencia =i.fk_referencia'))    	->joinInner(array('pr' => 'produto'),('pr.id_produto =r.fk_produto'))    	->where("iho.final  = '1' and MONTH(iho.datahora) ='$mes' and YEAR(iho.datahora)='$ano' ");    	    	$result = $this->getAdapter()->fetchAll($select);    	return $result;    	    }
-    public function getListaPedido(){		$select =$this->_db->select()
-    	->from(array('p' => 'pedido'),array("*",'datacriacao' => new Zend_Db_Expr("DATE_FORMAT(p.datacriacao,'%d/%m/%Y')")));		$result = $this->getAdapter()->fetchAll($select);
+	public function getListaPedido(){		$select =$this->_db->select()
+    	->from(array('p' => 'pedido'),array("*",'datacriacao' => new Zend_Db_Expr("DATE_FORMAT(p.datacriacao,'%d/%m/%Y')")))
+    	->joinLeft(array('d' => 'destinatario'),('p.id_pedido =d.fk_pedido'));		
+    	$result = $this->getAdapter()->fetchAll($select);
     	return $result;
     }
     public function atualizaNotaFiscal($id){

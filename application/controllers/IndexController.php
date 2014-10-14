@@ -1,6 +1,6 @@
 <?php
-error_reporting(E_ALL | E_STRICT);
-ini_set('display_errors', true);
+//error_reporting(E_ALL | E_STRICT);
+//ini_set('display_errors', true);
 class IndexController extends Zend_Controller_Action
 {
 	public $user;
@@ -57,7 +57,7 @@ class IndexController extends Zend_Controller_Action
 	{
 		// action body
 		$form = new Application_Form_Usuario();
-		$form->submit->setLabel('Salvar usuário');
+		$form->submit->setLabel('Salvar usuÃ¡rio');
 
 		//$form->getElement("login")->setVisible(false);
 		//$form->removeElement($form->getElement("s"));
@@ -93,12 +93,12 @@ class IndexController extends Zend_Controller_Action
 					$imageAdapter->addFilter('Rename', $nomeArquivo );
 					if (!$imageAdapter->receive('fileUpload')){
 						$messages = $imageAdapter->getMessages['fileUpload'];
-						//A Imagem Não Foi Recebida Corretamente
-						Zend_Registry::get('logger')->log("A Imagem Não Foi Recebida Corretamente", Zend_Log::INFO);
+						//A Imagem NÃ£o Foi Recebida Corretamente
+						Zend_Registry::get('logger')->log("A Imagem NÃ£o Foi Recebida Corretamente", Zend_Log::INFO);
 						
 					}else{
 						//Arquivo Enviado Com Sucesso
-						//Realize As Ações Necessárias Com Os Dados
+						//Realize As AÃ§Ãµes NecessÃ¡rias Com Os Dados
 						Zend_Registry::get('logger')->log("A Imagem  Recebida Corretamente", Zend_Log::INFO);
 						
 						
@@ -110,15 +110,15 @@ class IndexController extends Zend_Controller_Action
 					}
 				}else{
 					
-					Zend_Registry::get('logger')->log("O Arquivo Não Foi Enviado Corretamente", Zend_Log::INFO);
-					//O Arquivo Não Foi Enviado Corretamente
+					Zend_Registry::get('logger')->log("O Arquivo NÃ£o Foi Enviado Corretamente", Zend_Log::INFO);
+					//O Arquivo NÃ£o Foi Enviado Corretamente
 				}
 				
 				
 				try {
 					if ($repetirSenha != $senha)
 						throw new Exception(
-						"Atenção senha e repetir senha tem que ser iguais");
+						"AtenÃ§Ã£o senha e repetir senha tem que ser iguais");
 					
 					try {
 						if($fk_arquivo=="-1"){
@@ -133,16 +133,16 @@ class IndexController extends Zend_Controller_Action
 						
 						//$this->_helper->redirector('lista-usuario');
 						
-					} // catch (pega exceção)
+					} // catch (pega exceÃ§Ã£o)
 					catch (Exception $e) {
-						$this->view->mensagem = "Atualizar usuário";
+						$this->view->mensagem = "Atualizar usuÃ¡rio";
 						$this->view->erro=1;
 						$this->view->mensagemExcecao=$e->getMessage();
 						//  echo ($e->getCode()."teste".$e->getMessage() );
 					}
 				} catch (Exception $e) {
 					// echo  ;
-					$this->view->mensagem = "Atualizar usuário";
+					$this->view->mensagem = "Atualizar usuÃ¡rio";
 						$this->view->erro=1;
 						$this->view->mensagemExcecao=$e->getMessage();
 					//exit();
@@ -167,7 +167,7 @@ class IndexController extends Zend_Controller_Action
 		{
 		// action body
 		$form = new Application_Form_Usuario();
-		$form->submit->setLabel('Adicionar usuário');
+		$form->submit->setLabel('Adicionar usuÃ¡rio');
 		$this->view->form = $form;
 		if ($this->getRequest()->isPost()) {
 			$formData = $this->getRequest()->getPost();
@@ -205,8 +205,8 @@ class IndexController extends Zend_Controller_Action
 					$imageAdapter->addFilter('Rename', $nomeArquivo );
 					if (!$imageAdapter->receive('fileUpload')){
 						$messages = $imageAdapter->getMessages['fileUpload'];
-						//A Imagem Não Foi Recebida Corretamente
-						Zend_Registry::get('logger')->log("A Imagem Não Foi Recebida Corretamente", Zend_Log::INFO);
+						//A Imagem NÃ£o Foi Recebida Corretamente
+						Zend_Registry::get('logger')->log("A Imagem NÃ£o Foi Recebida Corretamente", Zend_Log::INFO);
 						try {
 							Zend_Registry::get('logger')->log("fk_arquivo".$fk_arquivo, Zend_Log::INFO);
 							$usuarios->addUsuarioSemFoto($nome, $senha, $email, $fk_perfil, $login);
@@ -215,7 +215,7 @@ class IndexController extends Zend_Controller_Action
 							
 						} 
 						catch (Exception $e) {
-							$this->view->mensagem = "Login $login já existe, cadastrar novo login <br> ".$e->getMessage();
+							$this->view->mensagem = "Login $login jÃ¡ existe, cadastrar novo login <br> ".$e->getMessage();
 						
 							$this->view->erro=1;
 							$this->view->mensagemExcecao=$e->getMessage();
@@ -223,7 +223,7 @@ class IndexController extends Zend_Controller_Action
 						
 					}else{
 						//Arquivo Enviado Com Sucesso
-						//Realize As Ações Necessárias Com Os Dados
+						//Realize As AÃ§Ãµes NecessÃ¡rias Com Os Dados
 						Zend_Registry::get('logger')->log("A Imagem  Recebida Corretamente", Zend_Log::INFO);
 						
 						
@@ -231,7 +231,7 @@ class IndexController extends Zend_Controller_Action
 						try {
 							if ($repetirSenha != $senha)
 								throw new Exception(
-								"Atenção senha e repetir senha tem que ser iguais");
+								"AtenÃ§Ã£o senha e repetir senha tem que ser iguais");
 							try {
 									$arquivo = new Application_Model_DbTable_Arquivo();
 									$fk_arquivo=$arquivo->addArquivo($nomeArquivo, $extensao);
@@ -239,7 +239,7 @@ class IndexController extends Zend_Controller_Action
 									$this->view->mensagem = "Cadastrado com sucesso";
 									$this->view->erro=0;
 									$form->reset();
-							} // catch (pega exceção)
+							} // catch (pega exceÃ§Ã£o)
 							catch (Exception $e) {
 								$this->view->erro=1;
 								if($e->getCode()=="23000"){
@@ -258,7 +258,7 @@ class IndexController extends Zend_Controller_Action
 					}
 				}else{
 					
-					Zend_Registry::get('logger')->log("O Arquivo Não Foi Enviado Corretamente", Zend_Log::INFO);
+					Zend_Registry::get('logger')->log("O Arquivo NÃ£o Foi Enviado Corretamente", Zend_Log::INFO);
 					try {
 							Zend_Registry::get('logger')->log("fk_arquivo".$fk_arquivo, Zend_Log::INFO);
 							$usuarios->addUsuarioSemFoto($nome, $senha, $email, $fk_perfil, $login);
@@ -267,7 +267,7 @@ class IndexController extends Zend_Controller_Action
 							$form->reset();
 						} 
 						catch (Exception $e) {
-							$this->view->mensagem = "Login $login já existe, cadastrar novo login  ";
+							$this->view->mensagem = "Login $login jÃ¡ existe, cadastrar novo login  ";
 						
 							$this->view->erro=1;
 							$this->view->mensagemExcecao=$e->getMessage();
@@ -298,14 +298,14 @@ class IndexController extends Zend_Controller_Action
                 try {
                     $usuarios->deleteUsuario($id);
                     
-                    $this->view->mensagem = "Excluído com sucesso";
+                    $this->view->mensagem = "ExcluÃ­do com sucesso";
 					$this->view->erro=0;
                 } catch (Exception $e) {
-                   $this->view->mensagem = $e->getCode()." Deletar usuário";
+                   $this->view->mensagem = $e->getCode()." Deletar usuÃ¡rio";
 					$this->view->erro=1;
 					$this->view->mensagemExcecao=$e->getMessage();
 					if($e->getCode()=="23000"){
-									$this->view->mensagem = $e->getCode()." Não permitido excluir usuário com reuniões agendadas";
+									$this->view->mensagem = $e->getCode()." NÃ£o permitido excluir usuÃ¡rio com reuniÃµes agendadas";
 					}
                 }
             }
@@ -314,7 +314,7 @@ class IndexController extends Zend_Controller_Action
 					$this->view->usuarios = $usuarios->getUsuariosComPerfil();
 				} 
 				catch (Exception $e) {
-					$this->view->mensagem = "Usuários nao encontrado";
+					$this->view->mensagem = "UsuÃ¡rios nao encontrado";
 					$this->view->erro=1;
 					$this->view->mensagemExcecao=$e->getMessage();
 					
@@ -335,7 +335,7 @@ class IndexController extends Zend_Controller_Action
 		Zend_Registry::get('logger')->log("antes verificacao loginAction", Zend_Log::INFO);
 		if ( $this->getRequest()->isPost() ) {
 			$data = $this->getRequest()->getPost();
-			//Formulário corretamente preenchido?
+			//FormulÃ¡rio corretamente preenchido?
 			if ( $form->isValid($data) ) {
 				$login = $form->getValue('login');
 				$senha = $form->getValue('senha');
@@ -346,7 +346,7 @@ class IndexController extends Zend_Controller_Action
 					//Redireciona para o Controller protegido
 					return $this->_helper->redirector->goToRoute( array('controller' => 'index'), null, true);
 				} catch (Exception $e) {
-					//Dados inválidos
+					//Dados invÃ¡lidos
 					//$this->_helper->FlashMessenger($e->getMessage());
 					$this->view->mensagem = "User or password incorrect";
 					$this->view->erro=1;
@@ -354,7 +354,7 @@ class IndexController extends Zend_Controller_Action
 					//$this->_redirect('/index/login');
 				}
 			} else {
-				//Formulário preenchido de forma incorreta
+				//FormulÃ¡rio preenchido de forma incorreta
 				$form->populate($data);
 			}
 		}
@@ -367,12 +367,12 @@ class IndexController extends Zend_Controller_Action
 		}
 	public function editAlterarPerfilAction()
 		{
-			$this->view->titulo="Alterar Usuário";
+			$this->view->titulo="Alterar UsuÃ¡rio";
 			Zend_Registry::get('logger')->log($this->view->titulo, Zend_Log::INFO);
 			
 		// action body
 		$form = new Application_Form_AlterarPerfil();
-		$form->submit->setLabel('Salvar usuário');
+		$form->submit->setLabel('Salvar usuÃ¡rio');
 		$this->view->form = $form;
 		if ($this->getRequest()->isPost()) {
 			$formData = $this->getRequest()->getPost();
@@ -391,7 +391,7 @@ class IndexController extends Zend_Controller_Action
 				try {
 					if ($repetirSenha != $senha)
 						throw new Exception(
-						"Atenção senha e repetir senha tem que ser iguais");
+						"AtenÃ§Ã£o senha e repetir senha tem que ser iguais");
 					
 					
 					$imageAdapter = new Zend_File_Transfer_Adapter_Http();
@@ -411,12 +411,12 @@ class IndexController extends Zend_Controller_Action
 						$imageAdapter->addFilter('Rename', $nomeArquivo );
 						if (!$imageAdapter->receive('fileUpload')){
 							$messages = $imageAdapter->getMessages['fileUpload'];
-							//A Imagem Não Foi Recebida Corretamente
-							Zend_Registry::get('logger')->log("A Imagem Não Foi Recebida Corretamente", Zend_Log::INFO);
+							//A Imagem NÃ£o Foi Recebida Corretamente
+							Zend_Registry::get('logger')->log("A Imagem NÃ£o Foi Recebida Corretamente", Zend_Log::INFO);
 							
 						}else{
 							//Arquivo Enviado Com Sucesso
-							//Realize As Ações Necessárias Com Os Dados
+							//Realize As AÃ§Ãµes NecessÃ¡rias Com Os Dados
 							Zend_Registry::get('logger')->log("A Imagem  Recebida Corretamente", Zend_Log::INFO);
 							
 							
@@ -429,8 +429,8 @@ class IndexController extends Zend_Controller_Action
 						}
 					}else{
 						
-						Zend_Registry::get('logger')->log("O Arquivo Não Foi Enviado Corretamente", Zend_Log::INFO);
-						//O Arquivo Não Foi Enviado Corretamente
+						Zend_Registry::get('logger')->log("O Arquivo NÃ£o Foi Enviado Corretamente", Zend_Log::INFO);
+						//O Arquivo NÃ£o Foi Enviado Corretamente
 					}
 					$usuarios->updateAlterarPerfilSemFoto($id,$nome,$senha,$email);
 					
@@ -494,8 +494,8 @@ class IndexController extends Zend_Controller_Action
 			$listaValorCaract=$formData["valorCaracteristica"];
 			Zend_Registry::get('logger')->log(count($listaValorCaract), Zend_Log::INFO);
 			if(!count($listaValorCaract)>=1){
-				$form->getElement('nomeCaracteristica')->setErrors(array('nomeCaracteristica' => 'Característica do produto'));
-				$form->getElement('valorCaracteristica')->setErrors(array('valorCaracteristica' => 'Valor referente à característica do produto'));
+				$form->getElement('nomeCaracteristica')->setErrors(array('nomeCaracteristica' => 'CaracterÃ­stica do produto'));
+				$form->getElement('valorCaracteristica')->setErrors(array('valorCaracteristica' => 'Valor referente Ã  caracterÃ­stica do produto'));
 			
 			
 			}
@@ -526,8 +526,8 @@ class IndexController extends Zend_Controller_Action
 						  $imageAdapter->addFilter('Rename', $nomeArquivo );
 						if (!$imageAdapter->receive('fileUpload')){
 							$messages = $imageAdapter->getMessages['fileUpload'];
-							//A Imagem Não Foi Recebida Corretamente
-							Zend_Registry::get('logger')->log("A Imagem Não Foi Recebida Corretamente", Zend_Log::INFO);
+							//A Imagem NÃ£o Foi Recebida Corretamente
+							Zend_Registry::get('logger')->log("A Imagem NÃ£o Foi Recebida Corretamente", Zend_Log::INFO);
 							
 						}else{
 							//Arquivo Enviado Com Sucesso
@@ -545,8 +545,8 @@ class IndexController extends Zend_Controller_Action
 						}
 					}else{
 						
-						Zend_Registry::get('logger')->log("O Arquivo Não Foi Enviado Corretamente", Zend_Log::INFO);
-						//O Arquivo Não Foi Enviado Corretamente
+						Zend_Registry::get('logger')->log("O Arquivo NÃ£o Foi Enviado Corretamente", Zend_Log::INFO);
+						//O Arquivo NÃ£o Foi Enviado Corretamente
 					}
 					//$usuarios->updateAlterarPerfilSemFoto ($id,$nome,$senha,$email);
 					
@@ -568,7 +568,7 @@ class IndexController extends Zend_Controller_Action
               
                 
             } else {
-            	     Zend_Registry::get('logger')->log("formulario inválido", Zend_Log::INFO);
+            	     Zend_Registry::get('logger')->log("formulario invÃ¡lido", Zend_Log::INFO);
                 $form->populate($formData);
                  
                 $arrMessages = $form->getMessages();
@@ -586,7 +586,7 @@ class IndexController extends Zend_Controller_Action
 	public function vincularReferenciaAction(){
 	
 		$form = new Application_Form_Produto();
-        $form->submit->setLabel('Salvar referência');
+        $form->submit->setLabel('Salvar referÃªncia');
         //$form->removeElement("submit");
         $form->getElement("nome")->setAttrib("disable", array(1));
         $form->getElement("descricao")->setRequired(FALSE);
@@ -640,8 +640,8 @@ class IndexController extends Zend_Controller_Action
 						  $imageAdapter->addFilter('Rename', $nomeArquivo );
 						if (!$imageAdapter->receive('fileUpload')){
 							$messages = $imageAdapter->getMessages['fileUpload'];
-							//A Imagem Não Foi Recebida Corretamente
-							Zend_Registry::get('logger')->log("A Imagem Não Foi Recebida Corretamente", Zend_Log::INFO);
+							//A Imagem NÃ£o Foi Recebida Corretamente
+							Zend_Registry::get('logger')->log("A Imagem NÃ£o Foi Recebida Corretamente", Zend_Log::INFO);
 							
 						}else{
 							//Arquivo Enviado Com Sucesso
@@ -657,8 +657,8 @@ class IndexController extends Zend_Controller_Action
 						}
 					}else{
 						
-						Zend_Registry::get('logger')->log("O Arquivo Não Foi Enviado Corretamente", Zend_Log::INFO);
-						//O Arquivo Não Foi Enviado Corretamente
+						Zend_Registry::get('logger')->log("O Arquivo NÃ£o Foi Enviado Corretamente", Zend_Log::INFO);
+						//O Arquivo NÃ£o Foi Enviado Corretamente
 					}
 					//$usuarios->updateAlterarPerfilSemFoto ($id,$nome,$senha,$email);
 					
@@ -679,7 +679,7 @@ class IndexController extends Zend_Controller_Action
               
                 
             } else {
-            	     Zend_Registry::get('logger')->log("formulario inválido", Zend_Log::INFO);
+            	     Zend_Registry::get('logger')->log("formulario invÃ¡lido", Zend_Log::INFO);
                 $form->populate($formData);
                  
                 $arrMessages = $form->getMessages();
@@ -839,7 +839,7 @@ class IndexController extends Zend_Controller_Action
               
                 
             } else {
-            	     Zend_Registry::get('logger')->log("formulario inválido", Zend_Log::INFO);
+            	     Zend_Registry::get('logger')->log("formulario invÃ¡lido", Zend_Log::INFO);
                 $form->populate($formData);
                  
                 $arrMessages = $form->getMessages();
@@ -938,7 +938,7 @@ class IndexController extends Zend_Controller_Action
 				try {
 					$referencia->deleteReferencia($id);
 		
-					$this->view->mensagem = "Excluído com sucesso";
+					$this->view->mensagem = "ExcluÃ­do com sucesso";
 					$this->view->erro=0;
 				} catch (Exception $e) {
 					$this->view->mensagem =$e->getMessage();
@@ -996,10 +996,10 @@ class IndexController extends Zend_Controller_Action
 		Zend_Registry::get('logger')->log($_POST, Zend_Log::INFO);
 		Zend_Registry::get('logger')->log($_POST, Zend_Log::INFO);
 		
-	//Verifica se é post  
- 	if(isset($_POST) && !empty($_POST)) {    // echo "Os números de sua preferência são:<BR>";          
+	//Verifica se Ã© post  
+ 	if(isset($_POST) && !empty($_POST)) {    // echo "Os nÃºmeros de sua preferÃªncia sÃ£o:<BR>";          
  	
- 	    	// Verifica se usuário escolheu algum número   
+ 	    	// Verifica se usuÃ¡rio escolheu algum nÃºmero   
 	    if(isset($_POST["atualizar_dotz"])){
 		 	try {
 		 		$this->log->gerarLayout955X($_POST["atualizar_dotz"]);
@@ -1070,20 +1070,20 @@ class IndexController extends Zend_Controller_Action
     					
 								/*if (!$imageAdapter->receive('fileUpload')){
 									
-									 throw new Exception("Arquivo não recebido corretamente");
+									 throw new Exception("Arquivo nÃ£o recebido corretamente");
 								
-									Zend_Registry::get('logger')->log("A Imagem Não Foi Recebida Corretamente", Zend_Log::INFO);
+									Zend_Registry::get('logger')->log("A Imagem NÃ£o Foi Recebida Corretamente", Zend_Log::INFO);
 									
 								}else{*/
 									//Arquivo Enviado Com Sucesso
 								 $objRetorno=$this->log->validarXSD($xml,"860X.xsd");
 								 switch ($layout) {
-										case "950X"://Layout 950X - “Catálogo de Produtos Completo”
+										case "950X"://Layout 950X - â€œCatÃ¡logo de Produtos Completoâ€�
 											
 										break;
-										case "955X"://Layout 955X - “Catálogo de Produtos Incremental”
+										case "955X"://Layout 955X - â€œCatÃ¡logo de Produtos Incrementalâ€�
 										break;
-										case "860X"://Layout 860X - “Pedidos de Troca”
+										case "860X"://Layout 860X - â€œPedidos de Trocaâ€�
 
 										
 										//Zend_Registry::get('logger')->log($objRetorno, Zend_Log::INFO);
@@ -1113,20 +1113,20 @@ class IndexController extends Zend_Controller_Action
 								//}
 							}else{
 								
-								Zend_Registry::get('logger')->log("O Arquivo Não Foi Enviado Corretamente", Zend_Log::INFO);
-								//O Arquivo Não Foi Enviado Corretamente
-								$this->view->mensagem = "Arquivo não recebido corretamente";
+								Zend_Registry::get('logger')->log("O Arquivo NÃ£o Foi Enviado Corretamente", Zend_Log::INFO);
+								//O Arquivo NÃ£o Foi Enviado Corretamente
+								$this->view->mensagem = "Arquivo nÃ£o recebido corretamente";
 								$this->view->erro=1;
 							}
 					 	
 					 }else{
-					 	Zend_Registry::get('logger')->log("arquivo não esta no formato padrao", Zend_Log::INFO);
-					 	$this->view->mensagem = "Arquivo fora do padrão AAAAMMDD_Identificação do Parceiro_Tipo de Registro_Sequencial.EXTENSÃO";
+					 	Zend_Registry::get('logger')->log("arquivo nÃ£o esta no formato padrao", Zend_Log::INFO);
+					 	$this->view->mensagem = "Arquivo fora do padrÃ£o AAAAMMDD_IdentificaÃ§Ã£o do Parceiro_Tipo de Registro_Sequencial.EXTENSÃƒO";
 					 	$this->view->erro=1;
 					 	return false;
 					 }
 					if(count($auxLayout)<>4){
-						$this->view->mensagem = "Arquivo fora do padrão AAAAMMDD_Identificação do Parceiro_Tipo de Registro_Sequencial.EXTENSÃO";
+						$this->view->mensagem = "Arquivo fora do padrÃ£o AAAAMMDD_IdentificaÃ§Ã£o do Parceiro_Tipo de Registro_Sequencial.EXTENSÃƒO";
 							$this->view->erro=1;
 							return false;
 					}
@@ -1205,7 +1205,7 @@ class IndexController extends Zend_Controller_Action
 	
 	
 			} else {
-				Zend_Registry::get('logger')->log("formulario inválido", Zend_Log::INFO);
+				Zend_Registry::get('logger')->log("formulario invÃ¡lido", Zend_Log::INFO);
 				$form->populate($formData);
 				 
 				$arrMessages = $form->getMessages();
@@ -1256,7 +1256,7 @@ class IndexController extends Zend_Controller_Action
 	
 	
 			} else {
-				Zend_Registry::get('logger')->log("formulario inválido", Zend_Log::INFO);
+				Zend_Registry::get('logger')->log("formulario invÃ¡lido", Zend_Log::INFO);
 				$form->populate($formData);
 					
 				$arrMessages = $form->getMessages();
@@ -1281,14 +1281,14 @@ class IndexController extends Zend_Controller_Action
 				try {
 					$ocorrencia->deleteOcorrencia($id);
 		
-					$this->view->mensagem = "Excluído com sucesso";
+					$this->view->mensagem = "ExcluÃ­do com sucesso";
 					$this->view->erro=0;
 				} catch (Exception $e) {
-					$this->view->mensagem = $e->getCode()." Deletar ocorrência";
+					$this->view->mensagem = $e->getCode()." Deletar ocorrÃªncia";
 					$this->view->erro=1;
 					$this->view->mensagemExcecao=$e->getMessage();
 					if($e->getCode()=="23000"){
-						$this->view->mensagem = $e->getCode()." Não permitido excluir ocorrência com pedidos associados ";
+						$this->view->mensagem = $e->getCode()." NÃ£o permitido excluir ocorrÃªncia com pedidos associados ";
 					}
 				}
 			}
@@ -1312,7 +1312,13 @@ class IndexController extends Zend_Controller_Action
 		Zend_Registry::get('logger')->log($this->view->ocorrencia, Zend_Log::INFO);
 	}
 	public function listaPedidoAction(){
+		
+		$form = new Application_Form_FiltroPedido();
+		$form->submit->setLabel('Buscar');
+		$this->view->form = $form;
+		
 		$pedido= new Application_Model_DbTable_Pedido();
+	
 		if ($this->getRequest()->isPost()) {
 			$del = $this->getRequest()->getPost('del');
 			if ($del == 'Sim') {
@@ -1379,10 +1385,10 @@ class IndexController extends Zend_Controller_Action
 				try {
 					$this->log->gerarLayout880X($id_pedido);
 				
-					$this->view->mensagem = "Conciliação de Nota Fiscal enviado com sucesso";
+					$this->view->mensagem = "ConciliaÃ§Ã£o de Nota Fiscal enviado com sucesso";
 					$this->view->erro=0;
 				} catch (Exception $e) {
-					$this->view->mensagem = $e->getCode()." Erro ao enviar Conciliação de Nota Fiscal ".$e->getMessage();
+					$this->view->mensagem = $e->getCode()." Erro ao enviar ConciliaÃ§Ã£o de Nota Fiscal ".$e->getMessage();
 					$this->view->erro=1;
 					//$this->view->mensagemExcecao=$e->getMessage();
 							
@@ -1395,14 +1401,14 @@ class IndexController extends Zend_Controller_Action
 				try {
 					//$ocorrencia->deleteOcorrencia($id);
 	
-					$this->view->mensagem = "Excluído com sucesso";
+					$this->view->mensagem = "ExcluÃ­do com sucesso";
 					$this->view->erro=0;
 				} catch (Exception $e) {
 					$this->view->mensagem = $e->getCode()." Deletar pedido";
 					$this->view->erro=1;
 					$this->view->mensagemExcecao=$e->getMessage();
 					if($e->getCode()=="23000"){
-						$this->view->mensagem = $e->getCode()." Não permitido excluir pedido  ";
+						$this->view->mensagem = $e->getCode()." NÃ£o permitido excluir pedido  ";
 					}
 				}
 			}*/
@@ -1411,7 +1417,7 @@ class IndexController extends Zend_Controller_Action
 		}
 		
 		$pedidoFinalizado=$pedido->pedidoFinalizado($id_pedido);
-		if (!$pedidoFinalizado){//se pedido nao foi finalizado desabilita opção
+		if (!$pedidoFinalizado){//se pedido nao foi finalizado desabilita opÃ§Ã£o
 			$form->getElement("nota_fiscal")->setAttrib("disable", array(1));
 			//$form->getElement("cupon_ingresso")->setAttrib("disable", array(1));
 		}
@@ -1430,9 +1436,9 @@ class IndexController extends Zend_Controller_Action
 		$this->view->listaItemPedido=$listaItemPedido;
 	}
         public function imprimirEtiquetaAction(){
-           require_once __DIR__ . '../../../exemplos/bootstrap-exemplos.php';
+          /* require_once __DIR__ . '../../../exemplos/bootstrap-exemplos.php';
                 
-                    // ***  DADOS DA ENCOMENDA QUE SERÁ DESPACHADA *** //
+                    // ***  DADOS DA ENCOMENDA QUE SERÃ� DESPACHADA *** //
                     $dimensao = new \PhpSigep\Model\Dimensao();
                     $dimensao->setAltura(20);
                     $dimensao->setLargura(20);
@@ -1441,9 +1447,9 @@ class IndexController extends Zend_Controller_Action
 
                     $dimensao = new \PhpSigep\Model\Dimensao();
                     $dimensao->setTipo(\PhpSigep\Model\Dimensao::TIPO_PACOTE_CAIXA);
-                    $dimensao->setAltura(15); // em centímetros
-                    $dimensao->setComprimento(17); // em centímetros
-                    $dimensao->setLargura(12); // em centímetros
+                    $dimensao->setAltura(15); // em centÃ­metros
+                    $dimensao->setComprimento(17); // em centÃ­metros
+                    $dimensao->setLargura(12); // em centÃ­metros
                     
                     $dbdestinatario= new Application_Model_DbTable_Destinatario();
                     $id = $this->_getParam('id', 0);
@@ -1463,8 +1469,8 @@ class IndexController extends Zend_Controller_Action
                         $destino->setUf($row->uf);
                     }
 
-                    // Estamos criando uma etique falsa, mas em um ambiente real voçê deve usar o método 
-                    // {@link \PhpSigep\Services\SoapClient\Real::solicitaEtiquetas() } para gerar o número das etiquetas 
+                    // Estamos criando uma etique falsa, mas em um ambiente real voÃ§Ãª deve usar o mÃ©todo 
+                    // {@link \PhpSigep\Services\SoapClient\Real::solicitaEtiquetas() } para gerar o nÃºmero das etiquetas 
                     $etiqueta = new \PhpSigep\Model\Etiqueta();
                     $etiqueta->setEtiquetaSemDv('PD73958096BR');
 
@@ -1479,7 +1485,7 @@ class IndexController extends Zend_Controller_Action
                     $encomenda->setEtiqueta($etiqueta);
                     $encomenda->setPeso(0.500);// 500 gramas
                     $encomenda->setServicoDePostagem(new \PhpSigep\Model\ServicoDePostagem(\PhpSigep\Model\ServicoDePostagem::SERVICE_CARTA_REGISTRADA));
-                // ***  FIM DOS DADOS DA ENCOMENDA QUE SERÁ DESPACHADA *** //
+                // ***  FIM DOS DADOS DA ENCOMENDA QUE SERÃ� DESPACHADA *** //
 
                 // *** DADOS DO REMETENTE *** //
                     $remetente = new \PhpSigep\Model\Remetente();
@@ -1497,7 +1503,7 @@ class IndexController extends Zend_Controller_Action
                 $plp->setAccessData(new \PhpSigep\Model\AccessDataHomologacao());
                 $plp->setEncomendas(array($encomenda));
                 $plp->setRemetente($remetente);
-                $this->view->imprimirEtiqueta=$plp;
+                $this->view->imprimirEtiqueta=$plp;*/
         }
 
         public function rastreamentoEntregaAction(){
@@ -1534,14 +1540,14 @@ class IndexController extends Zend_Controller_Action
 						$itemHasOcorrencia->deleteItemHasOcorrencia($id);
 						//$ocorrencia->deleteOcorrencia($id);
 		
-						$this->view->mensagem = "Excluído com sucesso";
+						$this->view->mensagem = "ExcluÃ­do com sucesso";
 						$this->view->erro=0;
 					} catch (Exception $e) {
-						$this->view->mensagem = $e->getCode()." Deletar Ocorrência";
+						$this->view->mensagem = $e->getCode()." Deletar OcorrÃªncia";
 						$this->view->erro=1;
 						$this->view->mensagemExcecao=$e->getMessage();
 						if($e->getCode()=="23000"){
-							$this->view->mensagem = $e->getCode()." Não permitido excluir Ocorrência  ";
+							$this->view->mensagem = $e->getCode()." NÃ£o permitido excluir OcorrÃªncia  ";
 						}
 					}
 				}
@@ -1573,7 +1579,7 @@ class IndexController extends Zend_Controller_Action
 					$this->view->erro=0;
 					
 				} catch (Exception $e) {
-					$this->view->mensagem = $e->getCode()."Erro adicionar ocorrência";
+					$this->view->mensagem = $e->getCode()."Erro adicionar ocorrÃªncia";
 					$this->view->erro=1;
 					$this->view->mensagemExcecao=$e->getMessage();
 						
@@ -1700,7 +1706,7 @@ class IndexController extends Zend_Controller_Action
 					$form->populate($listaItemPedido);
 					$form->populate($listaItemPedido);
 				} catch (Exception $e) {
-					$this->view->mensagem = $e->getCode()."Erro alteração pedido";
+					$this->view->mensagem = $e->getCode()."Erro alteraÃ§Ã£o pedido";
 					$this->view->erro=1;
 					$this->view->mensagemExcecao=$e->getMessage();
 					
@@ -1796,7 +1802,7 @@ class IndexController extends Zend_Controller_Action
 				
 				Zend_Registry::get('logger')->log($listaRomaneioEletronico, Zend_Log::INFO);
 			}else {
-            	     Zend_Registry::get('logger')->log("formulario inválido", Zend_Log::INFO);
+            	     Zend_Registry::get('logger')->log("formulario invÃ¡lido", Zend_Log::INFO);
                 $form->populate($formData);
                  
                 $arrMessages = $form->getMessages();
