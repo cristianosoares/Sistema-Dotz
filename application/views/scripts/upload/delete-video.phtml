@@ -1,0 +1,13 @@
+<?php
+	$this->title = "Deletar video";
+	$this->headTitle($this->title);
+?>
+<p>Deseja realmente deletar  '<?php echo $this->escape($this->videos['nome']);?>' ?</p>
+
+<form action="<?php echo $this->url(array('action' => 'delete-video'));?>" method="post">
+	<div>
+		<input type="hidden" name="id" value="<?php echo $this->videos['id'];?>" /> 
+		<input type="submit" name="del" value="Yes" /> <input type="submit" name="del" value="No" />
+	</div>
+</form>
+<div style="width:100%;float:left;"><?php  echo $this->mensagem?></div>

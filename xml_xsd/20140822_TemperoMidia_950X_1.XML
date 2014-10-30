@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>6</PRODUTOID>
+      <NOMEPRODUTO>Whisky Johnnie Walker Gold Label Reserve</NOMEPRODUTO>
+      <DESCRICAO> Whisky Johnnie Walker Gold Label Reserve.
+Gold Label Reserve é obra do master blender nº 1 da Johnnie Walker, Jim Beveridge, que usou whiskys de sua reserva pessoal e barris estocados em Clynelish, região da Escócia onde foi descoberto o ouro, razão pela qual o rótulo é dourado.
+O diferencial deste blend é a harmonia entre as frutas doces e o mel.
+O whisky traz equilíbrio entre o sabor de frutas doces e as notas profundas de mel. Ondas de madeira e toques defumados também fazem parte da novidade, que pode ser apreciada em um copo alto com gelo e uma fatia de laranja.</DESCRICAO>
+      <URL>www.tm1.com.br\dotz\upload\7dc127c90bd0d87a6a1591fe0ca9684f.png</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>gold label reserve</PALAVRA>
+        <PALAVRA>johnnie walker</PALAVRA>
+        <PALAVRA>reserva especial</PALAVRA>
+        <PALAVRA>blend exclusivo</PALAVRA>
+        <PALAVRA>importado</PALAVRA>
+        <PALAVRA>whisky escocês</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>7</PRODUTOIDREFERENCIA>
+          <ATIVO>1</ATIVO>
+          <DISPONIVEL>1</DISPONIVEL>
+          <PRECODE>269.00</PRECODE>
+          <PRECOPOR>269.00</PRECOPOR>
+          <FRETEMEDIO>0.00</FRETEMEDIO>
+          <SALDO>1000</SALDO>
+          <CODIGOEAN>7896279000604</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>     Origem: Escócia     Categoria: Super Deluxe (15 anos).     Graduação: 40% vol.     Volume: 750 ml.     É proibida a venda de bebidas para menores de 18 anos.</NOME>
+              <VALOR>269,00</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>www.tm1.com.br\dotz\upload\7dc127c90bd0d87a6a1591fe0ca9684f.png</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TemperoMidia</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+    <PRODUTO>
+      <PRODUTOID>5</PRODUTOID>
+      <NOMEPRODUTO>VODKA CÎROC</NOMEPRODUTO>
+      <DESCRICAO>
+Um dos maiores casos de sucesso nesse setor presença constante nos ambientes mais badalados e descolados do mundo.
+O fato de ser feita de uva e, sobretudo, na França, país-ícone do luxo, já confere à CÎROC uma elegância, complementada também por sua garrafa, que lembra os frascos criados por perfumistas.
+Seu processo de produção, quase artesanal, utiliza fermentação fria, que mantém o frescor e as características marcantes da uva.
+A figura do galo gravada na garrafa de Ciroc, é um símbolo típico da região de Gailac, na França, e que representa a cultura e a herança do cultivo da uva nesta região.</DESCRICAO>
+      <URL>www.tm1.com.br\dotz\upload\81b761b9c52f07d85aa53e21bbde1d9a.png</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>VODKA</PALAVRA>
+        <PALAVRA>IMPORTADA</PALAVRA>
+        <PALAVRA>FRANÇA</PALAVRA>
+        <PALAVRA>LUXO</PALAVRA>
+        <PALAVRA>UVA</PALAVRA>
+        <PALAVRA>ARTESANAL</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>6</PRODUTOIDREFERENCIA>
+          <ATIVO>1</ATIVO>
+          <DISPONIVEL>1</DISPONIVEL>
+          <PRECODE>129.00</PRECODE>
+          <PRECOPOR>129.00</PRECOPOR>
+          <FRETEMEDIO>30.00</FRETEMEDIO>
+          <SALDO>1000</SALDO>
+          <CODIGOEAN>7896279000604</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>     Importada da França     Graduação Alcóolica: 40% vol.     Volume: 750 ml.</NOME>
+              <VALOR>129,00</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>www.tm1.com.br\dotz\upload\81b761b9c52f07d85aa53e21bbde1d9a.png</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TemperoMidia</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

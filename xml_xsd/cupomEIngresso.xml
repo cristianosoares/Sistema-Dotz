@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RASTREAMENTO>
+  <ARQUIVO>
+    <VERSAO>1.0</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+     <PEDIDO>      
+      <IDPEDIDODOTZ>84403</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>84403a</IDPEDIDOFORN>
+      <ITENS>
+        <ITEM>          
+          <PRECO>82.42</PRECO>
+          <QTDEITEM>1</QTDEITEM>
+          <NFCOBRANCA>
+            <NUMERONF>123</NUMERONF>
+            <NUMEROLINHA>2</NUMEROLINHA>
+          </NFCOBRANCA>
+        </ITEM>
+      </ITENS>
+    </PEDIDO>
+  </PEDIDOS>
+</RASTREAMENTO>

@@ -1,0 +1,68 @@
+<?php
+	$this->headMeta()->appendHttpEquiv('Content-Type', 'text/html;charset=utf-8');
+	$this->headTitle()->setSeparator(' - ');
+	$this->headTitle('TM1 | Dotz');
+	echo $this->doctype();
+?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<?php echo $this->headMeta();?>
+		<?php echo $this->headTitle();?>
+		<?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/site.css'); ?>
+		<?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/jmenu.css'); ?>
+		<?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/jquery-ui.css'); ?>
+	
+		<!-- <script src="http://code.jquery.com/jquery-2.1.1.js" ></script>-->
+		<link rel="stylesheet" href="css/jmenu.css" type="text/css" />
+		<script src="<?php echo $this->baseUrl()?>/js/jquery.js" ></script>
+		
+      <!--  <script type="text/javascript" src="js/jquery.js"></script>-->
+    
+	
+	
+	<script src="<?php echo $this->baseUrl()?>/js/jquery-1.10.2.js" ></script>
+	<script src="<?php echo $this->baseUrl()?>/js/jquery-ui.js"></script>
+	<script>
+  $(function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      'width':'700',
+      show: {
+        effect: "clip",
+        duration: 500
+      },
+      hide: {
+        effect: "clip",
+        duration: 500
+      }
+    });
+ 
+    $( ".detalhesErro" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+    $( ".close-red,.close-green" ).click(function() {
+       console.log("erro");
+      
+  	  $( "#message-green,#message-red" ).fadeOut( "slow", function() {
+  	    // Animation complete
+  	  });
+  	});
+  });
+  </script>
+	</head>
+	
+	<body style="  height: 649px;">
+	<div class="content" >
+		<div class="conteudo">
+		<div class="interno">
+		
+			<?php
+					echo $this->layout()->content;
+				?>
+		</div>
+		</div>
+		
+	</div>
+		
+	</body>
+</html>

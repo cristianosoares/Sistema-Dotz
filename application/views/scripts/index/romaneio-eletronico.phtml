@@ -1,0 +1,81 @@
+<?php
+	$this->title = "Listar arquivos";
+	$this->headTitle($this->title);
+	//echo $this->form ;
+	
+?>
+<?php echo $this->form ; ?>	 
+<div class="box">
+                                <div class="box-header">
+                                    <h3 class="box-title">Lista Pedidos Troca</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body table-responsive">
+  									
+                                
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>NFVENDA</th>
+                                                <th>QTDPROD</th>
+                                                <th>COD PRODUTO NO FORNECEDOR</th>
+                                                <th>DESCRICAO</th>
+                                                <th>VLPROD</th>
+                                                <th>VLFRETE</th>
+                                                <th>COMBO</th>
+                                                <th>VLRPEDIDO </th>
+                                                <th>NUM PEDIDO NA DOTZ </th>
+                                                 
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php if($this->listaRomaneioEletronico>0){
+                                        foreach ($this->listaRomaneioEletronico as $value){
+                                        ?>
+                                            <tr>
+                                             	<td><?php echo $this->nfvenda;?></td>
+                                                <td><?php echo "1"?></td>
+                                                <td><?php echo $value["fk_referencia"]?></td>
+                                                <td><?php echo $value["nome"]?></td>
+                                                <td><?php echo $value["preco"]?></td>
+                                                <td><?php echo $value["frete"]?></td>
+                                                <td><?php echo "0,00"?></td>
+                                                <td><?php echo $value["vlrpedido"]?></td>
+                                                <td><?php echo $value["id_pedido_dotz"]?></td>
+                                                
+                                            </tr>
+                                          <?php }}?> 
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>NFVENDA</th>
+                                                <th>QTDPROD</th>
+                                                <th>COD PRODUTO NO FORNECEDOR</th>
+                                                <th>DESCRICAO</th>
+                                                <th>VLPROD</th>
+                                                <th>VLFRETE</th>
+                                                <th>COMBO</th>
+                                                <th>VLRPEDIDO </th>
+                                                <th>NUM PEDIDO NA DOTZ </th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                           
+<link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
+<!-- page script -->
+<script type="text/javascript">
+            $(function() {
+                $("#example1").dataTable();
+                $('#example2').dataTable({
+                    "bPaginate": true,
+                    "bLengthChange": false,
+                    "bFilter": false,
+                    "bSort": true,
+                    "bInfo": true,
+                    "bAutoWidth": false
+                });
+            });
+</script>

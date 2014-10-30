@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RASTREAMENTO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ARQUIVO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:float" name="VERSAO"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LOTE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="NOMEARQUIVO"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PEDIDOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PEDIDO" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="IDPEDIDODOTZ"/>
+                    <xs:element type="xs:string" name="IDPEDIDOFORN"/>
+                    <xs:element type="xs:byte" name="CODIGO"/>
+                    <xs:element type="xs:string" name="OBSERVACAO"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

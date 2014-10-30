@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8788415</PEDIDOID>
+      <DATACRIACAO>2014-10-03</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33755</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>68838123934</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marcio Aguiar de Oliveira</NOME>
+        <EMAIL>ferzinha_aguiar@hotmail.com</EMAIL>
+        <RUA>RUA REGINA MARIA BONFIM</RUA>
+        <NUMERO>186</NUMERO>
+        <COMPL>00</COMPL>
+        <BAIRRO>PEDRO BAIZE</BAIRRO>
+        <CIDADE>Ibipora</CIDADE>
+        <UF>PR</UF>
+        <CEP>86200000</CEP>
+        <DDD>43</DDD>
+        <TELEFONE>32681528</TELEFONE>
+        <PONTOREFERENCIA>proximo a linha de trem</PONTOREFERENCIA>
+        <CODIGOIDENT>13024188</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8764018</PEDIDOID>
+      <DATACRIACAO>2014-10-01</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33675</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>51503611604</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Ricardo Magalhaes de Almeida</NOME>
+        <EMAIL>ricalmeida@uol.com.br</EMAIL>
+        <RUA>SMAS Trecho 1 C</RUA>
+        <NUMERO>904</NUMERO>
+        <COMPL>Cond Living Park Sul</COMPL>
+        <BAIRRO>Zona Industrial Guara</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>71218010</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>33411863</TELEFONE>
+        <PONTOREFERENCIA>Atras do Hipermercado Carrefour Sul</PONTOREFERENCIA>
+        <CODIGOIDENT>1285494</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

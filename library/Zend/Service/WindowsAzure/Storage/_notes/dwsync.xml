@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Batch.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558656512395" remote="130377013800000000" />
+<file name="BatchStorageAbstract.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558656572398" remote="130377013800000000" />
+<file name="Blob.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558657302440" remote="130377013800000000" />
+<file name="BlobContainer.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558657392445" remote="130377013800000000" />
+<file name="BlobInstance.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558657442448" remote="130377013800000000" />
+<file name="DynamicTableEntity.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658122487" remote="130377013800000000" />
+<file name="LeaseInstance.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658172490" remote="130377013800000000" />
+<file name="PageRegionInstance.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658222493" remote="130377013800000000" />
+<file name="Queue.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658302497" remote="130377013800000000" />
+<file name="QueueInstance.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658362501" remote="130377013800000000" />
+<file name="QueueMessage.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658412504" remote="130377013800000000" />
+<file name="SignedIdentifier.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658452506" remote="130377013800000000" />
+<file name="StorageEntityAbstract.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658522510" remote="130377013800000000" />
+<file name="Table.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658612515" remote="130377013800000000" />
+<file name="TableEntity.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658672518" remote="130377013800000000" />
+<file name="TableEntityQuery.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658732522" remote="130377013800000000" />
+<file name="TableInstance.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558658782525" remote="130377013800000000" />
+<file name="Batch.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558656512395" remote="130379195400000000" />
+<file name="BatchStorageAbstract.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558656572398" remote="130379195400000000" />
+<file name="Blob.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558657302440" remote="130379195400000000" />
+<file name="BlobContainer.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558657392445" remote="130379195400000000" />
+<file name="BlobInstance.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558657442448" remote="130379195400000000" />
+<file name="DynamicTableEntity.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658122487" remote="130379195400000000" />
+<file name="LeaseInstance.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658172490" remote="130379195400000000" />
+<file name="PageRegionInstance.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658222493" remote="130379195400000000" />
+<file name="Queue.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658302497" remote="130379195400000000" />
+<file name="QueueInstance.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658362501" remote="130379195400000000" />
+<file name="QueueMessage.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658412504" remote="130379195400000000" />
+<file name="SignedIdentifier.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658452506" remote="130379195400000000" />
+<file name="StorageEntityAbstract.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658522510" remote="130379195400000000" />
+<file name="Table.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658612515" remote="130379195400000000" />
+<file name="TableEntity.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658672518" remote="130379195400000000" />
+<file name="TableEntityQuery.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658732522" remote="130379195400000000" />
+<file name="TableInstance.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558658782525" remote="130379195400000000" />
+</dwsync>

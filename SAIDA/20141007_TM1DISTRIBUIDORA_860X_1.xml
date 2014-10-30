@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8813929</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>02327069998</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Hilda Bonatti Franco</NOME>
+        <EMAIL>franco.mgf@hotmail.com</EMAIL>
+        <RUA>Rua Bernardo Zoz</RUA>
+        <NUMERO>165</NUMERO>
+        <COMPL />
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Schroeder</CIDADE>
+        <UF>SC</UF>
+        <CEP>89275000</CEP>
+        <DDD>47</DDD>
+        <TELEFONE>33727699</TELEFONE>
+        <PONTOREFERENCIA>Prox ao Colegio Miguel Couto</PONTOREFERENCIA>
+        <CODIGOIDENT>7644811</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8815857</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>04986198858</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>REGINA</NOME>
+        <EMAIL>rm_gina@ig.com.br</EMAIL>
+        <RUA>Quadra QE 15 Conjunto D</RUA>
+        <NUMERO>36</NUMERO>
+        <COMPL>CASA</COMPL>
+        <BAIRRO>Guara II</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>71050041</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>30222675</TELEFONE>
+        <PONTOREFERENCIA>PROXIMO AO SUPERMERCADO SUPER MAIA</PONTOREFERENCIA>
+        <CODIGOIDENT>10194543</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8815877</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>49015702691</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>CLUDIA FLIX PINTO</NOME>
+        <EMAIL>clau.fp@terra.com.br</EMAIL>
+        <RUA>Juiz Costa Val</RUA>
+        <NUMERO>65</NUMERO>
+        <COMPL>202</COMPL>
+        <BAIRRO>Santa Efigenia</BAIRRO>
+        <CIDADE>Belo Horizonte</CIDADE>
+        <UF>MG</UF>
+        <CEP>30240350</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>32272165</TELEFONE>
+        <PONTOREFERENCIA>Contra esquina da Avenida do Contorno</PONTOREFERENCIA>
+        <CODIGOIDENT>1308110</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8816132</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>08537384674</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Fernanda</NOME>
+        <EMAIL>fernandacambui@yahoo.com.br</EMAIL>
+        <RUA>Olimpio Ernesto da Silva</RUA>
+        <NUMERO>438</NUMERO>
+        <COMPL />
+        <BAIRRO>Vila Nossa Senhora Aparecida</BAIRRO>
+        <CIDADE>Cambui</CIDADE>
+        <UF>MG</UF>
+        <CEP>37600000</CEP>
+        <DDD>35</DDD>
+        <TELEFONE>99762532</TELEFONE>
+        <PONTOREFERENCIA>Proximo Posto de gasolina Dom Pedro</PONTOREFERENCIA>
+        <CODIGOIDENT>5841347</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8816352</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>72920084968</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>SAULO DA COSTA PINTO</NOME>
+        <EMAIL>ENG.SAULO.PGO@GMAIL.COM</EMAIL>
+        <RUA>Rua 5 Chacara 98</RUA>
+        <NUMERO>0</NUMERO>
+        <COMPL>Lote 24B - Res. Flor do Cerrado</COMPL>
+        <BAIRRO>Setor Habitacional Vicente Pires</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>72006020</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>30463786</TELEFONE>
+        <PONTOREFERENCIA>Prox. a Panificadora Hollywood</PONTOREFERENCIA>
+        <CODIGOIDENT>45945</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8816353</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>72920084968</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>SAULO DA COSTA PINTO</NOME>
+        <EMAIL>ENG.SAULO.PGO@GMAIL.COM</EMAIL>
+        <RUA>Rua 5 Chacara 98</RUA>
+        <NUMERO>0</NUMERO>
+        <COMPL>Lote 24B - Res. Flor do Cerrado</COMPL>
+        <BAIRRO>Setor Habitacional Vicente Pires</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>72006020</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>30463786</TELEFONE>
+        <PONTOREFERENCIA>Prox. a Panificadora Hollywood</PONTOREFERENCIA>
+        <CODIGOIDENT>45945</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8821252</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00612645126</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Manuela</NOME>
+        <EMAIL>manuelaslb@gmail.com</EMAIL>
+        <RUA>Quadra SMPW Quadra 17 Conjunto 9</RUA>
+        <NUMERO>0</NUMERO>
+        <COMPL>Lote 08 Casa B</COMPL>
+        <BAIRRO>Setor de Mansoes Park Way</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>71741709</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>33803002</TELEFONE>
+        <PONTOREFERENCIA>Perto da Vargem Bonita</PONTOREFERENCIA>
+        <CODIGOIDENT>2570576</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8821456</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>05131098629</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Leiliana Sousa</NOME>
+        <EMAIL>leilianasousa@yahoo.com.br</EMAIL>
+        <RUA>Rua de Londres</RUA>
+        <NUMERO>725</NUMERO>
+        <COMPL />
+        <BAIRRO>Duque de Caxias</BAIRRO>
+        <CIDADE>Betim</CIDADE>
+        <UF>MG</UF>
+        <CEP>32673476</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>35117194</TELEFONE>
+        <PONTOREFERENCIA>Proximo a Av de Brasilia</PONTOREFERENCIA>
+        <CODIGOIDENT>3710605</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8821457</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>05131098629</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Leiliana Sousa</NOME>
+        <EMAIL>leilianasousa@yahoo.com.br</EMAIL>
+        <RUA>Rua de Londres</RUA>
+        <NUMERO>725</NUMERO>
+        <COMPL />
+        <BAIRRO>Duque de Caxias</BAIRRO>
+        <CIDADE>Betim</CIDADE>
+        <UF>MG</UF>
+        <CEP>32673476</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>35117194</TELEFONE>
+        <PONTOREFERENCIA>Proximo a Av de Brasilia</PONTOREFERENCIA>
+        <CODIGOIDENT>3710605</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8821955</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>04911107820</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Vania Filomena Zeferino</NOME>
+        <EMAIL>vaniaz@usp.br</EMAIL>
+        <RUA>Rua Manuel Martins Collaco</RUA>
+        <NUMERO>246</NUMERO>
+        <COMPL>bloco 8 - apto.330</COMPL>
+        <BAIRRO>Jardim DAbril</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>05398080</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>36280029</TELEFONE>
+        <PONTOREFERENCIA>proximo ao Parque dos Principes</PONTOREFERENCIA>
+        <CODIGOIDENT>2595711</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8820537</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00358114047</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Luciana Arnt Abichequer</NOME>
+        <EMAIL>luabichequer@hotmail.com</EMAIL>
+        <RUA>Av. Pedro Anunciacao</RUA>
+        <NUMERO>111</NUMERO>
+        <COMPL />
+        <BAIRRO>Vila Batista</BAIRRO>
+        <CIDADE>Cacapava do Sul</CIDADE>
+        <UF>RS</UF>
+        <CEP>96570000</CEP>
+        <DDD>51</DDD>
+        <TELEFONE>96651040</TELEFONE>
+        <PONTOREFERENCIA>Unipampa - proximo ao hotel Cyro, na entrada da cidade</PONTOREFERENCIA>
+        <CODIGOIDENT>2484958</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8820863</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>21246110890</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Adriane Bedore</NOME>
+        <EMAIL>adriane.bedore@gmail.com</EMAIL>
+        <RUA>Rua Tupinambas</RUA>
+        <NUMERO>195</NUMERO>
+        <COMPL />
+        <BAIRRO>Conceicao</BAIRRO>
+        <CIDADE>Diadema</CIDADE>
+        <UF>SP</UF>
+        <CEP>09991090</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>45471253</TELEFONE>
+        <PONTOREFERENCIA>Proximo a Rodovia dos Imigrantes</PONTOREFERENCIA>
+        <CODIGOIDENT>12858862</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8816969</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>02279052962</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>VIVIAN CRISTINA BECHER KUCEK</NOME>
+        <EMAIL>vivian.kucek@hotmail.com</EMAIL>
+        <RUA>RUA PADRE ANCHIETA</RUA>
+        <NUMERO>2636</NUMERO>
+        <COMPL>AP 404-A</COMPL>
+        <BAIRRO>BIGORRILHO</BAIRRO>
+        <CIDADE>CURITIBA</CIDADE>
+        <UF>PR</UF>
+        <CEP>80730000</CEP>
+        <DDD>41</DDD>
+        <TELEFONE>97821169</TELEFONE>
+        <PONTOREFERENCIA>Em frente ao Supermercado Condor</PONTOREFERENCIA>
+        <CODIGOIDENT>1739870</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8819687</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01413059406</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>renata</NOME>
+        <EMAIL>renata.vcsantos@gmail.com</EMAIL>
+        <RUA>Rua Gomes Coutinho</RUA>
+        <NUMERO>86</NUMERO>
+        <COMPL>apt01</COMPL>
+        <BAIRRO>Tamarineira</BAIRRO>
+        <CIDADE>Recife</CIDADE>
+        <UF>PE</UF>
+        <CEP>52051130</CEP>
+        <DDD>81</DDD>
+        <TELEFONE>34412221</TELEFONE>
+        <PONTOREFERENCIA>apos padaria cidade jardim 1a a dir esq e direit</PONTOREFERENCIA>
+        <CODIGOIDENT>10882856</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8822211</PEDIDOID>
+      <DATACRIACAO>2014-10-07</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33865</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>05423575850</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Erliete Goveia</NOME>
+        <EMAIL>erliete.ribeiro@hotmail.com</EMAIL>
+        <RUA>Rua Cond.Filomena Matarazzo</RUA>
+        <NUMERO>81</NUMERO>
+        <COMPL />
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>Santa Rosa de Viterbo</CIDADE>
+        <UF>SP</UF>
+        <CEP>14270000</CEP>
+        <DDD>16</DDD>
+        <TELEFONE>39541411</TELEFONE>
+        <PONTOREFERENCIA>Banco do Brasil  proximo Igreja Matriz</PONTOREFERENCIA>
+        <CODIGOIDENT>1994443</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

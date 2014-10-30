@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example 8.8.2
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+body {
+  margin: 0;
+    padding: 0;
+}
+.no-print{
+	display: none;
+}
+.radio, .checkbox {
+     padding: 0 !important;
+}
+.del{
+	background: url("../images/del.png") no-repeat scroll left top transparent;
+    padding: 0 0 0 14px;
+}
+#FormularioProduto .errors{
+	display: none;
+}
+a.disabled{
+	 background-color: #fff;
+    border-color: #ccc;
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    pointer-events: none;
+	}
+.dotz{
+	background: url("../img/logo_dotz.png") no-repeat scroll right top transparent;
+	/*width: 171px;
+	height: 129px;*/
+	background-color: transparent;
+	padding: 45px !important;
+  
+}
+.fundoDotz{
+	background: url("../img/fundoDotzParte.jpg") repeat scroll left top transparent !important;
+}
+
+.semSeta{
+	background: transparent !important;
+}
+.linhaNaoAtualizada,.linhaNaoAtualizada td{
+	 background-color: #F2DEDE !important;
+    border-color: #EBCCD1 !important;
+    color: #A94442 !important;
+}
+.itemAtualizado,.itemAtualizado td{
+	 background-color: #dff0d8 !important;
+    border-color: #d6e9c6 !important;
+    color: #3c763d !important;
+}
+.glyphicon {
+   
+    height: 23px;
+}
+
+.linhaNaoAtualizada .icheckbox_minimal-blue{
+	border: 1px solid red  !important;
+}

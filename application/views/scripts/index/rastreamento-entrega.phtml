@@ -1,0 +1,125 @@
+<?php
+	$this->title = "Rastreamento Entrega";
+	$this->headTitle($this->title);
+	//echo $this->form ;
+	
+?>
+<div class="row ">
+<?php if($this->item_atualizado_dotz=="0"){?>
+										<div class="callout callout-danger">
+                                        <h4>OCORRÊNCIA DE PEDIDO NÃO ATUALIZADA NA DOTZ!</h4>
+                                        
+                                        </div>
+                                        <?php }else{?>
+                                        <div class="callout alert-success">
+                                        <h4>OCORRÊNCIA DE PEDIDO ATUALIZADA NA DOTZ!</h4>
+                                        
+                                        </div>
+                                        <?php }?>
+                            <div class="col-xs-12 ">
+                            <div class="box box-primary fundoDotz">
+                                <div class="box-header">
+                                    <h3 class="box-title">Enviar Ocorrência para Dotz</h3>
+                                    <div class="box-tools pull-right">
+                                     
+                                       <button data-widget="collapse" class="btn btn-primary btn-sm " type="button"><i class="fa fa-minus"></i></button> 
+                                       
+                                       
+                                    </div>
+                                </div><!-- /.box-header -->
+                                <div id="myBody" class="box-body dotz">
+                                    <div class="row ">
+                                        <div class="col-sm-6 ">
+                                          
+                                        	<div class="form-group">
+                                        	<form role="form" action="" method="post" id="formularioEnviarDotz" enctype="multipart/form-data" name="formularioEnviarDotz">
+                                        		<input type="submit" alt="Enviar Ocorrência para Dotz" title="Enviar Ocorrência para Dotz"  class="btn btn-primary " value="Enviar ocorrência para dotz" id="submitbutton" name="enviarDotz">                                        		                                        		<button value="vincular" class="btn btn-primary" id="vincularReferencia" name="vincularReferencia" type="submit" style="display: none">Vincular Refêrencia</button>
+                                    		<input type="hidden" id="fk_item" name="fk_item" value="<?php echo $this->fk_item ?>"/>
+                                       </form>
+                                    		</div>
+                                        </div><!-- /.col -->
+                                        
+                                    </div><!-- /.row -->
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                        </div>
+                        </div>
+<div class="box box-primary">
+                                <div class="box-header">
+                                    <h3 class="box-title">Rastreamento Entrega</h3>
+                                     <div class="box-tools pull-right">
+                                       <button data-widget="collapse" class="btn btn-primary btn-sm" type="button"><i class="fa fa-minus"></i></button> 
+                                       
+                                    </div>
+                                </div><!-- /.box-header -->
+                                
+                                <div class="box-body table-responsive">
+  <div class="callout callout-danger">
+                                        <h4>Atenção!</h4>
+                                        <p>**Ocorrências: São os status do pedido. As dificuldades próprias do negócio que impedem de entregar o pedido, até a última: OK – PEDIDO ENTREGUE.
+                                        </p>
+                                    </div>
+                                
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Código ocorrência</th>
+                                                <th>Descrição</th>
+                                                <th>Observacao</th>
+                                                <th>Data Ocorrência</th>
+                                                <th>Ultima Ocorrência</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php if($this->listaHasOcorrencia>0){
+                                        foreach ($this->listaHasOcorrencia as $value){
+                                        ?>
+                                            <tr>
+                                                <td><?php echo $value["fk_ocorrencia"]?></td>
+                                                
+                                                <td><?php echo $value["descricao"]?></td>
+                                                <td><?php echo $value["observacao"]?></td>
+                                                <td><?php echo $value["dataOcorrencia"]?></td>
+                                                <td><?php echo $value["final"]=="0"? "Não":"Sim"?></td>
+                                                <td> 
+                                                 <a alt="Excluir" title="Excluir" href="<?php echo $this->url(array('controller'=>'index','action'=>'delete-ocorrencia-item', 'id'=>$value["id_item_has_ocorrencia"]),null, true);?>" class="btn-sm  btn-danger"><i class="glyphicon glyphicon-trash"></i></a>
+                                                
+                                                </td>
+                                            </tr>
+                                          <?php }}?> 
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                 <th>Código ocorrência</th>
+                                                <th>Descrição</th>
+                                                 <th>Ultima Ocorrência</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                            <div class="form-group">
+                               <!--    <a alt="Excluir" title="Excluir" style="font-family: inherit;" href="<?php echo $this->url(array('controller'=>'index','action'=>'add-ocorrencia-item'),null, true);?>" class="btn-sm  "><i class="btn btn-primary">Adicionar Ocorrência</i></a>   		
+                            -->
+                            <?php echo $this->form ; ?>	      		
+
+                                    		</div>
+<link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
+<!-- page script -->
+<script type="text/javascript">
+            $(function() {
+                $("#example1").dataTable();
+                $('#example2').dataTable({
+                    "bPaginate": true,
+                    "bLengthChange": false,
+                    "bFilter": false,
+                    "bSort": true,
+                    "bInfo": true,
+                    "bAutoWidth": false
+                });
+            });
+</script>

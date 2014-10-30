@@ -1,0 +1,64 @@
+<?php
+	$this->title = "Listar arquivos";
+	$this->headTitle($this->title);
+	//echo $this->form ;
+	
+?>
+<div class="box">
+                                <div class="box-header">
+                                    <h3 class="box-title">Lista Arquivos FTP</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body table-responsive">
+  
+                                
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Layout</th>
+                                                <th>Data criação</th>
+                                                <th>Nome arquivo</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php if($this->listaArquivos>0){
+                                        foreach ($this->listaArquivos as $value){
+                                        ?>
+                                            <tr>
+                                                <td><?php echo $value["layout"]?></td>
+                                                 <td><?php echo $value["datacriacaoFormat"]?></td>
+                                                <td><?php echo $value["nome"]?></td>
+                                                <td> 
+                                                <a alt="Download" title="Download" href="<?php echo $this->url(array('action' => 'gerar-xml','id'=>'11X','n'=>$value["nome"]),null, true);?>" class="btn-sm btn-info"><i class="glyphicon glyphicon-save"></i></a>
+                                                </td>
+                                            </tr>
+                                          <?php }}?> 
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>Layout</th>
+                                                <th>Data criação</th>
+                                                <th>Nome arquivo</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+<link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
+<!-- page script -->
+<script type="text/javascript">
+            $(function() {
+                $("#example1").dataTable();
+                $('#example2').dataTable({
+                    "bPaginate": true,
+                    "bLengthChange": false,
+                    "bFilter": false,
+                    "bSort": true,
+                    "bInfo": true,
+                    "bAutoWidth": false
+                });
+            });
+</script>

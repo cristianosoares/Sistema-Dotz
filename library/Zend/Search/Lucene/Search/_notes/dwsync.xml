@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="BooleanExpressionRecognizer.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580428043" remote="130377006600000000" />
+<file name="Query.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580798064" remote="130377006600000000" />
+<file name="QueryEntry.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580878069" remote="130377006600000000" />
+<file name="QueryHit.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580898070" remote="130377006600000000" />
+<file name="QueryLexer.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580908071" remote="130377006600000000" />
+<file name="QueryParser.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580928072" remote="130377007200000000" />
+<file name="QueryParserContext.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580938072" remote="130377007200000000" />
+<file name="QueryParserException.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580958073" remote="130377007200000000" />
+<file name="QueryToken.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558580978075" remote="130377007200000000" />
+<file name="Similarity.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558581038078" remote="130377007200000000" />
+<file name="Weight.php" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558581278092" remote="130377007200000000" />
+<file name="BooleanExpressionRecognizer.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580428043" remote="130379194200000000" />
+<file name="Query.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580798064" remote="130379194200000000" />
+<file name="QueryEntry.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580878069" remote="130379194200000000" />
+<file name="QueryHit.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580898070" remote="130379194200000000" />
+<file name="QueryLexer.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580908071" remote="130379194200000000" />
+<file name="QueryParser.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580928072" remote="130379194200000000" />
+<file name="QueryParserContext.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580938072" remote="130379194200000000" />
+<file name="QueryParserException.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580958073" remote="130379194200000000" />
+<file name="QueryToken.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558580978075" remote="130379194200000000" />
+<file name="Similarity.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558581038078" remote="130379194200000000" />
+<file name="Weight.php" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558581278092" remote="130379194200000000" />
+</dwsync>

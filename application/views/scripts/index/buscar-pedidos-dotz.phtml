@@ -1,0 +1,64 @@
+<?php
+	$this->title = "Enviar produto novo dotz";
+	$this->headTitle($this->title);
+	//echo $this->form ;
+	
+?>
+<div class="row ">
+                            <div class="col-xs-12 ">
+                            <div class="box box-primary fundoDotz">
+                                <div class="box-header">
+                                    <h3 class="box-title">Buscar novos pedidos Dotz</h3>
+                                    <div class="box-tools pull-right">
+                                     
+                                       <button data-widget="collapse" class="btn btn-primary btn-sm " type="button"><i class="fa fa-minus"></i></button> 
+                                       
+                                       
+                                    </div>
+                                </div><!-- /.box-header -->
+                                <div id="myBody" class="box-body dotz">
+                                    <div class="row ">
+                                        <div class="col-sm-6 ">
+                                          
+                                        	<div class="form-group">
+                                        	<form role="form" action="" method="post" id="formularioEnviarDotz" enctype="multipart/form-data" name="formularioEnviarDotz">
+                                        		<input type="submit" alt="Buscar novos pedidos Dotz" title="Buscar novos pedidos Dotz"  class="btn btn-primary " value="Buscar novos pedidos Dotz" id="submitbutton" name="enviarDotz">                                        		                                        		<button value="vincular" class="btn btn-primary" id="vincularReferencia" name="vincularReferencia" type="submit" style="display: none">Vincular Refêrencia</button>
+                                    			<input type="hidden" id="enviarDotz" name="enviarDotz" value="1"/>
+                                    		</form>
+                                    		</div>
+                                        </div><!-- /.col -->
+                                        
+                                    </div><!-- /.row -->
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                        </div>
+                        </div>
+
+                            <div class="row">
+                            <div class="col-xs-12">
+                            <div class="box box-solid">
+                                <div class="box-header">
+                                    <h3 class="box-title"></h3>
+                                   
+                                </div><!-- /.box-header -->
+                                    
+                            </div><!-- /.box -->
+                        </div>
+                        </div>
+<link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
+<!-- page script -->
+<script type="text/javascript">
+            $(function() {
+                $("#example1").dataTable();
+                $('#example2').dataTable({
+                    "bPaginate": true,
+                    "bLengthChange": false,
+                    "bFilter": false,
+                    "bSort": true,
+                    "bInfo": true,
+                    "bAutoWidth": false
+                });
+            });
+</script>

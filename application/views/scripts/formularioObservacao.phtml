@@ -1,0 +1,65 @@
+ <form action="" method="<?php echo $this->element->getMethod() ?>" id="<?php echo $this->element->getName()?>">
+<div class="formulario-item">
+
+<div class="tituloAprovar"><?php echo $this->element->qt_garrafas->getLabel();?></div>
+
+<div class="textAreaObservacao">
+<?php echo $this->element->qt_garrafas->setLabel("");?>
+</div>
+
+<div class="tituloAprovar"><?php echo $this->element->observacoes->getLabel();?></div>
+<div class="textAreaObservacao">
+<?php echo $this->element->observacoes->setLabel("");?>
+</div>
+</div>
+
+<div class="avaliacaoEvento">
+	<div class="titulo">GERAL</div>
+	<div class="envolveTituloSub fundoAzul">
+		<div class="subTitulo"><?php echo $this->element->pergunta1->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta1->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+	<div class="envolveTituloSub fundoBranco">
+		<div class="subTitulo"><?php echo $this->element->pergunta2->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta2->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+	<div class="envolveTituloSub fundoAzul">
+		<div class="subTitulo"><?php echo $this->element->pergunta3->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta3->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+	
+	<div class="titulo">EQUIPE</div>
+	<div class="envolveTituloSub fundoAzul">
+		<div class="subTitulo"><?php echo $this->element->pergunta4->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta4->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+	<div class="envolveTituloSub fundoBranco">
+		<div class="subTitulo"><?php echo $this->element->pergunta5->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta5->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+	<div class="envolveTituloSub fundoAzul">
+		<div class="subTitulo"><?php echo $this->element->pergunta6->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta6->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+		
+		<div class="titulo">ATIVAÇÕES</div>
+	<div class="envolveTituloSub fundoAzul">
+		<div class="subTitulo"><?php echo $this->element->pergunta7->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta7->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+	<div class="envolveTituloSub fundoBranco">
+		<div class="subTitulo"><?php echo $this->element->pergunta8->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta8->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+	<div class="envolveTituloSub fundoAzul">
+		<div class="subTitulo"><?php echo $this->element->pergunta9->getLabel();?></div>
+		<div class="ruim">Ruim</div><?php echo $this->element->pergunta9->setLabel("");?><div class="excelente">Excelente</div>
+	</div>
+	
+	<div class="textAreaObservacao">
+	<?php echo $this->element->submit;?>
+	</div>
+	
+</div>
+
+</form>

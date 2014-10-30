@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8746891</PEDIDOID>
+      <DATACRIACAO>2014-09-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33605</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>22123468835</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Teste</NOME>
+        <EMAIL>thaisgloria@gmail.com</EMAIL>
+        <RUA>Rua Joaquim Floriano</RUA>
+        <NUMERO>533</NUMERO>
+        <COMPL>15 andar</COMPL>
+        <BAIRRO>Itaim Bibi</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>04534011</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>33774493</TELEFONE>
+        <PONTOREFERENCIA>Predio Sirio</PONTOREFERENCIA>
+        <CODIGOIDENT>596029</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

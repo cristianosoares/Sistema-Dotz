@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<?php
+	$this->headMeta()->appendHttpEquiv('Content-Type', 'text/html;charset=utf-8');
+	$this->headTitle()->setSeparator(' - ');
+	$this->headTitle('TM1 | Dotz');
+	echo $this->doctype();
+
+		
+		$usuarios = new Application_Model_DbTable_Usuario();
+		$usuarioLogado=new Aplicacao_Plugin_Auth();
+       	$this->user = $usuarioLogado->_auth->getIdentity();
+       	$usuarios->getUsuarioImagem($this->user->getId() );
+
+?>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TM1  | Dotz</title>
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+        <!-- bootstrap 3.0.2 -->
+        <link type="text/css" rel="stylesheet" media="screen" href="<?php echo $this->baseUrl().'/css/bootstrap.min.css'?>">
+		<link type="text/css" rel="stylesheet" media="screen" href="<?php echo  $this->baseUrl().'/css/font-awesome.min.css'?>">
+        <!-- Ionicons -->
+        <link type="text/css" rel="stylesheet" media="screen" href="<?php echo  $this->baseUrl().'/css/ionicons.min.css'?>">
+        <!-- Theme style -->
+        <link type="text/css" rel="stylesheet" media="screen" href="<?php echo  $this->baseUrl().'/css/style.css'?>">
+        <link type="text/css" rel="stylesheet" media="screen" href="<?php echo  $this->baseUrl().'/css/AdminLTE.css'?>">
+        <link type="text/css" rel="stylesheet" media="screen" href="<?php echo  $this->baseUrl().'/css/iCheck/minimal/blue.css'?>">
+ 
+
+         
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="<?php echo $this->baseUrl()?>/js/bootstrap.min.js" ></script>
+        <!-- AdminLTE App -->
+        <script src="<?php echo $this->baseUrl()?>/js/AdminLTE/app.js" ></script>
+         <script src="<?php echo $this->baseUrl()?>/js/plugins/ckeditor/ckeditor.js" ></script>
+        <!-- Bootstrap WYSIHTML5 -->
+         <script src="<?php echo $this->baseUrl()?>/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" ></script>
+         <script type="text/javascript">
+            $(function() {
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+               //CKEDITOR.replace('descricao');
+                //bootstrap WYSIHTML5 - text editor
+                //$(".descricao").wysihtml5();
+            });
+        </script>
+    </head>
+    <body class="skin-blue">
+        <!-- header logo: style can be found in header.less -->
+        <header class="header">
+            <a href="<?php echo $this->url(array('controller'=>'index','action'=>'index'),null, true);?>" class="logo">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+               TM1 Dotz 
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <?php echo $this->render('navbar.phtml');?>
+        </header>
+        <div class="wrapper row-offcanvas row-offcanvas-left">
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="left-side sidebar-offcanvas">
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+                    <!-- Sidebar user panel -->
+                    <div class="user-panel">
+                        <div class="pull-left image">
+                            <img src="<?php echo $this->baseUrl()?>/upload/<?php echo $usuarios->getUsuarioImagem($this->user->getId() );?>" class="img-circle" alt="User Image" />
+                        </div>
+                        <div class="pull-left info">
+                            <p>Olá, <?php echo $this->user->getUserName();?></p>
+
+                            <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                        </div>
+                    </div>
+                    <!-- search form -->
+                    <form action="#" method="get" class="sidebar-form" style="display: none">
+                        <div class="input-group">
+                            <input type="text" name="q" class="form-control" placeholder="Search..."/>
+                            <span class="input-group-btn">
+                                <button type='submit' name='seach' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- /.search form -->
+                    <!-- sidebar menu: : style can be found in sidebar.less -->
+                    <?php echo $this->render('nav.phtml');?>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Right side column. Contains the navbar and content of the page -->
+            <aside class="right-side">
+                <!-- Content Header (Page header) -->
+                <!-- You are in: <?php echo $this->navigation()->breadcrumbs()->setLinkLast(false)->setMinDepth(0)->render(); ?>-->
+                <section class="content-header">
+                    <h1>
+                        <?php echo $this->titulo;?>
+                        <small></small>
+                    </h1>
+                    <ol class="breadcrumb" style="display: none">
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="#">Forms</a></li>
+                        <li class="active">General Elements</li>
+                    </ol>
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+                <?php 
+                
+             
+						//$this->view->erro=0;
+                	if($this->erro=="1"){//deu erro
+                		
+                	
+                	?>
+                	<div class="alert alert-danger alert-dismissable">
+                                        <i class="fa fa-ban"></i>
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <b>Alert!</b> <br><?php echo $this->mensagem ?>
+                                    </div>
+                	<?php }elseif ( $this->erro=="0" ) {
+                		?>
+                		<div class="alert alert-success alert-dismissable">
+                                        <i class="fa fa-check"></i>
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <b>Alert!</b> <?php echo $this->mensagem ?>
+                                    </div>
+                		<?php
+                	}elseif ( $this->erro=="3" ) {
+                		?>
+                		<div class="alert alert-warning alert-dismissable">
+                                        <i class="fa fa-check"></i>
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <b>Alert!</b> <?php echo $this->mensagem ?>
+                                    </div>
+                		<?php
+                	}
+                
+                ?>
+                
+                                    
+                                    
+               <?php
+           
+               
+              
+					echo $this->layout()->content;
+				?>
+                  
+                </section><!-- /.content -->
+            </aside><!-- /.right-side -->
+        </div><!-- ./wrapper -->
+        <!-- jQuery 2.0.2 -->
+        
+       
+       
+        
+    </body>
+</html>

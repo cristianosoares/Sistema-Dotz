@@ -1,0 +1,17 @@
+<div id="fileupload">
+    <form action="<?php echo $this->baseUrl()?>/upload/uploadjq/id/<?php echo $this->idEvento?>" method="POST" enctype="multipart/form-data">
+        <div class="fileupload-buttonbar">
+            <label class="fileinput-button">
+                <span>Adicionar imagens...(3mb máximo)</span>
+                <input type="file" name="files[]" multiple>
+            </label>
+            <button type="submit" class="start">Iniciar upload</button>
+            <button type="reset" class="cancel">Cancelar upload</button>
+            <button type="button" class="delete">Deletar arquivos</button>
+        </div>
+    </form>
+    <div class="fileupload-content">
+        <table class="files"></table>
+        <div class="fileupload-progressbar"></div>
+    </div>
+</div>

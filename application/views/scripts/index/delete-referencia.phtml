@@ -1,0 +1,12 @@
+<?php
+	$this->title = "Deletar referencia";
+	$this->headTitle($this->title);
+?>
+<p>Deseja realmente deletar  '<?php echo $this->escape($this->referencia['nome']);?>' Código '<?php echo $this->escape($this->referencia['nome']);?>'?</p>
+
+<form action="<?php echo $this->url(array('action' => 'enviar-novo-produto'),null, true);?>" method="post">
+	<div>
+		<input type="hidden" name="id" value="<?php echo $this->referencia['id_referencia'];?>" /> 
+		<input type="submit" name="del" value="Yes" /> <input type="submit" name="del" value="No" />
+	</div>
+</form>

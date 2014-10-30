@@ -1,0 +1,109 @@
+<?php
+	$this->title = "Enviar produto novo dotz";
+	$this->headTitle($this->title);
+	//echo $this->form ;
+	
+?>
+<div class="box">
+                                <div class="box-header">
+                                    <h3 class="box-title">Lista novos produtos para enviar para Dotz</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body table-responsive">
+                                
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Código</th>
+                                                <th>Imagem</th>
+                                                <th>Nome</th>
+                                                <th>Disponivel</th>
+                                                <th>Ativo</th>
+                                                <th>Preço de</th>
+                                                <th>Preço por</th>
+                                                <th>Saldo</th>
+                                                <th>Atualizado na dotz</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php if($this->listaProdutos>0){
+                                        foreach ($this->listaProdutos as $value){
+                                        ?>
+                                            <tr>
+                                                <td><?php echo $value["id_referencia"]?></td>
+                                                <td><img width="73"  src="<?php echo $this->baseUrl()?>/upload/<?php echo $value["nomeArquivo"]?>"  alt="<?php echo $value["nome"]?>" /></td>
+                                                <td><?php echo $value["nome"]?></td>
+                                                <td> <?php echo $value["disponivel"]=="1"? "Sim":"Não"?></td>
+                                                <td><?php echo $value["ativo"]=="1"? "Sim":"Não"?></td>
+                                                <td><?php echo $value["precode"]?></td>
+                                                <td><?php echo $value["precopor"]?></td>
+                                                <td><?php echo $value["saldo"]?></td>
+                                                <td><?php echo $value["atualizadoDotz"]=="1"? "Sim":"Não"?></td>
+                                                <td> 
+                                              
+                                        
+                                                <a alt="Excluir" title="Excluir" href="<?php echo $this->url(array('controller'=>'index','action'=>'delete-referencia', 'id'=>$value["id_referencia"]),null, true);?>" class="btn-sm  btn-danger"><i class="glyphicon glyphicon-trash"></i></a>
+                                                <a alt="Visualizar" title="Visualizar" href="<?php echo $this->url(array('controller'=>'index','action'=>'visualiza-produto', 'idReferencia'=>$value["id_referencia"]),null, true);?>" class="btn-sm btn-info"><i class="glyphicon glyphicon-eye-open"></i></a>
+                                                 
+                                                </td>
+                                            </tr>
+                                          <?php }}?> 
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                               <th>Código</th>
+                                                <th>Imagem</th>
+                                                <th>Nome</th>
+                                                <th>Disponivel</th>
+                                                <th>Ativo</th>
+                                                <th>Preço de</th>
+                                                <th>Preço por</th>
+                                                <th>Saldo</th>
+                                                <th>Atualizado na dotz</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                            <div class="row">
+                            <div class="col-xs-12">
+                            <div class="box box-solid">
+                                <div class="box-header">
+                                    <h3 class="box-title"></h3>
+                                   
+                                </div><!-- /.box-header -->
+                                <div id="myBody" class="box-body">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                        <form action="<?php echo $this->url(array('action' => 'gerar-xml'),null, true);?>" method="post">
+											<div class="form-group"><input type="submit" class="btn btn-primary" value="Enviar para dotz" id="submitbutton" name="submit"></div>
+										</form>
+                                          
+                                        </div><!-- /.col -->
+                                        <div class="col-sm-6">
+                                            
+                                            
+                                        </div><!-- /.col -->
+                                    </div><!-- /.row -->
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                        </div>
+                        </div>
+<link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
+<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
+<!-- page script -->
+<script type="text/javascript">
+            $(function() {
+                $("#example1").dataTable();
+                $('#example2').dataTable({
+                    "bPaginate": true,
+                    "bLengthChange": false,
+                    "bFilter": false,
+                    "bSort": true,
+                    "bInfo": true,
+                    "bAutoWidth": false
+                });
+            });
+</script>

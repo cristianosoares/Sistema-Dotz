@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+    <nav>
+        <label>Home</label>
+        <controller>index</controller>
+        <action>index</action>
+        <pages>
+            <query>
+                <label>Adicionar Produto</label>
+                <controller>index</controller>
+                <action>add-produto</action>
+                <pages>
+                    <mydrafts>
+                        <label>My Drafts</label>
+                        <controller>query</controller>
+                        <action>index</action>
+                        <params>
+                            <queryname>mydrafts</queryname>
+                        </params>
+                    </mydrafts>
+                    <myorders>
+                        <label>My Orders</label>
+                        <controller>query</controller>
+                        <action>index</action>
+                        <params>
+                            <queryname>myorders</queryname>
+                        </params>
+                    </myorders>
+                    <allopenorders>
+                        <label>All Open Orders</label>
+                        <controller>query</controller>
+                        <action>index</action>
+                        <params>
+                            <queryname>allopenorders</queryname>
+                        </params>
+                    </allopenorders>
+                </pages>
+            </query>
+            <reports>
+                <label>Reports</label>
+                <controller>report</controller>
+                <action>index</action>
+                <pages>
+                    <country>
+                        <label>Country</label>
+                        <controller>report</controller>
+                        <action>country</action>
+                    </country>
+                    <countryrevenue>
+                        <label>Country Revenue</label>
+                        <controller>report</controller>
+                        <action>countryrevenue</action>
+                    </countryrevenue>
+                </pages>
+            </reports>
+        </pages>
+    </nav>
+</configdata>

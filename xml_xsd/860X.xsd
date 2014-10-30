@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TROCA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ARQUIVO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="VERSAO"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PEDIDOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PEDIDO" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:integer" name="PEDIDOID"/>
+                    <xs:element type="xs:string" name="DATACRIACAO"/>
+                    <xs:element name="ITENS">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ITEM" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:all>
+                                <xs:element type="xs:integer" name="ITEMID"/>
+                                <xs:element type="xs:string" name="PRODUTOIDDOTZ"/>
+                                <xs:element type="xs:string" name="PRODUTOIDFORN"/>
+                                <xs:element type="xs:string" name="NOMEPRODUTO"/>
+                                <xs:element type="xs:float" name="FRETE"/>
+                                <xs:element type="xs:float" name="PRECO"/>
+                                <xs:element type="xs:integer" name="QTDE"/>
+                              </xs:all>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="DESTINATARIO">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element type="xs:string" name="DOCUMENTO"/>
+                          <xs:element type="xs:string" name="TIPOPESSOA"/>
+                          <xs:element type="xs:string" name="NOME"/>
+                          <xs:element type="xs:string" name="EMAIL"/>
+                          <xs:element type="xs:string" name="RUA"/>
+                          <xs:element type="xs:string" name="NUMERO"/>
+                          <xs:element type="xs:string" name="COMPL"/>
+                          <xs:element type="xs:string" name="BAIRRO"/>
+                          <xs:element type="xs:string" name="CIDADE"/>
+                          <xs:element type="xs:string" name="UF"/>
+                          <xs:element type="xs:string" name="CEP"/>
+                          <xs:element type="xs:string" name="DDD"/>
+                          <xs:element type="xs:string" name="TELEFONE"/>
+                          <xs:element type="xs:string" name="PONTOREFERENCIA"/>
+                          <xs:element type="xs:string" name="CODIGOIDENT"/>
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="OBSERVACAO"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

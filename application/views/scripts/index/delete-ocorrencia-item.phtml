@@ -1,0 +1,21 @@
+<?php
+	$this->title = "Deletar ocorrência";
+	$this->headTitle($this->title);
+?>
+
+<div class="callout callout-danger">
+                                        <h4>Atenção!</h4>
+                                        Deseja realmente deletar  Descrição:'<?php echo $this->escape($this->ocorrencia['descricao']);?>' Observação: '<?php echo $this->escape($this->ocorrencia['observacao']);?>'?
+                                    </div>
+<form action="<?php echo $this->url(array('action' => 'rastreamento-entrega','idItem'=>$this->ocorrencia['fk_item']),null, true);?>" method="post">
+	<div>
+		<input type="hidden" name="id" value="<?php echo $this->ocorrencia['id_item_has_ocorrencia'];?>" /> 
+		
+	</div>
+	<div class="form-group">
+                                        		
+<input type="submit" class="btn btn-primary" id="submitbutton" name="del" value="Sim">                                        		
+<input type="submit" class="btn btn-primary"   id="vincularReferencia" name="del" value="Não">                                        		
+
+                                    		</div>
+</form>

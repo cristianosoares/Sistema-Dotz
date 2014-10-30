@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>13</PRODUTOID>
+      <NOMEPRODUTO>Teste1</NOMEPRODUTO>
+      <DESCRICAO>Teste1</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\5ff5bba7c506c87a5c086ac2bf20566c.png</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>Teste1</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>14</PRODUTOIDREFERENCIA>
+          <ATIVO>1</ATIVO>
+          <DISPONIVEL>1</DISPONIVEL>
+          <PRECODE>20.00</PRECODE>
+          <PRECOPOR>20.00</PRECOPOR>
+          <FRETEMEDIO>14.00</FRETEMEDIO>
+          <SALDO>0</SALDO>
+          <CODIGOEAN>0</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Teste1</NOME>
+              <VALOR>Teste1</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/5ff5bba7c506c87a5c086ac2bf20566c.png</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

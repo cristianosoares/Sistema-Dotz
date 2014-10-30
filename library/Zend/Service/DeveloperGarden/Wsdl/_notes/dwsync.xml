@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ccsPort.wsdl" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638211348" remote="130377011400000000" />
+<file name="ccsPort.xsd" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638281352" remote="130377011400000000" />
+<file name="IPLocation.wsdl" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638321354" remote="130377011400000000" />
+<file name="IPLocation.xsd" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638471363" remote="130377011400000000" />
+<file name="localsearch.wsdl" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638541367" remote="130377011400000000" />
+<file name="localsearch.xsd" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638601370" remote="130377011400000000" />
+<file name="ODGBaseUserService.wsdl" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638651373" remote="130377011400000000" />
+<file name="ODGBaseUserService.xsd" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638721377" remote="130377011400000000" />
+<file name="SmsService.wsdl" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638791381" remote="130377011400000000" />
+<file name="SmsValidationUserService.wsdl" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638861385" remote="130377011400000000" />
+<file name="TokenService.wsdl" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558638931389" remote="130377011400000000" />
+<file name="VoiceButlerService.wsdl" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558639001393" remote="130377011400000000" />
+<file name="VoiceButlerService.xsd" server="ftp.temperomidia.com.br//cirocontrade!/" local="130371558639071397" remote="130377011400000000" />
+<file name="ccsPort.wsdl" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638211348" remote="130379194800000000" />
+<file name="ccsPort.xsd" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638281352" remote="130379194800000000" />
+<file name="IPLocation.wsdl" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638321354" remote="130379194800000000" />
+<file name="IPLocation.xsd" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638471363" remote="130379194800000000" />
+<file name="localsearch.wsdl" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638541367" remote="130379194800000000" />
+<file name="localsearch.xsd" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638601370" remote="130379194800000000" />
+<file name="ODGBaseUserService.wsdl" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638651373" remote="130379194800000000" />
+<file name="ODGBaseUserService.xsd" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638721377" remote="130379194800000000" />
+<file name="SmsService.wsdl" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638791381" remote="130379194800000000" />
+<file name="SmsValidationUserService.wsdl" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638861385" remote="130379194800000000" />
+<file name="TokenService.wsdl" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558638931389" remote="130379194800000000" />
+<file name="VoiceButlerService.wsdl" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558639001393" remote="130379194800000000" />
+<file name="VoiceButlerService.xsd" server="ftp.temperomidia.com.br//cirocontrade/" local="130371558639071397" remote="130379194800000000" />
+</dwsync>
