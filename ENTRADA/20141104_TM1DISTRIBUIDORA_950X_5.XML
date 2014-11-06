@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>7</PRODUTOID>
+      <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+      <FORNECEDOR>Novy</FORNECEDOR>
+      <DESCRICAO>Todo o lucro arrecadado com a venda das Pulseiras do Bem será destinado à ONG ORIENTAVIDA para ações de conscientização sobre a importância da mamografia na prevenção ao câncer de mama. Pingente da campanha Pense Rosa com cordão de tecido 100% algodão da Marca Liberty London. Como a pulseira tem um cordão de 1 metro de comprimento, você pode dar voltas em torno da parte do corpo que escolher amarrar (sugerimos pulso ou tornozelo), ajustando da maneira que for mais confortável, depois é só fazer um laço para fixar. Sugerimos que o cordão de tecido seja lavado a mão com sabão neutro, assim o tecido não desfia muito e você terá sua pulseira por muito mais tempo.&#13;
+Cores do cordão sujeitas à disponibilidade do estoque.</DESCRICAO>
+      <URL>www.tm1.com.br\dotz\upload\83bf1711271fb520d41ea3e98c030a4b.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>pulseira</PALAVRA>
+        <PALAVRA>pulseira do bem</PALAVRA>
+        <PALAVRA>cancer de mama</PALAVRA>
+        <PALAVRA>pense rosa</PALAVRA>
+        <PALAVRA>outubro rosa</PALAVRA>
+        <PALAVRA>ong orientavida</PALAVRA>
+        <PALAVRA>ong</PALAVRA>
+        <PALAVRA>campanha outubro rosa</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>8</PRODUTOIDREFERENCIA>
+          <ATIVO>1</ATIVO>
+          <DISPONIVEL>1</DISPONIVEL>
+          <PRECODE>15.50</PRECODE>
+          <PRECOPOR>15.50</PRECOPOR>
+          <FRETEMEDIO>15.00</FRETEMEDIO>
+          <SALDO>3500</SALDO>
+          <CODIGOEAN>000000000000000000</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Pingente da campanha Pense Rosa</NOME>
+              <VALOR>pingente feito em Zamac com banho de níquel, esmalte transparente, banho dourado e acabamento final em rosa. </VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>cordão de tecido 100% algodão da Marca Liberty London</NOME>
+              <VALOR>Cordão de 1 metro de comprimento com opção de  11 cores sujeitas à disponibilidade de estoque</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/83bf1711271fb520d41ea3e98c030a4b.jpg</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

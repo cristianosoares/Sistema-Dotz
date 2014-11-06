@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>8</PRODUTOID>
+      <NOMEPRODUTO>Abridor de Latas e Garrafas 6 em 1 &#8211; Novy</NOMEPRODUTO>
+      <FORNECEDOR>Novy</FORNECEDOR>
+      <DESCRICAO>Tenha mais facilidade na cozinha. Só o Abridor Multiuso 6 em 1 possui todas as ferramentas para abrir qualquer tipo de lata, garrafa ou pote de forma rápida, eficiente e segura. Compre já o seu e evite acidentes e imprevisto na cozinha!&#13;
+&#13;
+Não perca tempo abrindo latas, garrafas e potes! O Abridor Multiuso 6 em 1 chegou para facilitar sua vida na cozinha com 6 ferramentas incríveis em um único produto.&#13;
+&#13;
+Abra potes, garrafas e enlatados em geral com muita rapidez, eficiência e segurança. Evite imprevistos e gaste esforço com o que realmente merece. Só ele possui as principais ferramentas para abrir os recipientes de alimentos mais comuns. &#13;
+&#13;
+Cada tipo de pote, garrafa e enlatados, possui uma ferramenta desenvolvida para abrir o mesmo com o máximo de segurança e o mínimo de esforço.&#13;
+&#13;
+Seu corpo é totalmente em plástico de alta resistência o que o torna leve e fácil de lavar. A lâmina do abridor localizado do lado oposto à manivela é de aço inoxidável garantindo assim que o mesmo nunca enferruje.&#13;
+&#13;
+Tenha mais facilidade na cozinha com o Abridor Multiuso 6 em 1!&#13;
+&#13;
+Puxador&#13;
+Extrator de anel&#13;
+Abridor de tampa&#13;
+Cortador de tampa de lata&#13;
+Abridor de tampa de rosca&#13;
+Abridor de tampa de garrafa</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\30bfe5097b7da094ca9c57e5df1b3805.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>Puxador</PALAVRA>
+        <PALAVRA>Extrator de anel</PALAVRA>
+        <PALAVRA>Abridor de tampa</PALAVRA>
+        <PALAVRA>Cortador de tampa de lata</PALAVRA>
+        <PALAVRA>Abridor de tampa de rosca</PALAVRA>
+        <PALAVRA>Abridor de tampa de garrafa</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>9</PRODUTOIDREFERENCIA>
+          <ATIVO>1</ATIVO>
+          <DISPONIVEL>1</DISPONIVEL>
+          <PRECODE>94.90</PRECODE>
+          <PRECOPOR>94.90</PRECOPOR>
+          <FRETEMEDIO>15.00</FRETEMEDIO>
+          <SALDO>30</SALDO>
+          <CODIGOEAN>000000000</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Marca:</NOME>
+              <VALOR>Novy</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Modelo:</NOME>
+              <VALOR>SmartOpen6</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Peso:</NOME>
+              <VALOR>200g</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Dimensão:</NOME>
+              <VALOR>20x6x5cm</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Garantia:</NOME>
+              <VALOR>3 meses</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/30bfe5097b7da094ca9c57e5df1b3805.jpg</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

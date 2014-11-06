@@ -27,8 +27,19 @@ class Application_Form_Produto extends Zend_Form
         ->removeDecorator('Label')
          ->setAttrib('class', 'form-control')
          ->setAttrib('placeholder', 'Enter nome');
-         
             
+        $fk_fornecedor= new Zend_Form_Element_Select('fk_fornecedor');
+        $fk_fornecedor->setAttrib('class', 'form-control');
+        
+        $fornecedor = new Application_Model_DbTable_Fornecedor();
+        $fk_fornecedor->setLabel('Fornecedor')
+        ->setRequired(true);
+        
+        $listaFornecedores=$fornecedor->getFornecedores();
+        $fk_fornecedor->setMultiOptions( $listaFornecedores );
+        $fk_fornecedor->addMultiOption("", "Selecione");
+        $fk_fornecedor->setValue('');
+                        
         $palavraChave= new Zend_Form_Element_Text('palavrachave');
         $palavraChave->setLabel('Palavra-chave')
             ->setRequired(true)
@@ -156,7 +167,7 @@ class Application_Form_Produto extends Zend_Form
 	->addValidator('Size', false, 4024000);
     
         
-        $this->addElements(array($id,$nomeImagem,$nome,$descricao,$palavraChave,$precode,$precopor,$fretemedio,$ativo,$disponivel,$codigoean,$saldo,$fileUpload,$nomeCaracteristica,$valorCaracteristica,$submit,$vincularReferencia,$adicionarCaract,$nomecaract,$valorcaract)); 
+        $this->addElements(array($id,$nomeImagem,$nome,$fk_fornecedor,$descricao,$palavraChave,$precode,$precopor,$fretemedio,$ativo,$disponivel,$codigoean,$saldo,$fileUpload,$nomeCaracteristica,$valorCaracteristica,$submit,$vincularReferencia,$adicionarCaract,$nomecaract,$valorcaract)); 
         
          $this->setDecorators( array( array('ViewScript', array('viewScript' => 'formularioProduto.phtml'))));
     }

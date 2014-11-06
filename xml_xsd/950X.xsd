@@ -11,6 +11,7 @@
                   <xs:sequence>
                     <xs:element type="xs:string" name="PRODUTOID"/>
                     <xs:element type="xs:string" name="NOMEPRODUTO"/>
+                    <xs:element type="xs:string" name="FORNECEDOR"/>
                     <xs:element type="xs:string" name="DESCRICAO"/>
                     <xs:element type="xs:string" name="URL"/>
                     <xs:element name="PALAVRASCHAVE">

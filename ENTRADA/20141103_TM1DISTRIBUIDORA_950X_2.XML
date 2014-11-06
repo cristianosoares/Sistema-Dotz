@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>16</PRODUTOID>
+      <NOMEPRODUTO>Máquina de Costura Portátil Bivolt com Pedal West 202 &#8211; MacLen</NOMEPRODUTO>
+      <FORNECEDOR>Novy</FORNECEDOR>
+      <DESCRICAO>Pequena no tamanho e gigante no desempenho! Tenha uma costura firme e durável. Possui acionamento manual ou através de pedal, perfeita para realizar consertos e pequenos trabalhos, além de funcionar com pilhas ou fonte de energia.&#13;
+Ponto reto com 2 velocidades de avanço. Possui luz que facilita a costura.&#13;
+O acionamento pode ser manual ou por pedal, o que garante uma costura reta, uniforme e constante, na velocidade que você precisar.&#13;
+Funciona através da energia elétrica nas voltagens 110V ou 220V, pois é bivolt. Além disso, pode ser usada com 4 pilhas AA*, o que permite que você use sua máquina portátil em qualquer lugar a qualquer hora.&#13;
+Ela é perfeita para realizar consertos e pequenos trabalhos! Conserta e costura desde peças de tecidos delicados, como algodão ou cetim.&#13;
+O arremate de pequenas costuras, bainhas e barras, ou mesmo para criar blusas, vestidos ou aquela bolsa estilizada que só você vai ter! Use sua criatividade e crie uma infinidade de artigos simples e fácies de fazer como um jogo americano para sua cozinha, um tapete pra sala, almofadas para decorar sua casa ou mesmo cortinas para pia.&#13;
+Ideal para uso doméstico, ela é leve, compacta e fácil de operar! Trabalha com sistema de carretilhas assim como as máquinas grandes e reúne todos os recursos de uma máquina profissional, mas com uma exclusiva vantagem: é a única que você guarda em qualquer cantinho e leva para onde quiser! &#13;
+Não se desespere mais quando precisar pregar um zíper, costurar ou fazer uma barra de última hora, quando você mais precisar. Você que é pratica, independente e gosta de dar seu toque especial às suas roupas, não pode ficar sem a sua! Economize tempo e dinheiro. &#13;
+Faça você mesma os reparos e as roupas que você sempre quis, mas nunca imaginou que pudesse ser tão fácil!&#13;
+&#13;
+Itens inclusos:&#13;
+01 Máquina de Costura&#13;
+01 Pedal&#13;
+01 Fonte Bivolt&#13;
+04 Bobinas&#13;
+01 Agulha&#13;
+01 Passador de linha&#13;
+01 Manual de instruções&#13;
+</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\7e040b0a5307ed848df97eb6529f727f.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>maquina de costura</PALAVRA>
+        <PALAVRA>costura</PALAVRA>
+        <PALAVRA>maquina de costura portatil</PALAVRA>
+        <PALAVRA>costurar</PALAVRA>
+        <PALAVRA>maquina</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>17</PRODUTOIDREFERENCIA>
+          <ATIVO>1</ATIVO>
+          <DISPONIVEL>1</DISPONIVEL>
+          <PRECODE>149.00</PRECODE>
+          <PRECOPOR>149.00</PRECOPOR>
+          <FRETEMEDIO>18.00</FRETEMEDIO>
+          <SALDO>300</SALDO>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+    </PRODUTO>
+    <PRODUTO>
+      <PRODUTOID>5</PRODUTOID>
+      <NOMEPRODUTO>VODKA CÎROC</NOMEPRODUTO>
+      <FORNECEDOR></FORNECEDOR>
+      <DESCRICAO>Um dos maiores casos de sucesso nesse setor presença constante nos ambientes mais badalados e descolados do mundo.&#13;
+O fato de ser feita de uva e, sobretudo, na França, país-ícone do luxo, já confere à CÎROC uma elegância, complementada também por sua garrafa, que lembra os frascos criados por perfumistas.&#13;
+Seu processo de produção, quase artesanal, utiliza fermentação fria, que mantém o frescor e as características marcantes da uva.&#13;
+A figura do galo gravada na garrafa de Ciroc, é um símbolo típico da região de Gailac, na França, e que representa a cultura e a herança do cultivo da uva nesta região.</DESCRICAO>
+      <URL>www.tm1.com.br\dotz\upload\81b761b9c52f07d85aa53e21bbde1d9a.png</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>VODKA</PALAVRA>
+        <PALAVRA>IMPORTADA</PALAVRA>
+        <PALAVRA>FRANÇA</PALAVRA>
+        <PALAVRA>LUXO</PALAVRA>
+        <PALAVRA>UVA</PALAVRA>
+        <PALAVRA>ARTESANAL</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>6</PRODUTOIDREFERENCIA>
+          <ATIVO>0</ATIVO>
+          <DISPONIVEL>0</DISPONIVEL>
+          <PRECODE>129.00</PRECODE>
+          <PRECOPOR>129.00</PRECOPOR>
+          <FRETEMEDIO>30.00</FRETEMEDIO>
+          <SALDO>1000</SALDO>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

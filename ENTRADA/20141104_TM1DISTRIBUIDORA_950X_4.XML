@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>10</PRODUTOID>
+      <NOMEPRODUTO>Esfregão Mop 360° Inox  - Novy</NOMEPRODUTO>
+      <FORNECEDOR>Novy</FORNECEDOR>
+      <DESCRICAO>ESQUEÇA O PANO DE CHÃO! Kit prático de limpeza. O Esfregão Automático Inox possui um sistema automático de centrífuga que além de não enferrujar, realiza a limpeza das franjas do esfregão, sem que você tenha contato com a sujeira!&#13;
+&#13;
+Kit prático de limpeza que traz toda a facilidade que você precisa para limpar pisos, vidraças, móveis e até seu carro, sem precisar se abaixar, ajoelhar ou torcer o pano.&#13;
+ &#13;
+Basta encher o balde com água e produto de limpeza, molhar o esfregão e limpar. Prático, foi projetado para que você passe por todos os cantos, retirando o máximo de sujeira. O Esfregão Automático não agride o piso, não arranha o assoalho e também pode ser usado a seco.&#13;
+ &#13;
+O cesto da centrífuga do Mop é feito em aço inox, o que impede que ele estrague ou enferruje, o balde possui uma hélice de limpeza (360°) no fundo, que gira automaticamente quando o esfregão é mergulhado na água, permitindo uma ótima limpeza das franjas, que são fabricadas 100% de microfibra.&#13;
+ &#13;
+Tenha mais praticidade e eficiência na hora da limpeza com o Esfregão Mop com Centrífuga em Inox.</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\17709f0ffdcee7e6f02e0778100a6fb1.png</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>Esfregão Mop</PALAVRA>
+        <PALAVRA>Kit de Limpeza</PALAVRA>
+        <PALAVRA>Esfregão automático</PALAVRA>
+        <PALAVRA>Esfregão Inox</PALAVRA>
+        <PALAVRA>Esfregão com centrífuga</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>11</PRODUTOIDREFERENCIA>
+          <ATIVO>1</ATIVO>
+          <DISPONIVEL>1</DISPONIVEL>
+          <PRECODE>139.90</PRECODE>
+          <PRECOPOR>139.90</PRECOPOR>
+          <FRETEMEDIO>18.00</FRETEMEDIO>
+          <SALDO>200</SALDO>
+          <CODIGOEAN>000000000</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Marca:</NOME>
+              <VALOR>Novy</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Modelo:</NOME>
+              <VALOR>Mop 360° com Centrífuga Inox</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Garantia:</NOME>
+              <VALOR>1 ano</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Dimensão:</NOME>
+              <VALOR>26,5x26,5 x46,5cm</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Peso:</NOME>
+              <VALOR>2,22 kg</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Itens inclusos:</NOME>
+              <VALOR>01 Base de encaixe; 02 Cabeças em Micro Fibra; 03 Extensões (que formam o cabo); 01 Balde com sistema automático giratório 360º</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/17709f0ffdcee7e6f02e0778100a6fb1.png</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

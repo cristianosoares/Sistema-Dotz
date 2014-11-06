@@ -7,6 +7,14 @@ class Application_Model_DbTable_Produto extends Zend_Db_Table_Abstract
 	protected $_primary = 'id_produto';
 	
 	protected $_dependentTables = array("Application_Model_DbTable_Referencia");
+        
+        protected $_referenceMap = array(
+ 		"fornecedor" => array(
+			"columns" => array("fk_fornecedor"),
+			"refTableClass" => "Application_Model_DbTable_Fornecedor",
+			"refColumns" => array("idFornecedor"),
+		)
+	);
 
 	public function getProduto ($id)
     {
@@ -202,11 +210,11 @@ class Application_Model_DbTable_Produto extends Zend_Db_Table_Abstract
     }
 
 
- 	public function addProduto($nome,$descricao,$urlGeral,$palavrachave){
- 		$data = array('nome' => $nome,'palavrachave' => $palavrachave,'descricao' => $descricao,'url' => $urlGeral);
+ 	public function addProduto($nome,$fk_fornecedor,$descricao,$urlGeral,$palavrachave){
+ 		$data = array('nome' => $nome,'fk_fornecedor' => $fk_fornecedor,'palavrachave' => $palavrachave,'descricao' => $descricao,'url' => $urlGeral);
         return $this->insert($data);
  	}
-    public function addProdutoReferencia($listaNomeCaract,$listaValorCaract,$nome,$descricao,$urlGeral,$palavrachave,$nomeArquivo, $extensao,$ativo,$precode,$precopor,$fretemedio,$disponivel,$saldo,$codigoean)
+    public function addProdutoReferencia($listaNomeCaract,$listaValorCaract,$nome,$fk_fornecedor,$descricao,$urlGeral,$palavrachave,$nomeArquivo, $extensao,$ativo,$precode,$precopor,$fretemedio,$disponivel,$saldo,$codigoean)
     {
         
        
@@ -219,7 +227,7 @@ class Application_Model_DbTable_Produto extends Zend_Db_Table_Abstract
        		$caracteristica = new Application_Model_DbTable_Caracteristica();
        		
 	   		$fk_arquivo=$arquivo->addArquivo($nomeArquivo, $extensao);
-	   		$id_produto=$produto->addProduto($nome,$descricao,$urlGeral,$palavrachave);
+	   		$id_produto=$produto->addProduto($nome,$fk_fornecedor,$descricao,$urlGeral,$palavrachave);
 	   		$id_referencia=$referencia->addReferencia($fk_arquivo,$ativo,$precode,$precopor,$fretemedio,$disponivel,$saldo,$codigoean,$id_produto);
 	   		
 	   		if($listaNomeCaract>0){
@@ -285,9 +293,9 @@ class Application_Model_DbTable_Produto extends Zend_Db_Table_Abstract
 		}
 	   
     }
-    public function updateProduto ($id,$nome,$descricao,$url,$palavrachave)
+    public function updateProduto ($id,$nome,$fk_fornecedor,$descricao,$url,$palavrachave)
     {
-        $data = array('id_produto'=>$id,'nome' => $nome,'palavrachave' => $palavrachave,'descricao' => $descricao);
+        $data = array('id_produto'=>$id,'nome' => $nome,'fk_fornecedor' => $fk_fornecedor,'palavrachave' => $palavrachave,'descricao' => $descricao);
          
        return $this->update($data, 'id_produto = ' . (int) $id);
     }

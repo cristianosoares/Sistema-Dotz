@@ -6,7 +6,7 @@ class Application_Model_DbTable_Fornecedor extends Zend_Db_Table_Abstract
     protected $_name = 'fornecedor';
 	protected $_primary = 'idFornecedor';
 	
-	protected $_dependentTables = array("Application_Model_DbTable_ItemHasFornecedor");
+	protected $_dependentTables = array("Application_Model_DbTable_Produto");
 
 	public function getFornecedor ($id)
     {
@@ -33,21 +33,26 @@ class Application_Model_DbTable_Fornecedor extends Zend_Db_Table_Abstract
     }
 	public function addFornecedor($codFornecedor,$nomFornecedor){
 		
- 		$data = array('codFornecedor' =>$nomFornecedor );
-                $data = array('nomFornecedor' =>$nomFornecedor );
-        return $this->insert($data);
+            $data = array('codFornecedor' =>$codFornecedor, 'nomFornecedor'=>$nomFornecedor );
+            return $this->insert($data);
  	}
-    public function updateOcorrencia ($id,$descricao )
+    public function updateFornecedor ($id,$codFornecedor,$nomFornecedor )
     {
-        $data = array('id_ocorrencia'=>$id,'descricao' =>$descricao );
+        $data = array('idFornecedor'=>$id,'codFornecedor' =>$codFornecedor,'nomFornecedor' =>$nomFornecedor );
          
-       return $this->update($data, 'id_ocorrencia = ' . (int) $id);
+       return $this->update($data, 'idFornecedor = ' . (int) $id);
     }
    
     
-    public function deleteOcorrencia ($id)
+    public function deleteFornecedor ($id)
     {
-        $this->delete('id_ocorrencia =' . (int) $id);
+        $this->delete('idFornecedor =' . (int) $id);
+    }
+    
+    public function getFornecedores ()
+    {
+       $fornecedor = new Application_Model_DbTable_Fornecedor();
+       return $fornecedor->getAdapter()->fetchPairs( $fornecedor->select()->from( 'fornecedor', array('nomFornecedor', 'nomFornecedor') )->order('nomFornecedor'));
     }
 	
 

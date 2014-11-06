@@ -36,7 +36,7 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 		$this->criaConexao();
 		if ($this->conn_id == "") 
 		
-		throw new Exception("VocÃª deve conectar primeiro"."<br>","6");
+		throw new Exception("Você deve conectar primeiro"."<br>","6");
 		if(!ftp_put($this->conn_id,$this->diretorioEntrada.$destino,$fonte,$modo)){
 			throw new Exception("Erro ao enviar arquivo $destino "."<br>","7");
 		}
@@ -96,7 +96,7 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
         $id = (int) $id;
         $row = $this->fetchRow('id_log_arquivos_gerados = ' . $id);
         if (! $row) {
-            throw new Exception("NÃ£o foi possivel encontrar a linha $id");
+            throw new Exception("Não foi possivel encontrar a linha $id");
         }
         return $row->toArray();
     }
@@ -143,9 +143,9 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
     	
 			Zend_Registry::get('logger')->log("entrou layout 950x", Zend_Log::INFO);
 			$produto = new Application_Model_DbTable_Produto();
-		    $listaProdutos=$produto->getProdutosNovosXml();
+                        $listaProdutos=$produto->getProdutosNovosXml();
 			if(count($listaProdutos)<=0){
-				throw new Exception("NÃ£o existe novos produtos para enviar para DOTZ");
+				throw new Exception("Não existe novos produtos para enviar para DOTZ");
 			}
 			#versao do encoding xml
 			$dom = new DOMDocument("1.0", "ISO-8859-1");
@@ -166,6 +166,7 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 					$PRODUTO = $dom->createElement("PRODUTO");
 					$PRODUTOID = $dom->createElement("PRODUTOID", $value["id_produto"]);
 					$NOMEPRODUTO = $dom->createElement("NOMEPRODUTO", $value["nome"]);
+                                        $FORNECEDOR = $dom->createElement("FORNECEDOR", $value["fk_fornecedor"]);
 					$DESCRICAO = $dom->createElement("DESCRICAO", $value["descricao"]);
 					$PALAVRASCHAVE = $dom->createElement("PALAVRASCHAVE");	
 					$palavrachave=explode(",",$value["palavrachave"]);
@@ -176,6 +177,7 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 					$URL= $dom->createElement("URL", $value["url"]);
 					$PRODUTO->appendChild($PRODUTOID);
 					$PRODUTO->appendChild($NOMEPRODUTO);
+                                        $PRODUTO->appendChild($FORNECEDOR);
 					$PRODUTO->appendChild($DESCRICAO);
 					$PRODUTO->appendChild($URL);
 					$PRODUTO->appendChild($PALAVRASCHAVE);
@@ -250,15 +252,11 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 					
 		
 					
-					$CATALOGO->appendChild($PRODUTOS);
-				
-				 
-				
-				
+					$CATALOGO->appendChild($PRODUTOS);			
 			}
 			
 			#adiciona o nÃ³ contato em (root) agenda
-			$dom->appendChild($CATALOGO);	
+			$dom->appendChild($CATALOGO);
 			
 			 $this->_db->beginTransaction();
 			try {
@@ -320,7 +318,7 @@ public function validarNomeArquivoXML($nomeArquivo){
 	$er = '/(^[0-9]{8}\_TM1DISTRIBUIDORA\_(950X|955X|860X|861X|865X|870X|880X|710X|950x|955x|860x|861x|865x|870x|880x|710x)\_([0-9]+)\.(xml|XML))/';
 	if(! preg_match($er, $nomeArquivo)) {
 		Zend_Registry::get('logger')->log("Arquivo fora do padrÃ£o AAAAMMDD_IdentificaÃ§Ã£o do Parceiro_Tipo de Registro_Sequencial.EXTENSÃƒO", Zend_Log::INFO);
-		throw new Exception("Arquivo fora do padrÃ£o AAAAMMDD_IdentificaÃ§Ã£o do Parceiro_Tipo de Registro_Sequencial.EXTENSÃƒO");
+		throw new Exception("Arquivo fora do padrão AAAAMMDD_Identificação do Parceiro_Tipo de Registro_Sequencial.EXTENSÃƒO");
 	}
 }
 /*
@@ -352,28 +350,37 @@ public function validarNomeArquivoXML($nomeArquivo){
 
  * passa por paramentro a lista de ids com a referencia ao produto
  */
-public function gerarLayout955X($referencias){
+public function atualizarLayout950X($referencias){
+            
 		$this->_db->beginTransaction();
-			$layout="955X";
+
+			$layout="950X";
+
 			Zend_Registry::get('logger')->log("entrou layout gerarLayout955X", Zend_Log::INFO);
 			$produto = new Application_Model_DbTable_Produto();
 		
 			$listaProdutos=$produto->getProdutosAtualizadosXml($referencias);
+
+
+
 			#versao do encoding xml
 			$dom = new DOMDocument("1.0", "ISO-8859-1");
+
 
 			#retirar os espacos em branco
 			$dom->preserveWhiteSpace = false;
 
+
 			#gerar o codigo
 			$dom->formatOutput = true;
+
 
 			#criando o nÃ³ principal (root)
 			$CATALOGO = $dom->createElement("CATALOGO");
 			
 			#nÃ³ filho (contato)
-			$id_produto=0;
-			$PRODUTOS = $dom->createElement("PRODUTOS");
+                        $id_produto=0;
+			$PRODUTOS = $dom->createElement("PRODUTOS");                        
 			Zend_Registry::get('logger')->log("antes busca Novos produtos", Zend_Log::INFO);
 			Zend_Registry::get('logger')->log($listaProdutos, Zend_Log::INFO);
 		
@@ -381,13 +388,28 @@ public function gerarLayout955X($referencias){
 			
 			foreach($listaProdutos as $value)     {
 			
-				
 				//$referenciaProduto=$produto->getProdutosNovosIdreferencia($value);
 			
 				$PRODUTO = $dom->createElement("PRODUTO");
 				$PRODUTOID = $dom->createElement("PRODUTOID", $value["id_produto"]);
 				
-				$PRODUTO->appendChild($PRODUTOID);
+                                $NOMEPRODUTO = $dom->createElement("NOMEPRODUTO", $value["nome"]);
+                                $FORNECEDOR = $dom->createElement("FORNECEDOR", $value["fk_fornecedor"]);
+                                $DESCRICAO = $dom->createElement("DESCRICAO", $value["descricao"]);
+                                $PALAVRASCHAVE = $dom->createElement("PALAVRASCHAVE");	
+                                $palavrachave=explode(",",$value["palavrachave"]);
+                                foreach ($palavrachave as $value2){
+                                                $PALAVRA= $dom->createElement("PALAVRA",$value2);
+                                                $PALAVRASCHAVE->appendChild($PALAVRA);
+                                }
+                                $URL= $dom->createElement("URL", $value["url"]);
+                                $PRODUTO->appendChild($PRODUTOID);
+                                $PRODUTO->appendChild($NOMEPRODUTO);
+                                $PRODUTO->appendChild($FORNECEDOR);
+                                $PRODUTO->appendChild($DESCRICAO);
+                                $PRODUTO->appendChild($URL);
+                                $PRODUTO->appendChild($PALAVRASCHAVE);
+                               
 				$REFERENCIAS = $dom->createElement("REFERENCIAS");
 				
 				foreach ($value["referencias"] as $value3){
@@ -401,6 +423,24 @@ public function gerarLayout955X($referencias){
 							$FRETEMEDIO = $dom->createElement("FRETEMEDIO", $value3["fretemedio"]);
 							$SALDO = $dom->createElement("SALDO", $value3["saldo"]);
 						
+							$CODIGOEAN = $dom->createElement("CODIGOEAN", $value3["codigoean"]);
+							$CARACTERISTICAS = $dom->createElement("CARACTERISTICAS");
+							$i=0;
+							foreach ($value3["caracteristicas"]["nomeCaracteristica"] as $values4){
+							$CARACTERISTICA = $dom->createElement("CARACTERISTICA");
+							$NOME = $dom->createElement("NOME", $values4);
+							$VALOR = $dom->createElement("VALOR", $value3["caracteristicas"]["valorCaracteristica"][$i]);
+							$CARACTERISTICA->appendChild($NOME);
+							$CARACTERISTICA->appendChild($VALOR);
+							$CARACTERISTICAS->appendChild($CARACTERISTICA);
+							$i++;
+							}
+							
+							$IMAGENS = $dom->createElement("IMAGENS");
+							
+							$URLIMAGEM = $dom->createElement("URLIMAGEM", $this->urlCompleta.$value3["nomeArquivo"]);
+							$IMAGENS->appendChild($URLIMAGEM);
+
 					$REFERENCIA->appendChild($PRODUTOIDREFERENCIA);
 					$REFERENCIA->appendChild($ATIVO);
 					$REFERENCIA->appendChild($DISPONIVEL);
@@ -409,10 +449,18 @@ public function gerarLayout955X($referencias){
 					$REFERENCIA->appendChild($FRETEMEDIO);
 					$REFERENCIA->appendChild($SALDO);
 					
-						
+					$REFERENCIA->appendChild($CODIGOEAN);
+					$REFERENCIA->appendChild($CARACTERISTICAS);
+					$REFERENCIA->appendChild($IMAGENS);	
+
+
+
+
 					$REFERENCIAS->appendChild($REFERENCIA);
 						
 					
+
+
 					}
 					$PRODUTO->appendChild($REFERENCIAS);
 					$LOJAS = $dom->createElement("LOJAS");
@@ -423,20 +471,33 @@ public function gerarLayout955X($referencias){
 					$LOJA->appendChild($NOME);
 					$LOJAS->appendChild($LOJA);
 					$PRODUTO->appendChild($LOJAS);
+					
+					$DEPARTAMENTOS = $dom->createElement("DEPARTAMENTOS");
+					$ID = $dom->createElement("ID", "1");
+					$NOME = $dom->createElement("NOME", "1");
+					$IDPAI = $dom->createElement("IDPAI", "1");
+					$NOMEPAI = $dom->createElement("NOMEPAI", "1");
+					$DEPARTAMENTOS->appendChild($ID);
+					$DEPARTAMENTOS->appendChild($NOME);
+					$DEPARTAMENTOS->appendChild($IDPAI);
+					$DEPARTAMENTOS->appendChild($NOMEPAI);
+					$PRODUTO->appendChild($DEPARTAMENTOS);
 								
 					$PRODUTOS->appendChild($PRODUTO);
-						
+					
+                                        
+
+
 					$CATALOGO->appendChild($PRODUTOS);
-
-						
-
 
 			}
 			
 			
+
 			$dom->appendChild($CATALOGO);
 				
 			
+
 			try {
 				//Salva arquivo na pasta local e dotz
 				$dom->saveXML();
@@ -447,6 +508,8 @@ public function gerarLayout955X($referencias){
 				
 				//$this->_db->rollBack();
 				Zend_Registry::get('logger')->log("Atualizado com sucesso com sucesso", Zend_Log::INFO);
+
+
 			} catch (Exception $e) {
 				$this->_db->rollBack();
 				throw new Exception($e->getMessage());
@@ -454,6 +517,8 @@ public function gerarLayout955X($referencias){
 			}
 			
 					
+
+
 
 	}
 /*
@@ -879,7 +944,7 @@ public function gerarLayout870X($fk_item){
 		     * serÃ¡ um objeto do tipo LibXmlError
 		     */
 		     Zend_Registry::get('logger')->log($arrayAllErrors, Zend_Log::INFO);
-		     $objRetorno["mensagem"]="Estrutura do XML invÃ¡lida<br>";
+		     $objRetorno["mensagem"]="Estrutura do XML inválida<br>";
 		     foreach ($arrayAllErrors as $value){
 		     	//Zend_Registry::get('logger')->log($value->message, Zend_Log::INFO);
 		     	$objRetorno["mensagem"] = $objRetorno["mensagem"]."<br>".$value->message." Linha= ".$value->line;
@@ -892,8 +957,8 @@ public function gerarLayout870X($fk_item){
 		} else {
 		
 		    /* XML validado! */
-		    Zend_Registry::get('logger')->log("XML obedece Ã s regras definidas no arquivo XSD!", Zend_Log::INFO);
-		    $objRetorno["mensagem"] ="XML obedece Ã s regras definidas no arquivo XSD!";
+		    Zend_Registry::get('logger')->log("XML obedece ás regras definidas no arquivo XSD!", Zend_Log::INFO);
+		    $objRetorno["mensagem"] ="XML obedece ás regras definidas no arquivo XSD!";
 			$objRetorno["erro"]=0;
 			
 			return $objRetorno;
