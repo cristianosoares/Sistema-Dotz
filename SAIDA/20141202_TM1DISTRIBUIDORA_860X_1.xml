@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9451001</PEDIDOID>
+      <DATACRIACAO>2014-12-01</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35739</ITEMID>
+          <PRODUTOIDDOTZ>4918335</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>15</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao Esportivo com Camera Embutida 4GB de memoria - Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>07411222860</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Jose ilson Gomes</NOME>
+        <EMAIL>jigomes@metrosp.com.br</EMAIL>
+        <RUA>Rua Sarmento de Beires</RUA>
+        <NUMERO>376</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Jardim Portugal</BAIRRO>
+        <CIDADE>Sao Bernardo do Campo</CIDADE>
+        <UF>SP</UF>
+        <CEP>09715180</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>23565600</TELEFONE>
+        <PONTOREFERENCIA>CARREFOUR AV  PRESTES MAIA SBC</PONTOREFERENCIA>
+        <CODIGOIDENT>2466156</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9451394</PEDIDOID>
+      <DATACRIACAO>2014-12-01</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35739</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>83091742768</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marcus</NOME>
+        <EMAIL>Marcusjbernardo@yahoo.com.br</EMAIL>
+        <RUA>Avenida das Laranjeiras</RUA>
+        <NUMERO>115</NUMERO>
+        <COMPL />
+        <BAIRRO>Morada de Laranjeiras</BAIRRO>
+        <CIDADE>Serra</CIDADE>
+        <UF>ES</UF>
+        <CEP>29166837</CEP>
+        <DDD>27</DDD>
+        <TELEFONE>98868762</TELEFONE>
+        <PONTOREFERENCIA>Ao lado do condominio Serra Atlantico</PONTOREFERENCIA>
+        <CODIGOIDENT>3208394</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9452695</PEDIDOID>
+      <DATACRIACAO>2014-12-01</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35739</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>52947734904</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>CARLOS ROBERTO VITORINO</NOME>
+        <EMAIL>treiterodoparana@hotmail.com</EMAIL>
+        <RUA>rua pedro duarte</RUA>
+        <NUMERO>165</NUMERO>
+        <COMPL />
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>nova ubirata</CIDADE>
+        <UF>MT</UF>
+        <CEP>78888000</CEP>
+        <DDD>66</DDD>
+        <TELEFONE>99173780</TELEFONE>
+        <PONTOREFERENCIA>Nao Informado</PONTOREFERENCIA>
+        <CODIGOIDENT>14787761</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9456320</PEDIDOID>
+      <DATACRIACAO>2014-12-01</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35739</ITEMID>
+          <PRODUTOIDDOTZ>5135237</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>31</PRODUTOIDFORN>
+          <NOMEPRODUTO>Magic Mop Spray 360 - Novy</NOMEPRODUTO>
+          <PRECO>152</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>48425230004</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>said marques</NOME>
+        <EMAIL>saidmarques@yahoo.com.br</EMAIL>
+        <RUA>Rua Alceu Vamosi</RUA>
+        <NUMERO>47</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Assuncao</BAIRRO>
+        <CIDADE>Alegrete</CIDADE>
+        <UF>RS</UF>
+        <CEP>97543010</CEP>
+        <DDD>55</DDD>
+        <TELEFONE>99180266</TELEFONE>
+        <PONTOREFERENCIA>frente escola euclides lisboa</PONTOREFERENCIA>
+        <CODIGOIDENT>3300613</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9460365</PEDIDOID>
+      <DATACRIACAO>2014-12-02</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35739</ITEMID>
+          <PRODUTOIDDOTZ>5052658</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>19</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Geladeira 4 Litros Frigobar Multilaser</NOMEPRODUTO>
+          <PRECO>279</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01820108996</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>PAULO EUCLIDES MARQUES</NOME>
+        <EMAIL>paulo@gava.com.br</EMAIL>
+        <RUA>Jose Victor da Rosa</RUA>
+        <NUMERO>993</NUMERO>
+        <COMPL>galpao04</COMPL>
+        <BAIRRO>Barreiros</BAIRRO>
+        <CIDADE>Sao Jose</CIDADE>
+        <UF>SC</UF>
+        <CEP>88117405</CEP>
+        <DDD>48</DDD>
+        <TELEFONE>33467620</TELEFONE>
+        <PONTOREFERENCIA>PROXIMO AO CEASA</PONTOREFERENCIA>
+        <CODIGOIDENT>12774448</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9460397</PEDIDOID>
+      <DATACRIACAO>2014-12-02</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35739</ITEMID>
+          <PRODUTOIDDOTZ>5135237</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>31</PRODUTOIDFORN>
+          <NOMEPRODUTO>Magic Mop Spray 360 - Novy</NOMEPRODUTO>
+          <PRECO>152</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>34222995053</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>CLAUDIO</NOME>
+        <EMAIL>claudioap@tcu.gov.br</EMAIL>
+        <RUA>Rua Doutor Barros Cassal</RUA>
+        <NUMERO>666</NUMERO>
+        <COMPL>Ap 302</COMPL>
+        <BAIRRO>Floresta</BAIRRO>
+        <CIDADE>Porto Alegre</CIDADE>
+        <UF>RS</UF>
+        <CEP>90035030</CEP>
+        <DDD>51</DDD>
+        <TELEFONE>33111505</TELEFONE>
+        <PONTOREFERENCIA>Entre ruas Vasco da Gama e Osvaldo Aranha</PONTOREFERENCIA>
+        <CODIGOIDENT>116056</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9461144</PEDIDOID>
+      <DATACRIACAO>2014-12-02</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35739</ITEMID>
+          <PRODUTOIDDOTZ>5135236</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>32</PRODUTOIDFORN>
+          <NOMEPRODUTO>Sapateira 7 Andares - Toprack  Novy</NOMEPRODUTO>
+          <PRECO>89</PRECO>
+          <FRETE>25</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>23191783334</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Vania mARIA Chaves Gondim</NOME>
+        <EMAIL>vmcg07@hotmail.com</EMAIL>
+        <RUA>Rua 6</RUA>
+        <NUMERO>07</NUMERO>
+        <COMPL>sqc</COMPL>
+        <BAIRRO>Industrial</BAIRRO>
+        <CIDADE>Maracanau</CIDADE>
+        <UF>CE</UF>
+        <CEP>61925070</CEP>
+        <DDD>85</DDD>
+        <TELEFONE>88974034</TELEFONE>
+        <PONTOREFERENCIA>proximo a paniifficadora BOM DE VERA</PONTOREFERENCIA>
+        <CODIGOIDENT>5157543</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

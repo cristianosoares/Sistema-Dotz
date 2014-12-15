@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8898130</PEDIDOID>
+      <DATACRIACAO>2014-10-15</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34150</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>43263100734</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>maria thereza beltrao avila</NOME>
+        <EMAIL>lindinhabeltrao@gmail.com</EMAIL>
+        <RUA>R OSCAR VALDETARO</RUA>
+        <NUMERO>94</NUMERO>
+        <COMPL>1003</COMPL>
+        <BAIRRO>BARRA DA TIJUCA</BAIRRO>
+        <CIDADE>RIO DE JANEIRO</CIDADE>
+        <UF>RJ</UF>
+        <CEP>22793670</CEP>
+        <DDD>21</DDD>
+        <TELEFONE>24382590</TELEFONE>
+        <PONTOREFERENCIA>condominio novo leblon barra da tijuca</PONTOREFERENCIA>
+        <CODIGOIDENT>1793616</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8902002</PEDIDOID>
+      <DATACRIACAO>2014-10-15</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34150</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>31792113854</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Leila</NOME>
+        <EMAIL>leilaf.82@gmail.com</EMAIL>
+        <RUA>Avenida Doutor Cassio Paschoal Padovani</RUA>
+        <NUMERO>1477</NUMERO>
+        <COMPL>apto 1204</COMPL>
+        <BAIRRO>Morumbi</BAIRRO>
+        <CIDADE>Piracicaba</CIDADE>
+        <UF>SP</UF>
+        <CEP>13420355</CEP>
+        <DDD>19</DDD>
+        <TELEFONE>33755940</TELEFONE>
+        <PONTOREFERENCIA>Colegio CLQ</PONTOREFERENCIA>
+        <CODIGOIDENT>2389157</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

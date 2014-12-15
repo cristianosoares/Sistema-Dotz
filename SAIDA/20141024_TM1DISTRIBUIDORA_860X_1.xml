@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8993179</PEDIDOID>
+      <DATACRIACAO>2014-10-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34416</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>11786563819</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Joana</NOME>
+        <EMAIL>odair_franca@yahoo.com.br</EMAIL>
+        <RUA>Rua Rubens Oscar Guelli</RUA>
+        <NUMERO>59</NUMERO>
+        <COMPL />
+        <BAIRRO>Altos da Bela Vista</BAIRRO>
+        <CIDADE>Indaiatuba</CIDADE>
+        <UF>SP</UF>
+        <CEP>13331452</CEP>
+        <DDD>19</DDD>
+        <TELEFONE>38758845</TELEFONE>
+        <PONTOREFERENCIA>Depois do entrada do jardim Paradiso</PONTOREFERENCIA>
+        <CODIGOIDENT>17021932</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8999722</PEDIDOID>
+      <DATACRIACAO>2014-10-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34416</ITEMID>
+          <PRODUTOIDDOTZ>4918338</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>12</PRODUTOIDFORN>
+          <NOMEPRODUTO>Fatiador de Legumes - Novy - QE</NOMEPRODUTO>
+          <PRECO>85.9</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>14392695808</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Valter Arakaki</NOME>
+        <EMAIL>valttati1005@msn.com</EMAIL>
+        <RUA>Carmo Brenga</RUA>
+        <NUMERO>935</NUMERO>
+        <COMPL>antiga rua 3</COMPL>
+        <BAIRRO>Conjunto Habitacional Julio de Mesquita Filho</BAIRRO>
+        <CIDADE>Sorocaba</CIDADE>
+        <UF>SP</UF>
+        <CEP>18053050</CEP>
+        <DDD>15</DDD>
+        <TELEFONE>34173980</TELEFONE>
+        <PONTOREFERENCIA>proximo ao mercado sato</PONTOREFERENCIA>
+        <CODIGOIDENT>17033387</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

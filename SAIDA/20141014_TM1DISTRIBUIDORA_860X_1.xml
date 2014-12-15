@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8881014</PEDIDOID>
+      <DATACRIACAO>2014-10-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34089</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>02230195182</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Patricia Prates</NOME>
+        <EMAIL>dudabhering@yahoo.com</EMAIL>
+        <RUA>Quadra SQN 205 Bloco E</RUA>
+        <NUMERO>205</NUMERO>
+        <COMPL>Apto 304</COMPL>
+        <BAIRRO>Asa Norte</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>70843050</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>34142575</TELEFONE>
+        <PONTOREFERENCIA>Asa norte</PONTOREFERENCIA>
+        <CODIGOIDENT>14842203</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

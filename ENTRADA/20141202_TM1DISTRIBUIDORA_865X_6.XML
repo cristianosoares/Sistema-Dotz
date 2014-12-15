@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RASTREAMENTO>
+  <ARQUIVO>
+    <VERSAO>1.0</VERSAO>
+  </ARQUIVO>
+  <LOTE>
+    <NOMEARQUIVO>20141105_TM1DISTRIBUIDORA_860X_1.xml</NOMEARQUIVO>
+  </LOTE>
+  <PEDIDOS>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9107943</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>163</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9108145</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>164</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9109143</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>165</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9109247</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>166</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9110898</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>167</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9111191</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>168</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9111687</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>169</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9111440</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>170</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9112319</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>171</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9112738</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>172</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9112796</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>173</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9113900</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>174</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9114876</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>175</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9120321</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>176</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9120322</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>177</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+  </PEDIDOS>
+</RASTREAMENTO>

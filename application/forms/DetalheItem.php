@@ -110,6 +110,19 @@ class Application_Form_DetalheItem extends Zend_Form
         ->setAttrib('class', 'form-control')
         ->setAttrib('placeholder', '');
         
+        $u_chave= new Zend_Form_Element_Text('u_chave');
+        $u_chave->setLabel('Chave de acesso NF')
+        ->setRequired(true)
+        
+        ->addFilter('StripTags')
+        ->addFilter('StringTrim')
+        ->addValidator('NotEmpty')
+        ->removeDecorator('DtDdWrapper')
+        ->removeDecorator('HtmlTag')
+        ->removeDecorator('Label')
+        ->setAttrib('class', 'form-control')
+        ->setAttrib('placeholder', '');
+        
         $numero_nf= new Zend_Form_Element_Text('numero_nf');
         $numero_nf->setLabel('Número da NF de cobrança ')
         ->setRequired(true)
@@ -157,7 +170,7 @@ class Application_Form_DetalheItem extends Zend_Form
         
     
         
-        $this->addElements(array($id_pedido_dotz,$id_pedido,$produtoiddotz,$id_item,$preco,$frete,$peso,$nr_rastreio,$numero_nf,$numero_linha_nf,$submit,$voltar)); 
+        $this->addElements(array($id_pedido_dotz,$id_pedido,$produtoiddotz,$id_item,$preco,$frete,$peso,$nr_rastreio,$u_chave,$numero_nf,$numero_linha_nf,$submit,$voltar)); 
         
          $this->setDecorators( array( array('ViewScript', array('viewScript' => 'formularioRastreamento.phtml'))));
     }

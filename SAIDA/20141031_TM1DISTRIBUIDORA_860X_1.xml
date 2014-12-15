@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9060540</PEDIDOID>
+      <DATACRIACAO>2014-10-31</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34636</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>03605869610</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Daniela oliveira carvalho</NOME>
+        <EMAIL>daniliel@ig.com.br</EMAIL>
+        <RUA>Sao Luiz</RUA>
+        <NUMERO>289</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Niteroi</BAIRRO>
+        <CIDADE>Betim</CIDADE>
+        <UF>MG</UF>
+        <CEP>32672120</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>35327061</TELEFONE>
+        <PONTOREFERENCIA>proximo ao clube dos metalurgicos</PONTOREFERENCIA>
+        <CODIGOIDENT>14962206</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9063644</PEDIDOID>
+      <DATACRIACAO>2014-10-31</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34636</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01953517897</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Paulino Frulani de Paula</NOME>
+        <EMAIL>paulinofrulani@ig.com.br</EMAIL>
+        <RUA>R RUI BARBOSA</RUA>
+        <NUMERO>377</NUMERO>
+        <COMPL>Ap. 62 - Bl. 2</COMPL>
+        <BAIRRO>VILA GILDA</BAIRRO>
+        <CIDADE>SANTO ANDRE</CIDADE>
+        <UF>SP</UF>
+        <CEP>09190370</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>44274431</TELEFONE>
+        <PONTOREFERENCIA>Paralela Av. Higienopolis - Santo Andre</PONTOREFERENCIA>
+        <CODIGOIDENT>2123098</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9064273</PEDIDOID>
+      <DATACRIACAO>2014-10-31</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34636</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>04630686886</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>MAURICIO SILVA DA TRINDADE</NOME>
+        <EMAIL>mauricio.trindade@cptm.sp.gov.br</EMAIL>
+        <RUA>RUA FLOR DE AMORAS</RUA>
+        <NUMERO>347</NUMERO>
+        <COMPL>SEM COMPLEMENTO</COMPL>
+        <BAIRRO>JARDIM DAS FLORES</BAIRRO>
+        <CIDADE>OSASCO</CIDADE>
+        <UF>SP</UF>
+        <CEP>06114060</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>36854138</TELEFONE>
+        <PONTOREFERENCIA>paralela a Rua Dalia</PONTOREFERENCIA>
+        <CODIGOIDENT>13368371</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9068081</PEDIDOID>
+      <DATACRIACAO>2014-10-31</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34636</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>75980711015</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>eni</NOME>
+        <EMAIL>cristiantunes23@hotmail.com</EMAIL>
+        <RUA>Passagem Cinco</RUA>
+        <NUMERO>588</NUMERO>
+        <COMPL>acesso 27</COMPL>
+        <BAIRRO>Jardim Carvalho</BAIRRO>
+        <CIDADE>Porto Alegre</CIDADE>
+        <UF>RS</UF>
+        <CEP>91430680</CEP>
+        <DDD>51</DDD>
+        <TELEFONE>33915401</TELEFONE>
+        <PONTOREFERENCIA>rua nos fundos da escola evaristo goncalves</PONTOREFERENCIA>
+        <CODIGOIDENT>3169312</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9068148</PEDIDOID>
+      <DATACRIACAO>2014-10-31</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34636</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01987579992</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>WILSON CASTELLO B NETO</NOME>
+        <EMAIL>wilson.castello@gmail.com</EMAIL>
+        <RUA>R MARCELINO COSTA</RUA>
+        <NUMERO>154</NUMERO>
+        <COMPL>CASA</COMPL>
+        <BAIRRO>CENTRO</BAIRRO>
+        <CIDADE>SAO JOAQUIM</CIDADE>
+        <UF>SC</UF>
+        <CEP>88600000</CEP>
+        <DDD>49</DDD>
+        <TELEFONE>32333071</TELEFONE>
+        <PONTOREFERENCIA>Nao Informado</PONTOREFERENCIA>
+        <CODIGOIDENT>10610368</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

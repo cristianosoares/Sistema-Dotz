@@ -40,17 +40,24 @@ class Application_Model_DbTable_Pedido extends Zend_Db_Table_Abstract
     public function getListaPedido(){		
         $select =$this->_db->select()
     	->from(array('p' => 'pedido'),array("*",'datacriacao' => new Zend_Db_Expr("DATE_FORMAT(p.datacriacao,'%d/%m/%Y')")))
-    	->joinLeft(array('d' => 'destinatario'),('p.id_pedido =d.fk_pedido'));		
+    	->joinLeft(array('d' => 'destinatario'),('p.id_pedido =d.fk_pedido'))
+        ->joinLeft(array('i' => 'item'),('p.id_pedido=i.fk_pedido'))
+        ->joinInner(array('r' => 'referencia'),('r.id_referencia =i.fk_referencia'))        
+        ->joinLeft(array('pr' => 'produto'),'pr.id_produto =r.fk_produto',array('fk_fornecedor'=>'pr.fk_fornecedor'));
     	$result = $this->getAdapter()->fetchAll($select);
     	return $result;
     }
-    public  function  getPedidos($start_date,$end_date){
+    public  function  getPedidos($start_date,$end_date,$fornecedor){
         $select =$this->_db->select()
     	->from(array('p' => 'pedido'),array("*",'datacriacao' => new Zend_Db_Expr("DATE_FORMAT(p.datacriacao,'%d/%m/%Y')")))
     	->joinLeft(array('d' => 'destinatario'),('p.id_pedido =d.fk_pedido'))
-        ->joinLeft(array('i' => 'item'),('p.id_pedido =i.id_item'))
+        ->joinLeft(array('i' => 'item'),('p.id_pedido =i.fk_pedido'))
+        ->joinInner(array('r' => 'referencia'),('r.id_referencia =i.fk_referencia'))        
+        ->joinLeft(array('pr' => 'produto'),'pr.id_produto =r.fk_produto',array('fk_fornecedor'=>'pr.fk_fornecedor'))
+        ->order('p.id_pedido')
         ->where("p.datacriacao >= ?",  $start_date)
-        ->where("p.datacriacao <= ?",  $end_date); 
+        ->where("p.datacriacao <= ?",  $end_date)
+        ->where("pr.fk_fornecedor LIKE '%$fornecedor%'");     
     	$result = $this->getAdapter()->fetchAll($select);
     	return $result;  	    
     }

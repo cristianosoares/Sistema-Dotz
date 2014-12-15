@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9292192</PEDIDOID>
+      <DATACRIACAO>2014-11-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35396</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>26219280130</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Ana Lucia Rodrigues da Silva</NOME>
+        <EMAIL>analuciaftb@yahoo.com.br</EMAIL>
+        <RUA>Quadra 112 Conjunto 10</RUA>
+        <NUMERO>6</NUMERO>
+        <COMPL>casa 06</COMPL>
+        <BAIRRO>Recanto das Emas</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>72602411</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>33312903</TELEFONE>
+        <PONTOREFERENCIA>Quadra em ao quartel do corpo de bombeiros</PONTOREFERENCIA>
+        <CODIGOIDENT>2548042</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9292421</PEDIDOID>
+      <DATACRIACAO>2014-11-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35396</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>65303520072</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Maria Leila Gessinger</NOME>
+        <EMAIL>lucimaragz@hotmail.com</EMAIL>
+        <RUA>Rua Almirante Barroso</RUA>
+        <NUMERO>2800</NUMERO>
+        <COMPL />
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Pelotas</CIDADE>
+        <UF>RS</UF>
+        <CEP>96010280</CEP>
+        <DDD>53</DDD>
+        <TELEFONE>32276915</TELEFONE>
+        <PONTOREFERENCIA>proximo ao Canalete da Argolo</PONTOREFERENCIA>
+        <CODIGOIDENT>5920280</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9296379</PEDIDOID>
+      <DATACRIACAO>2014-11-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35396</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>18879250078</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Gilson Frasson</NOME>
+        <EMAIL>gilsonlfrasson@yahoo.com.br</EMAIL>
+        <RUA>Rua Joao Candido Marinho</RUA>
+        <NUMERO>311</NUMERO>
+        <COMPL>D</COMPL>
+        <BAIRRO>Jardim Italia</BAIRRO>
+        <CIDADE>Chapeco</CIDADE>
+        <UF>SC</UF>
+        <CEP>89802430</CEP>
+        <DDD>49</DDD>
+        <TELEFONE>33212351</TELEFONE>
+        <PONTOREFERENCIA>Academia gua Viva</PONTOREFERENCIA>
+        <CODIGOIDENT>2985557</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9297010</PEDIDOID>
+      <DATACRIACAO>2014-11-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35396</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>32839332000</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Bartolomeo Nilo da Silva Nunes</NOME>
+        <EMAIL>barnunes28@hotmail.com</EMAIL>
+        <RUA>Rua Paul Harris</RUA>
+        <NUMERO>866</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>Canela</CIDADE>
+        <UF>RS</UF>
+        <CEP>95680000</CEP>
+        <DDD>54</DDD>
+        <TELEFONE>32823867</TELEFONE>
+        <PONTOREFERENCIA>esporte clube serrano</PONTOREFERENCIA>
+        <CODIGOIDENT>2773620</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9294671</PEDIDOID>
+      <DATACRIACAO>2014-11-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35396</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>12090941855</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Zenaide Uchida</NOME>
+        <EMAIL>zenaideuchida@hotmail.com</EMAIL>
+        <RUA>travessa Parana</RUA>
+        <NUMERO>36</NUMERO>
+        <COMPL>apartamento 701</COMPL>
+        <BAIRRO>Renato Goncalves</BAIRRO>
+        <CIDADE>Barreiras</CIDADE>
+        <UF>BA</UF>
+        <CEP>47806064</CEP>
+        <DDD>77</DDD>
+        <TELEFONE>36123739</TELEFONE>
+        <PONTOREFERENCIA>proximo ao decimo primeiro Batalhao</PONTOREFERENCIA>
+        <CODIGOIDENT>14876533</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9294547</PEDIDOID>
+      <DATACRIACAO>2014-11-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35396</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>79227260668</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>GILCEIA MARTINS DOS SANTOS</NOME>
+        <EMAIL>gilceiamartins@yahoo.com.br</EMAIL>
+        <RUA>rua Silveira Martins</RUA>
+        <NUMERO>483</NUMERO>
+        <COMPL />
+        <BAIRRO>Aparecida</BAIRRO>
+        <CIDADE>Belo Horizonte</CIDADE>
+        <UF>MG</UF>
+        <CEP>31235200</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>34286466</TELEFONE>
+        <PONTOREFERENCIA>padaria padua</PONTOREFERENCIA>
+        <CODIGOIDENT>17665531</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9299968</PEDIDOID>
+      <DATACRIACAO>2014-11-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35396</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>03145093800</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Eliseu Roque</NOME>
+        <EMAIL>ale.roque2@hotmail.com</EMAIL>
+        <RUA>R JOAO PINHO</RUA>
+        <NUMERO>14</NUMERO>
+        <COMPL>51</COMPL>
+        <BAIRRO>BOQUEIRAO</BAIRRO>
+        <CIDADE>SANTOS</CIDADE>
+        <UF>SP</UF>
+        <CEP>11055060</CEP>
+        <DDD>13</DDD>
+        <TELEFONE>32249350</TELEFONE>
+        <PONTOREFERENCIA>Em frente a Igreja Nosso Senhor dos Passos</PONTOREFERENCIA>
+        <CODIGOIDENT>2121460</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9302740</PEDIDOID>
+      <DATACRIACAO>2014-11-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35396</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>02403711608</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Eliete</NOME>
+        <EMAIL>graziele.araujo@arcelormittal.com.br</EMAIL>
+        <RUA>Rua dos Goitacazes</RUA>
+        <NUMERO>43</NUMERO>
+        <COMPL>4 andar</COMPL>
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Belo Horizonte</CIDADE>
+        <UF>MG</UF>
+        <CEP>30190050</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>32243955</TELEFONE>
+        <PONTOREFERENCIA>Entre Espirito Santo e rua da Bahia</PONTOREFERENCIA>
+        <CODIGOIDENT>1194186</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

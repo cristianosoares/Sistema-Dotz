@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9078914</PEDIDOID>
+      <DATACRIACAO>2014-11-01</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34686</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>07599784845</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Isabel Zeppellini</NOME>
+        <EMAIL>ricardo.zeppellini@seojuanis.com.br</EMAIL>
+        <RUA>Marques de Olinda</RUA>
+        <NUMERO>556</NUMERO>
+        <COMPL />
+        <BAIRRO>Real</BAIRRO>
+        <CIDADE>Praia Grande</CIDADE>
+        <UF>SP</UF>
+        <CEP>11707230</CEP>
+        <DDD>13</DDD>
+        <TELEFONE>981184758</TELEFONE>
+        <PONTOREFERENCIA>altura do 15000 da Kennedy</PONTOREFERENCIA>
+        <CODIGOIDENT>34686</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9082390</PEDIDOID>
+      <DATACRIACAO>2014-11-02</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34686</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>03162143888</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>DAVID ITIRO FUJIYAMA</NOME>
+        <EMAIL>itirofujiyama@gmail.com</EMAIL>
+        <RUA>VIELA UM</RUA>
+        <NUMERO>48</NUMERO>
+        <COMPL>CHCARA</COMPL>
+        <BAIRRO>JARDIM TROPICAL</BAIRRO>
+        <CIDADE>MARILIA</CIDADE>
+        <UF>SP</UF>
+        <CEP>17516590</CEP>
+        <DDD>14</DDD>
+        <TELEFONE>34535410</TELEFONE>
+        <PONTOREFERENCIA>CHACARA AO LADO DO CONDOMINIO SOLAR DAS ESMERALDAS</PONTOREFERENCIA>
+        <CODIGOIDENT>2294738</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9084347</PEDIDOID>
+      <DATACRIACAO>2014-11-02</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34686</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>36379867104</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Odina</NOME>
+        <EMAIL>marcilio@mvp.com.br</EMAIL>
+        <RUA>Rua Nelson Ferreira da Luz</RUA>
+        <NUMERO>431</NUMERO>
+        <COMPL>apto. 12 A</COMPL>
+        <BAIRRO>Campo Comprido</BAIRRO>
+        <CIDADE>Curitiba</CIDADE>
+        <UF>PR</UF>
+        <CEP>81220130</CEP>
+        <DDD>41</DDD>
+        <TELEFONE>32747080</TELEFONE>
+        <PONTOREFERENCIA>Auto Posto Bela Vista</PONTOREFERENCIA>
+        <CODIGOIDENT>2417715</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9084804</PEDIDOID>
+      <DATACRIACAO>2014-11-02</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34686</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>02091315788</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Tania Regina Fernandes Cardoso</NOME>
+        <EMAIL>taniareginafernandescardoso@hotmail.com</EMAIL>
+        <RUA>Rua Salvador</RUA>
+        <NUMERO>70</NUMERO>
+        <COMPL>casa 8. Condominio Interlagos</COMPL>
+        <BAIRRO>Palmeiras</BAIRRO>
+        <CIDADE>Cabo Frio</CIDADE>
+        <UF>RJ</UF>
+        <CEP>28911230</CEP>
+        <DDD>22</DDD>
+        <TELEFONE>26440618</TELEFONE>
+        <PONTOREFERENCIA>Pela rua Porto Alegre 1 antes da Madereira Cabo Frio</PONTOREFERENCIA>
+        <CODIGOIDENT>1907963</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9086216</PEDIDOID>
+      <DATACRIACAO>2014-11-02</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34686</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>07861325822</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>FATIMA TEIXEIRA DOS SANTOS ALVES</NOME>
+        <EMAIL>fatima.santos2010@terra.com.br</EMAIL>
+        <RUA>AV 9 DE JULHO</RUA>
+        <NUMERO>602</NUMERO>
+        <COMPL />
+        <BAIRRO>CENTRO</BAIRRO>
+        <CIDADE>VALPARAISO</CIDADE>
+        <UF>SP</UF>
+        <CEP>16880000</CEP>
+        <DDD>18</DDD>
+        <TELEFONE>91455363</TELEFONE>
+        <PONTOREFERENCIA>BANCO DO BRASIL</PONTOREFERENCIA>
+        <CODIGOIDENT>3679171</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

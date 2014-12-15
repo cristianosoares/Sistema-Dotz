@@ -93,3 +93,13 @@ input.button {
 .buscadata input#submitbutton {
     margin-top: 17px;
 }
+.filter-datas {
+    width: 100%;
+    float: left;
+}
+.form-group.buscadata {
+    float: left;
+}
+.exportarpedidos input#submitbutton {
+    margin: 17px 0 0 10px;
+}

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8978441</PEDIDOID>
+      <DATACRIACAO>2014-10-23</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34385</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>16901894520</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>portaria</NOME>
+        <EMAIL>brazfagundes@bol.com.br</EMAIL>
+        <RUA>Rua Senador Quintino</RUA>
+        <NUMERO>3200</NUMERO>
+        <COMPL>Cerb</COMPL>
+        <BAIRRO>35 BI</BAIRRO>
+        <CIDADE>Feira de Santana</CIDADE>
+        <UF>BA</UF>
+        <CEP>44094215</CEP>
+        <DDD>75</DDD>
+        <TELEFONE>36233433</TELEFONE>
+        <PONTOREFERENCIA>Final do Bairro Jomafa</PONTOREFERENCIA>
+        <CODIGOIDENT>14409692</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8978896</PEDIDOID>
+      <DATACRIACAO>2014-10-23</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34385</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>80556850106</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>DANIEL PROENA FEIJ</NOME>
+        <EMAIL>danielfeijo@hotmail.com</EMAIL>
+        <RUA>Rua Domingos Bristot</RUA>
+        <NUMERO>445</NUMERO>
+        <COMPL>APTO 804</COMPL>
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Criciuma</CIDADE>
+        <UF>SC</UF>
+        <CEP>88802010</CEP>
+        <DDD>48</DDD>
+        <TELEFONE>99664012</TELEFONE>
+        <PONTOREFERENCIA>RESIDENCIAL DOMINGOS BRISTOT  PROXIMO AO GIASSI SA</PONTOREFERENCIA>
+        <CODIGOIDENT>6471999</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8983645</PEDIDOID>
+      <DATACRIACAO>2014-10-23</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34385</ITEMID>
+          <PRODUTOIDDOTZ>4918338</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>12</PRODUTOIDFORN>
+          <NOMEPRODUTO>Fatiador de Legumes - Novy - QE</NOMEPRODUTO>
+          <PRECO>85.9</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>21295310082</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Mario Grisostolo</NOME>
+        <EMAIL>mariogrisostolo@gmail.com</EMAIL>
+        <RUA>Avenida do Sol</RUA>
+        <NUMERO>117</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Granja dos Cavaleiros</BAIRRO>
+        <CIDADE>Macae</CIDADE>
+        <UF>RJ</UF>
+        <CEP>27930100</CEP>
+        <DDD>22</DDD>
+        <TELEFONE>999015630</TELEFONE>
+        <PONTOREFERENCIA>Passando o trilho de trem a primeira a direita</PONTOREFERENCIA>
+        <CODIGOIDENT>2447988</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8983646</PEDIDOID>
+      <DATACRIACAO>2014-10-23</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34385</ITEMID>
+          <PRODUTOIDDOTZ>4918338</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>12</PRODUTOIDFORN>
+          <NOMEPRODUTO>Fatiador de Legumes - Novy - QE</NOMEPRODUTO>
+          <PRECO>85.9</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>21295310082</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Mario Grisostolo</NOME>
+        <EMAIL>mariogrisostolo@gmail.com</EMAIL>
+        <RUA>Avenida do Sol</RUA>
+        <NUMERO>117</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Granja dos Cavaleiros</BAIRRO>
+        <CIDADE>Macae</CIDADE>
+        <UF>RJ</UF>
+        <CEP>27930100</CEP>
+        <DDD>22</DDD>
+        <TELEFONE>999015630</TELEFONE>
+        <PONTOREFERENCIA>Passando o trilho de trem a primeira a direita</PONTOREFERENCIA>
+        <CODIGOIDENT>2447988</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8990167</PEDIDOID>
+      <DATACRIACAO>2014-10-23</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34385</ITEMID>
+          <PRODUTOIDDOTZ>4918340</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>10</PRODUTOIDFORN>
+          <NOMEPRODUTO>Conversor disco de vinil para MP3 - Toca discos vinil Novy</NOMEPRODUTO>
+          <PRECO>496.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>21276897987</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>sebastiao elizeu de morais</NOME>
+        <EMAIL>elizeusci@HOTMAIL.COM</EMAIL>
+        <RUA>Rua da Sorveira</RUA>
+        <NUMERO>7909</NUMERO>
+        <COMPL>59067590</COMPL>
+        <BAIRRO>Pitimbu</BAIRRO>
+        <CIDADE>Natal</CIDADE>
+        <UF>RN</UF>
+        <CEP>59067590</CEP>
+        <DDD>84</DDD>
+        <TELEFONE>32187517</TELEFONE>
+        <PONTOREFERENCIA>prox av dos chavantes posto de combusfan</PONTOREFERENCIA>
+        <CODIGOIDENT>3560035</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

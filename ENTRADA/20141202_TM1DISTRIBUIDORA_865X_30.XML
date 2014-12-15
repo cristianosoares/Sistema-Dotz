@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RASTREAMENTO>
+  <ARQUIVO>
+    <VERSAO>1.0</VERSAO>
+  </ARQUIVO>
+  <LOTE>
+    <NOMEARQUIVO>20141129_TM1DISTRIBUIDORA_860X_1.xml</NOMEARQUIVO>
+  </LOTE>
+  <PEDIDOS>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9399397</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>514</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9399487</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>515</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9399500</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9399506</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>517</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9399900</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>518</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9400271</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>519</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9400938</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9401273</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>521</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9402016</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9407780</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>523</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9406578</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>524</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9406642</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>525</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9407621</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>526</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9400512</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>527</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9411341</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9411357</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>529</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9407856</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9407795</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>531</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9408375</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>532</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9408602</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>533</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9410573</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>534</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9409877</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>535</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9412304</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>536</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+  </PEDIDOS>
+</RASTREAMENTO>

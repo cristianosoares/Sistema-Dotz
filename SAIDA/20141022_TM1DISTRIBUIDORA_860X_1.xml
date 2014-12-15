@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8959578</PEDIDOID>
+      <DATACRIACAO>2014-10-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34356</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>97275417049</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Adriana ou Vilma</NOME>
+        <EMAIL>vfeddern@yahoo.com.br</EMAIL>
+        <RUA>Av. Soni Correa</RUA>
+        <NUMERO>2434</NUMERO>
+        <COMPL />
+        <BAIRRO>Lomba</BAIRRO>
+        <CIDADE>SAO LOURENCO DO SUL</CIDADE>
+        <UF>RS</UF>
+        <CEP>96170000</CEP>
+        <DDD>53</DDD>
+        <TELEFONE>32513302</TELEFONE>
+        <PONTOREFERENCIA>defronte cemiterio municipal de Sao Lourenco do Sul</PONTOREFERENCIA>
+        <CODIGOIDENT>702605</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8959801</PEDIDOID>
+      <DATACRIACAO>2014-10-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34356</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>59985895053</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>porteiro</NOME>
+        <EMAIL>rodrigocoufal@hotmail.com</EMAIL>
+        <RUA>Rua Marques do Pombal</RUA>
+        <NUMERO>940</NUMERO>
+        <COMPL>801</COMPL>
+        <BAIRRO>Moinhos de Vento</BAIRRO>
+        <CIDADE>Porto Alegre</CIDADE>
+        <UF>RS</UF>
+        <CEP>90540000</CEP>
+        <DDD>51</DDD>
+        <TELEFONE>33438242</TELEFONE>
+        <PONTOREFERENCIA>proximo hospital</PONTOREFERENCIA>
+        <CODIGOIDENT>10516075</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8960544</PEDIDOID>
+      <DATACRIACAO>2014-10-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34356</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>07962637870</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>NilzaMarta</NOME>
+        <EMAIL>celiashikasho@yahoo.com.br</EMAIL>
+        <RUA>Rua Balbina Miguel Casoni</RUA>
+        <NUMERO>395</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Engordadouro</BAIRRO>
+        <CIDADE>Jundiai</CIDADE>
+        <UF>SP</UF>
+        <CEP>13214662</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>45823223</TELEFONE>
+        <PONTOREFERENCIA>proximo a  capela Sao Pedro</PONTOREFERENCIA>
+        <CODIGOIDENT>2983628</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8960916</PEDIDOID>
+      <DATACRIACAO>2014-10-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34356</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>44089104220</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marifrance Lima de Souza</NOME>
+        <EMAIL>marifrance.souza@eletronorte.gov.br</EMAIL>
+        <RUA>Rua Yamada</RUA>
+        <NUMERO>0</NUMERO>
+        <COMPL>cond. Jardim Espanha-casa C2</COMPL>
+        <BAIRRO>Tapana Icoaraci</BAIRRO>
+        <CIDADE>Belem</CIDADE>
+        <UF>PA</UF>
+        <CEP>66833605</CEP>
+        <DDD>91</DDD>
+        <TELEFONE>81599454</TELEFONE>
+        <PONTOREFERENCIA>Cond Jardim Espanha</PONTOREFERENCIA>
+        <CODIGOIDENT>4311075</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8961632</PEDIDOID>
+      <DATACRIACAO>2014-10-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34356</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>19137532391</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>MARCIA DIAS DE ALENCAR MARQUES</NOME>
+        <EMAIL>mdiasalencar@hotmail.com</EMAIL>
+        <RUA>Rua Canuto de Aguiar</RUA>
+        <NUMERO>707</NUMERO>
+        <COMPL>Apto.302</COMPL>
+        <BAIRRO>Meireles</BAIRRO>
+        <CIDADE>Fortaleza</CIDADE>
+        <UF>CE</UF>
+        <CEP>60160120</CEP>
+        <DDD>85</DDD>
+        <TELEFONE>32425430</TELEFONE>
+        <PONTOREFERENCIA>Proximo a Farmacia Pague Menos da Av Desembargador Moreira</PONTOREFERENCIA>
+        <CODIGOIDENT>3703787</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8969882</PEDIDOID>
+      <DATACRIACAO>2014-10-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34356</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>27076318091</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>bernadete</NOME>
+        <EMAIL>santos.bernadete@yahoo.com.br</EMAIL>
+        <RUA>Rua Becker Pinto</RUA>
+        <NUMERO>92</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Menino Jesus</BAIRRO>
+        <CIDADE>Santa Maria</CIDADE>
+        <UF>RS</UF>
+        <CEP>97050070</CEP>
+        <DDD>55</DDD>
+        <TELEFONE>32237518</TELEFONE>
+        <PONTOREFERENCIA>esquina Ary Tagarra</PONTOREFERENCIA>
+        <CODIGOIDENT>3438092</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8973061</PEDIDOID>
+      <DATACRIACAO>2014-10-22</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34356</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>04977576802</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>alexandre maia</NOME>
+        <EMAIL>alex10@hotmail.com</EMAIL>
+        <RUA>Vila Gessi</RUA>
+        <NUMERO>229</NUMERO>
+        <COMPL />
+        <BAIRRO>Cidade dos Funcionarios</BAIRRO>
+        <CIDADE>Fortaleza</CIDADE>
+        <UF>CE</UF>
+        <CEP>60823010</CEP>
+        <DDD>85</DDD>
+        <TELEFONE>32455498</TELEFONE>
+        <PONTOREFERENCIA>mecadinho economico</PONTOREFERENCIA>
+        <CODIGOIDENT>10056148</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>9</PRODUTOID>
+      <NOMEPRODUTO>Conversor disco de vinil para MP3 - Toca discos vinil Novy</NOMEPRODUTO>
+      <FORNECEDOR>Novy</FORNECEDOR>
+      <DESCRICAO>Resgate suas relíquias musicais! Além de funcionar como toca-discos ele também converte seus LP&#8217;s para o formato MP3 de forma simples e rápida. Ouça suas músicas preferidas com qualidade!&#13;
+&#13;
+O processo de conversão é simples, direto e divertido. A melhor parte é que você tem total flexibilidade para converter suas músicas!&#13;
+&#13;
+Converta seu vinil no computador para formato MP3 e depois é só transferir os arquivos MP3 para seu *iPod, Tablet, MP3 Player, Smartphone ou Celular e você pode levar sua coleção de músicas especiais para onde você quiser!&#13;
+&#13;
+Ele também funciona como Toca-Discos!&#13;
+Conecte seu conversor no computador pela entrada USB e além de converter, você pode ouvir suas músicas com alta qualidade de som, pois ele tem alto-falantes embutidos e controle de volume!&#13;
+&#13;
+Isto é tudo que é preciso para modernizar a sua coleção!  É fácil e simples transformar seus LP's antigos de formato analógico para formato digital MP3 em seu computador. &#13;
+&#13;
+Possui saída RCA, assim você pode conectá-lo em caixas acústicas auxiliares ou amplificador de áudio.&#13;
+&#13;
+Caso prefira, você pode ainda gravá-las em um CD! Com ele você pode desfrutar da sua música em casa ou onde você preferir.&#13;
+&#13;
+Recebe energia e transfere as músicas para o computador utilizando o cabo USB incluso. Seu design clássico, fica bem como peça decorativa em qualquer ambiente da casa.&#13;
+&#13;
+É o melhor dos dois mundos: qualidade analógica com conveniência digital.&#13;
+&#13;
+*iPod é uma marca comercial da Apple Inc., registradas nos os EUA e outros países.</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\848f9f2ebee361e5c7826918c8a1177e.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>Conversor de vinil</PALAVRA>
+        <PALAVRA>Toca Discos de Vinil</PALAVRA>
+        <PALAVRA>Conversor e Toca-Discos</PALAVRA>
+        <PALAVRA>Conversor de músicas</PALAVRA>
+        <PALAVRA>Conversor de músicas usb</PALAVRA>
+        <PALAVRA>Conversor disco de vinil para MP3</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>10</PRODUTOIDREFERENCIA>
+          <ATIVO>0</ATIVO>
+          <DISPONIVEL>0</DISPONIVEL>
+          <PRECODE>496.90</PRECODE>
+          <PRECOPOR>496.90</PRECOPOR>
+          <FRETEMEDIO>18.00</FRETEMEDIO>
+          <SALDO>0</SALDO>
+          <CODIGOEAN>000000</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Marca: </NOME>
+              <VALOR>Novy</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Modelo:</NOME>
+              <VALOR>Conversor de Vinil</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Garantia:</NOME>
+              <VALOR>3 meses</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Conversão de áudio: </NOME>
+              <VALOR>para o formato MP3 direto no computador </VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Reproduz e converte:</NOME>
+              <VALOR>33 1/3, 45 e 78 RPM</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Saída de áudio:</NOME>
+              <VALOR>RCA para conexão em amplificador e equipamento de áudio estéreo</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Alto-falante embutido:</NOME>
+              <VALOR>Sim</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Controle de volume:</NOME>
+              <VALOR>Sim</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Entrada USB para transferência de arquivo e alimentação:</NOME>
+              <VALOR>Sim</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Alimentação:</NOME>
+              <VALOR>via USB no computador</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Reproduz áudio do vinil e MP3:</NOME>
+              <VALOR>Sim</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Cor:</NOME>
+              <VALOR>Preta</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Requisitos do Sistema:</NOME>
+              <VALOR>Windows XP, Vista ou superior, Core2duo ou superior, 1Gb RAM ou superior Mac OSX, 10.4 ou superior,  Core2duo ou superior, 1Gb RAM ou superior</VALOR>
+            </CARACTERISTICA>
+            <CARACTERISTICA>
+              <NOME>Itens inclusos:</NOME>
+              <VALOR>01 Toca-Discos Vinil; 01 Manual de Instruções; 01 Cabo USB; 01 Cabo RCA para áudio</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/848f9f2ebee361e5c7826918c8a1177e.jpg</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

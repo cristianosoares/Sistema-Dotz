@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8907574</PEDIDOID>
+      <DATACRIACAO>2014-10-16</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34181</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>13606025858</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Vagner</NOME>
+        <EMAIL>vagnerluizsanches@itelefonica.com.br</EMAIL>
+        <RUA>Rua Condessa Filomena Matarazzo</RUA>
+        <NUMERO>81</NUMERO>
+        <COMPL />
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Santa Rosa de Viterbo</CIDADE>
+        <UF>SP</UF>
+        <CEP>14270000</CEP>
+        <DDD>16</DDD>
+        <TELEFONE>39542418</TELEFONE>
+        <PONTOREFERENCIA>BANCO DO BRASIL</PONTOREFERENCIA>
+        <CODIGOIDENT>1943819</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8912222</PEDIDOID>
+      <DATACRIACAO>2014-10-16</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34181</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00146017889</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>MARIA</NOME>
+        <EMAIL>edsonstaffa@hotmail.com</EMAIL>
+        <RUA>Rua Pires da Mota</RUA>
+        <NUMERO>30</NUMERO>
+        <COMPL>apto 141</COMPL>
+        <BAIRRO>Aclimacao</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>01529000</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>32093039</TELEFONE>
+        <PONTOREFERENCIA>Colegio Caetano de Campos</PONTOREFERENCIA>
+        <CODIGOIDENT>2856956</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

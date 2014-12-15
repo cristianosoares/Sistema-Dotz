@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8941031</PEDIDOID>
+      <DATACRIACAO>2014-10-20</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34313</ITEMID>
+          <PRODUTOIDDOTZ>4918335</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>15</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao Esportivo com Camera Embutida 4GB de memoria - Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>22311203053</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marino Birk</NOME>
+        <EMAIL>marinobirk@hotmail.com</EMAIL>
+        <RUA>Rua Padre Jose Belzer</RUA>
+        <NUMERO>881</NUMERO>
+        <COMPL />
+        <BAIRRO>Arroio Grande</BAIRRO>
+        <CIDADE>Santa Cruz do Sul</CIDADE>
+        <UF>RS</UF>
+        <CEP>96830260</CEP>
+        <DDD>51</DDD>
+        <TELEFONE>37151506</TELEFONE>
+        <PONTOREFERENCIA>Hospital Ana Nery</PONTOREFERENCIA>
+        <CODIGOIDENT>10585012</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8947689</PEDIDOID>
+      <DATACRIACAO>2014-10-21</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34313</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>62748041968</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Solene</NOME>
+        <EMAIL>sol_dias@hotmail.com</EMAIL>
+        <RUA>rua jose humberto fernandes</RUA>
+        <NUMERO>1183</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>Guaraniacu</CIDADE>
+        <UF>PR</UF>
+        <CEP>85400000</CEP>
+        <DDD>45</DDD>
+        <TELEFONE>32322415</TELEFONE>
+        <PONTOREFERENCIA>proximo ao posto parente</PONTOREFERENCIA>
+        <CODIGOIDENT>2774790</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8950411</PEDIDOID>
+      <DATACRIACAO>2014-10-21</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34313</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>75425599749</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>KARIN SANT ANNA DE MOURA COUTINHO</NOME>
+        <EMAIL>lkseguros@terra.com.br</EMAIL>
+        <RUA>QN 12D Conjunto 4</RUA>
+        <NUMERO>7</NUMERO>
+        <COMPL />
+        <BAIRRO>Riacho Fundo II</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>71881649</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>33337658</TELEFONE>
+        <PONTOREFERENCIA>GRANJA DAS OLIVEIRAS NA DESCIDA DO VIADUTO SAMAMBAIA</PONTOREFERENCIA>
+        <CODIGOIDENT>359063</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8957959</PEDIDOID>
+      <DATACRIACAO>2014-10-21</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34313</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01203535805</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>NADIR TIAGO DOS SANTOS</NOME>
+        <EMAIL>nadirtiago@ig.com.br</EMAIL>
+        <RUA>Raimundo Pereira de Magalhaes</RUA>
+        <NUMERO>12011</NUMERO>
+        <COMPL>BL J AP 41</COMPL>
+        <BAIRRO>Jardim Marilu</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>02989095</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>39422708</TELEFONE>
+        <PONTOREFERENCIA>PRXIMO AO ATACADO</PONTOREFERENCIA>
+        <CODIGOIDENT>3203073</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

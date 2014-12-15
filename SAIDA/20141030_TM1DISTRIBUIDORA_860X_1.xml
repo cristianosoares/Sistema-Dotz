@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9029523</PEDIDOID>
+      <DATACRIACAO>2014-10-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34598</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>39357422900</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>fernanda  Beatriz</NOME>
+        <EMAIL>acreplive1902@hotmail.com</EMAIL>
+        <RUA>Rua Moyses Marcondes</RUA>
+        <NUMERO>25</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Juveve</BAIRRO>
+        <CIDADE>Curitiba</CIDADE>
+        <UF>PR</UF>
+        <CEP>80030410</CEP>
+        <DDD>41</DDD>
+        <TELEFONE>30292530</TELEFONE>
+        <PONTOREFERENCIA>Proximo ao Asilo Sao Vicente de Paula</PONTOREFERENCIA>
+        <CODIGOIDENT>10765123</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9048321</PEDIDOID>
+      <DATACRIACAO>2014-10-30</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34598</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01196561087</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>LUIZ FERNANDO LUZ</NOME>
+        <EMAIL>fcluzadv@hotmail.com</EMAIL>
+        <RUA>Avenida Panamericana</RUA>
+        <NUMERO>400</NUMERO>
+        <COMPL>ap. 201</COMPL>
+        <BAIRRO>Jardim Lindoia</BAIRRO>
+        <CIDADE>Porto Alegre</CIDADE>
+        <UF>RS</UF>
+        <CEP>91050000</CEP>
+        <DDD>51</DDD>
+        <TELEFONE>33403908</TELEFONE>
+        <PONTOREFERENCIA>Na rua do Lindoia Shopping</PONTOREFERENCIA>
+        <CODIGOIDENT>5482965</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9049823</PEDIDOID>
+      <DATACRIACAO>2014-10-30</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34598</ITEMID>
+          <PRODUTOIDDOTZ>4918335</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>15</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao Esportivo com Camera Embutida 4GB de memoria - Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>88165027891</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Ricardo de oliveira andreati</NOME>
+        <EMAIL>superuniao.uniao@gmail.com</EMAIL>
+        <RUA>av. orival dos prazeres</RUA>
+        <NUMERO>1325</NUMERO>
+        <COMPL>poximo F1</COMPL>
+        <BAIRRO>rui pires de lima</BAIRRO>
+        <CIDADE>novo progresso</CIDADE>
+        <UF>PA</UF>
+        <CEP>68193000</CEP>
+        <DDD>93</DDD>
+        <TELEFONE>35282451</TELEFONE>
+        <PONTOREFERENCIA>enfrente a br 163</PONTOREFERENCIA>
+        <CODIGOIDENT>13279348</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9053475</PEDIDOID>
+      <DATACRIACAO>2014-10-30</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34598</ITEMID>
+          <PRODUTOIDDOTZ>4966330</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>16</PRODUTOIDFORN>
+          <NOMEPRODUTO>Scanner de Mao Portatil com cartao SD de 2GB  Novy</NOMEPRODUTO>
+          <PRECO>349</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>62059998549</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ELIELSON</NOME>
+        <EMAIL>elielsonleal@yahoo.com.br</EMAIL>
+        <RUA>Ibicarai</RUA>
+        <NUMERO>103</NUMERO>
+        <COMPL />
+        <BAIRRO>Rio Grande</BAIRRO>
+        <CIDADE>Barreiras</CIDADE>
+        <UF>BA</UF>
+        <CEP>47800584</CEP>
+        <DDD>77</DDD>
+        <TELEFONE>36123991</TELEFONE>
+        <PONTOREFERENCIA>PROXIMO AO COLEGIO OCTACIO MANGABEIRA</PONTOREFERENCIA>
+        <CODIGOIDENT>7187226</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9055303</PEDIDOID>
+      <DATACRIACAO>2014-10-30</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34598</ITEMID>
+          <PRODUTOIDDOTZ>4918335</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>15</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao Esportivo com Camera Embutida 4GB de memoria - Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01829018159</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Renato Melo</NOME>
+        <EMAIL>renatoamelo@hotmail.com</EMAIL>
+        <RUA>R. Paulo Guerreiro Franco</RUA>
+        <NUMERO>120</NUMERO>
+        <COMPL />
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Vera Cruz</CIDADE>
+        <UF>SP</UF>
+        <CEP>17560000</CEP>
+        <DDD>14</DDD>
+        <TELEFONE>34921904</TELEFONE>
+        <PONTOREFERENCIA>Prox A academia</PONTOREFERENCIA>
+        <CODIGOIDENT>7715448</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9057242</PEDIDOID>
+      <DATACRIACAO>2014-10-30</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34598</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>86294091853</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Juliana Almeida da Silva</NOME>
+        <EMAIL>ju.silva@usp.br</EMAIL>
+        <RUA>Rua ANTONIO RIBEIRO DE REZENDE</RUA>
+        <NUMERO>465</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim Antartica</BAIRRO>
+        <CIDADE>RIBEIRAO PRETO</CIDADE>
+        <UF>SP</UF>
+        <CEP>14051030</CEP>
+        <DDD>16</DDD>
+        <TELEFONE>36337805</TELEFONE>
+        <PONTOREFERENCIA>Supermercado Ricoy</PONTOREFERENCIA>
+        <CODIGOIDENT>1970831</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9058303</PEDIDOID>
+      <DATACRIACAO>2014-10-30</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34598</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>07424539876</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>elen</NOME>
+        <EMAIL>elenga_lo@hotmail.com</EMAIL>
+        <RUA>Rua Aimbere</RUA>
+        <NUMERO>570</NUMERO>
+        <COMPL>142</COMPL>
+        <BAIRRO>Perdizes</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>05018010</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>35259121</TELEFONE>
+        <PONTOREFERENCIA>travessa da av sumare</PONTOREFERENCIA>
+        <CODIGOIDENT>4955240</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9058374</PEDIDOID>
+      <DATACRIACAO>2014-10-30</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34598</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>38812614434</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Lidiane Bonfim</NOME>
+        <EMAIL>lucy52lima@gmail.com</EMAIL>
+        <RUA>Rua Barra Grande</RUA>
+        <NUMERO>17</NUMERO>
+        <COMPL>Casa A</COMPL>
+        <BAIRRO>Torre</BAIRRO>
+        <CIDADE>Recife</CIDADE>
+        <UF>PE</UF>
+        <CEP>50620481</CEP>
+        <DDD>81</DDD>
+        <TELEFONE>88547179</TELEFONE>
+        <PONTOREFERENCIA>Proxim ao colegio Israelita.</PONTOREFERENCIA>
+        <CODIGOIDENT>4449820</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9003255</PEDIDOID>
+      <DATACRIACAO>2014-10-25</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34448</ITEMID>
+          <PRODUTOIDDOTZ>4918338</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>12</PRODUTOIDFORN>
+          <NOMEPRODUTO>Fatiador de Legumes - Novy - QE</NOMEPRODUTO>
+          <PRECO>85.9</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>02046967984</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Sergio Martins silva</NOME>
+        <EMAIL>sergio.sms@outlook.com</EMAIL>
+        <RUA>Rua Araca</RUA>
+        <NUMERO>940</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Valparaiso</BAIRRO>
+        <CIDADE>Blumenau</CIDADE>
+        <UF>SC</UF>
+        <CEP>89023260</CEP>
+        <DDD>47</DDD>
+        <TELEFONE>33291668</TELEFONE>
+        <PONTOREFERENCIA>Fabrica Naguxe</PONTOREFERENCIA>
+        <CODIGOIDENT>7514171</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9008999</PEDIDOID>
+      <DATACRIACAO>2014-10-25</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34448</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>81981449868</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marcos Magalhaes</NOME>
+        <EMAIL>mmagalhaes0404@terra.com.br</EMAIL>
+        <RUA>Rua Attilio Franciscatto</RUA>
+        <NUMERO>80</NUMERO>
+        <COMPL>Cond Monte Carlo</COMPL>
+        <BAIRRO>Jardim Monte Carlo</BAIRRO>
+        <CIDADE>Limeira</CIDADE>
+        <UF>SP</UF>
+        <CEP>13482471</CEP>
+        <DDD>19</DDD>
+        <TELEFONE>34417158</TELEFONE>
+        <PONTOREFERENCIA>Limeira x Piracicaba</PONTOREFERENCIA>
+        <CODIGOIDENT>3144959</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

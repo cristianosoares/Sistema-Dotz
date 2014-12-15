@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8863123</PEDIDOID>
+      <DATACRIACAO>2014-10-11</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34011</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00626509122</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Najara</NOME>
+        <EMAIL>najara_diniz@yahoo.com.br</EMAIL>
+        <RUA>Avenida Flora</RUA>
+        <NUMERO>1027</NUMERO>
+        <COMPL>BL 3 APTO 31</COMPL>
+        <BAIRRO>Jaguaribe</BAIRRO>
+        <CIDADE>Osasco</CIDADE>
+        <UF>SP</UF>
+        <CEP>06053040</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>35929589</TELEFONE>
+        <PONTOREFERENCIA>proxima a avenida novo osasco</PONTOREFERENCIA>
+        <CODIGOIDENT>2036502</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

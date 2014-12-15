@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RASTREAMENTO>
+  <ARQUIVO>
+    <VERSAO>1.0</VERSAO>
+  </ARQUIVO>
+  <LOTE>
+    <NOMEARQUIVO>20141128_TM1DISTRIBUIDORA_860X_1.xml</NOMEARQUIVO>
+  </LOTE>
+  <PEDIDOS>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9381960</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>492</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9383055</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9385591</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>494</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9387078</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>495</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9389270</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>496</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9389594</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>497</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9390137</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9391696</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>499</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9392560</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>500</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9393282</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>501</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9393304</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>502</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9392760</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>503</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9392973</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>504</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9393403</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9399160</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9398839</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>507</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9395971</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>508</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9396229</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9394771</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>510</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9396915</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>511</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9397190</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>512</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9397582</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+  </PEDIDOS>
+</RASTREAMENTO>

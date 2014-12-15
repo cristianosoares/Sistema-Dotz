@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9151399</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>24941018753</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Celeste Aida Furtado Teixeira</NOME>
+        <EMAIL>cateixeira27@hotmail.com</EMAIL>
+        <RUA>rua Silva Jardim</RUA>
+        <NUMERO>743</NUMERO>
+        <COMPL />
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Valenca</CIDADE>
+        <UF>RJ</UF>
+        <CEP>27600000</CEP>
+        <DDD>24</DDD>
+        <TELEFONE>24532754</TELEFONE>
+        <PONTOREFERENCIA>proximo ao final da rua</PONTOREFERENCIA>
+        <CODIGOIDENT>17706022</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9151605</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>60651717604</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Fatima</NOME>
+        <EMAIL>fatimatiradentes@hotmail.com</EMAIL>
+        <RUA>Rua Mangabeira</RUA>
+        <NUMERO>465</NUMERO>
+        <COMPL>201</COMPL>
+        <BAIRRO>Santo Antonio</BAIRRO>
+        <CIDADE>Belo Horizonte</CIDADE>
+        <UF>MG</UF>
+        <CEP>30350170</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>33173384</TELEFONE>
+        <PONTOREFERENCIA>Proximo o Mac Donald Av prudente de morais</PONTOREFERENCIA>
+        <CODIGOIDENT>2004326</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9151826</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>94469016349</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>NAJLA ALVES MACEDO</NOME>
+        <EMAIL>najlamacedo@hotmail.com</EMAIL>
+        <RUA>804 Sul, Alameda 2</RUA>
+        <NUMERO>18</NUMERO>
+        <COMPL>Antiga ARSE 81</COMPL>
+        <BAIRRO>Plano Diretor Sul</BAIRRO>
+        <CIDADE>Palmas</CIDADE>
+        <UF>TO</UF>
+        <CEP>77023028</CEP>
+        <DDD>63</DDD>
+        <TELEFONE>32143972</TELEFONE>
+        <PONTOREFERENCIA>Em frente ao PREVPALMAS</PONTOREFERENCIA>
+        <CODIGOIDENT>12345958</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9153239</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>78354307700</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ANTONIO CARLOS FERREIRA DE ANDRADE</NOME>
+        <EMAIL>trocasememail@dotz.com.br</EMAIL>
+        <RUA>RUA MURITIBA</RUA>
+        <NUMERO>89</NUMERO>
+        <COMPL>SEM COMPLEMENTO</COMPL>
+        <BAIRRO>GARGAU</BAIRRO>
+        <CIDADE>SAO FRANCISCO DE ITABAPOANA</CIDADE>
+        <UF>RJ</UF>
+        <CEP>28230000</CEP>
+        <DDD>22</DDD>
+        <TELEFONE>27897182</TELEFONE>
+        <PONTOREFERENCIA>PONTO DE REFERENCIA NAO INFORMADO</PONTOREFERENCIA>
+        <CODIGOIDENT>3063814</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9153703</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00785582711</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Dalcilea Fonseca de Assis</NOME>
+        <EMAIL>dalcilea@gmail.com</EMAIL>
+        <RUA>Rua Lumberto Maciel de Azevedo</RUA>
+        <NUMERO>145</NUMERO>
+        <COMPL>Apto 404 Bloco F</COMPL>
+        <BAIRRO>Jardim Camburi</BAIRRO>
+        <CIDADE>Vitoria</CIDADE>
+        <UF>ES</UF>
+        <CEP>29090700</CEP>
+        <DDD>27</DDD>
+        <TELEFONE>32151674</TELEFONE>
+        <PONTOREFERENCIA>Proximo ao Supermercado Carone</PONTOREFERENCIA>
+        <CODIGOIDENT>3370322</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9154604</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>50122568915</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Almir Margotti</NOME>
+        <EMAIL>amargotti@celesc.com.br</EMAIL>
+        <RUA>Rua Laguna</RUA>
+        <NUMERO>1865</NUMERO>
+        <COMPL />
+        <BAIRRO>Oficinas</BAIRRO>
+        <CIDADE>Tubarao</CIDADE>
+        <UF>SC</UF>
+        <CEP>88702283</CEP>
+        <DDD>48</DDD>
+        <TELEFONE>36265991</TELEFONE>
+        <PONTOREFERENCIA>loteamento soratto</PONTOREFERENCIA>
+        <CODIGOIDENT>2814660</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9154612</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>33950938753</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Elisabete</NOME>
+        <EMAIL>ecastano@hotmail.com</EMAIL>
+        <RUA>Rua Antonio Duarte</RUA>
+        <NUMERO>345</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim Brasilia 2</BAIRRO>
+        <CIDADE>Resende</CIDADE>
+        <UF>RJ</UF>
+        <CEP>27515050</CEP>
+        <DDD>24</DDD>
+        <TELEFONE>33545734</TELEFONE>
+        <PONTOREFERENCIA>passar pela escola pestalozi entrar 1 a esq ultima</PONTOREFERENCIA>
+        <CODIGOIDENT>2866896</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9156529</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>32254923889</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ronaldo pereira da silva</NOME>
+        <EMAIL>ronaldoper7@gmail.com</EMAIL>
+        <RUA>Isaias Branco de Araujo</RUA>
+        <NUMERO>125</NUMERO>
+        <COMPL>Ap 112</COMPL>
+        <BAIRRO>Vila das Belezas</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>05841150</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>41121248</TELEFONE>
+        <PONTOREFERENCIA>UBS  -  VILA DAS BELESAS</PONTOREFERENCIA>
+        <CODIGOIDENT>13049474</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9156728</PEDIDOID>
+      <DATACRIACAO>2014-11-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34940</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>28604881891</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Helenice</NOME>
+        <EMAIL>hmangolin@uol.com.br</EMAIL>
+        <RUA>Rua Marechal Barbacena</RUA>
+        <NUMERO>1255</NUMERO>
+        <COMPL>apto 82</COMPL>
+        <BAIRRO>Vila Regente Feijo</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>03333000</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>29711323</TELEFONE>
+        <PONTOREFERENCIA>Praca  20 de janeiro</PONTOREFERENCIA>
+        <CODIGOIDENT>2132561</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

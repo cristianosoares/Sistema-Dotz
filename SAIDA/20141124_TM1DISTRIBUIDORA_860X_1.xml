@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9313009</PEDIDOID>
+      <DATACRIACAO>2014-11-23</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>98017500815</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Maria Helena Bottura Araujo</NOME>
+        <EMAIL>leninhabottura@yahoo.com.br</EMAIL>
+        <RUA>Rua Carlos Gomes</RUA>
+        <NUMERO>154</NUMERO>
+        <COMPL />
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>Taquaritinga</CIDADE>
+        <UF>SP</UF>
+        <CEP>15900000</CEP>
+        <DDD>16</DDD>
+        <TELEFONE>32532369</TELEFONE>
+        <PONTOREFERENCIA>Bar Area Leao</PONTOREFERENCIA>
+        <CODIGOIDENT>3985869</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9313067</PEDIDOID>
+      <DATACRIACAO>2014-11-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>10575332387</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Maria do Rosario Ventura</NOME>
+        <EMAIL>bio.roventura@gmail.com</EMAIL>
+        <RUA>Quadra 804 Sul Alameda 12,</RUA>
+        <NUMERO>9</NUMERO>
+        <COMPL />
+        <BAIRRO>Plano Diretor Sul</BAIRRO>
+        <CIDADE>Palmas</CIDADE>
+        <UF>TO</UF>
+        <CEP>77023040</CEP>
+        <DDD>63</DDD>
+        <TELEFONE>32183205</TELEFONE>
+        <PONTOREFERENCIA>supermercado economico</PONTOREFERENCIA>
+        <CODIGOIDENT>3196383</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9313225</PEDIDOID>
+      <DATACRIACAO>2014-11-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>15837196870</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>MARIA RUTH ANGELONI PEDRON</NOME>
+        <EMAIL>pedron.edu@gmail.com</EMAIL>
+        <RUA>Rua Jose Antonio Marinho</RUA>
+        <NUMERO>323</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Jardim Santa Genebra II Barao Geraldo</BAIRRO>
+        <CIDADE>Campinas</CIDADE>
+        <UF>SP</UF>
+        <CEP>13084783</CEP>
+        <DDD>19</DDD>
+        <TELEFONE>32891976</TELEFONE>
+        <PONTOREFERENCIA>PROXIMO A ESCOLA EMEI LEONOR MOTA ZUPI</PONTOREFERENCIA>
+        <CODIGOIDENT>2807449</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9313577</PEDIDOID>
+      <DATACRIACAO>2014-11-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>50306332000</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>CLARA</NOME>
+        <EMAIL>clara_frey@hotmail.com</EMAIL>
+        <RUA>Rua Carlos Trein Filho</RUA>
+        <NUMERO>848</NUMERO>
+        <COMPL>LOJA</COMPL>
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Santa Cruz do Sul</CIDADE>
+        <UF>RS</UF>
+        <CEP>96810166</CEP>
+        <DDD>51</DDD>
+        <TELEFONE>37133196</TELEFONE>
+        <PONTOREFERENCIA>PROXIMO AFUBRA</PONTOREFERENCIA>
+        <CODIGOIDENT>18352601</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9313629</PEDIDOID>
+      <DATACRIACAO>2014-11-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>21975027604</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Izabel Cristina A. Mendonca</NOME>
+        <EMAIL>ICALVES@HOTMAIL.COM</EMAIL>
+        <RUA>R ALVARENGA PEIXOTO</RUA>
+        <NUMERO>444</NUMERO>
+        <COMPL>Apto.101</COMPL>
+        <BAIRRO>LOURDES</BAIRRO>
+        <CIDADE>BELO HORIZONTE</CIDADE>
+        <UF>MG</UF>
+        <CEP>30180120</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>32752480</TELEFONE>
+        <PONTOREFERENCIA>Nao Informado</PONTOREFERENCIA>
+        <CODIGOIDENT>1303529</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9313680</PEDIDOID>
+      <DATACRIACAO>2014-11-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>5040084</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>18</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Geladeira 4 Litros Frigobar Multilaser</NOMEPRODUTO>
+          <PRECO>279</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>87658941700</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>MARIA DA LUZ</NOME>
+        <EMAIL>maria.mendonca@oi.net.br</EMAIL>
+        <RUA>Rua Tenente Cleto Campelo</RUA>
+        <NUMERO>182</NUMERO>
+        <COMPL>204</COMPL>
+        <BAIRRO>Cocota</BAIRRO>
+        <CIDADE>Rio de Janeiro</CIDADE>
+        <UF>RJ</UF>
+        <CEP>21921025</CEP>
+        <DDD>21</DDD>
+        <TELEFONE>31317539</TELEFONE>
+        <PONTOREFERENCIA>2 PREDIOS APOS CASA DE FESTA ADOLETA</PONTOREFERENCIA>
+        <CODIGOIDENT>2352204</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9316318</PEDIDOID>
+      <DATACRIACAO>2014-11-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>5040084</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>18</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Geladeira 4 Litros Frigobar Multilaser</NOMEPRODUTO>
+          <PRECO>279</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>54079454872</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Jose Lafaiete Liberato</NOME>
+        <EMAIL>theonelu@hotmail.com</EMAIL>
+        <RUA>Avenida Adhemar de Barros</RUA>
+        <NUMERO>518</NUMERO>
+        <COMPL />
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>Jacupiranga</CIDADE>
+        <UF>SP</UF>
+        <CEP>11940000</CEP>
+        <DDD>13</DDD>
+        <TELEFONE>38641673</TELEFONE>
+        <PONTOREFERENCIA>ao lado da assmbleia de deus</PONTOREFERENCIA>
+        <CODIGOIDENT>2528957</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9325774</PEDIDOID>
+      <DATACRIACAO>2014-11-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>92073263887</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>JOSE CARLOS DE ASSIS</NOME>
+        <EMAIL>assiselka2@outlook.com</EMAIL>
+        <RUA>Avenida Paulo Ayres</RUA>
+        <NUMERO>75</NUMERO>
+        <COMPL>BL 34 - APTO 14</COMPL>
+        <BAIRRO>Parque Pinheiros</BAIRRO>
+        <CIDADE>Taboao da Serra</CIDADE>
+        <UF>SP</UF>
+        <CEP>06767220</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>41381698</TELEFONE>
+        <PONTOREFERENCIA>RETORNO DO TABOAO ENFRENTE A CIMPAL</PONTOREFERENCIA>
+        <CODIGOIDENT>3102262</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9326136</PEDIDOID>
+      <DATACRIACAO>2014-11-24</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35452</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01775419894</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>jose caitano da silva</NOME>
+        <EMAIL>ivonaldoads@gmail.com</EMAIL>
+        <RUA>rua rui barbosa</RUA>
+        <NUMERO>2258</NUMERO>
+        <COMPL />
+        <BAIRRO>jd sao gabriel</BAIRRO>
+        <CIDADE>Pirapozinho</CIDADE>
+        <UF>SP</UF>
+        <CEP>19200000</CEP>
+        <DDD>18</DDD>
+        <TELEFONE>32692497</TELEFONE>
+        <PONTOREFERENCIA>final da rua ultima casa</PONTOREFERENCIA>
+        <CODIGOIDENT>17413384</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

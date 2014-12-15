@@ -33,9 +33,9 @@ class Application_Model_DbTable_Item extends Zend_Db_Table_Abstract
     	$data = array('id_item'=>$id,'item_atualizado_dotz' => $item_atualizado_dotz);
     	return $this->update($data, 'id_item = ' . (int) $id);
     }
-    public function updateItemReferencia ($id,$nr_rastreio,$numero_nf,$numero_linha_nf,$peso)
+    public function updateItemReferencia ($id,$nr_rastreio,$u_chave,$numero_nf,$numero_linha_nf,$peso)
     {
-    	$data = array('id_item'=>$id,'nr_rastreio' => $nr_rastreio,'numero_nf' => $numero_nf,'numero_linha_nf' => $numero_linha_nf,'peso' => $peso,'item_enviado_dotz'=>1);
+    	$data = array('id_item'=>$id,'nr_rastreio' => $nr_rastreio,'numero_nf' => $numero_nf,'u_chave' => $u_chave,'numero_linha_nf' => $numero_linha_nf,'peso' => $peso,'item_enviado_dotz'=>1);
     	 
     	return $this->update($data, 'id_item = ' . (int) $id);
     }

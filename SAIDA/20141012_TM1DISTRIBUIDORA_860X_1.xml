@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8865145</PEDIDOID>
+      <DATACRIACAO>2014-10-12</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34030</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>10537231722</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Regina Helena Serrao Miranda</NOME>
+        <EMAIL>shadow_trm@hotmail.com</EMAIL>
+        <RUA>Avenida Raimundo Pereira de Magalhaes</RUA>
+        <NUMERO>3301</NUMERO>
+        <COMPL>Posto Policial</COMPL>
+        <BAIRRO>Jardim ris</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>05145200</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>982642309</TELEFONE>
+        <PONTOREFERENCIA>Posto Policial Militar</PONTOREFERENCIA>
+        <CODIGOIDENT>2207697</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8869805</PEDIDOID>
+      <DATACRIACAO>2014-10-12</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34030</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>94278652020</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marlos Stucker</NOME>
+        <EMAIL>andreabmel@hotmail.com</EMAIL>
+        <RUA>Rua Sete de Setembro</RUA>
+        <NUMERO>615</NUMERO>
+        <COMPL>sala 22</COMPL>
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Santo Angelo</CIDADE>
+        <UF>RS</UF>
+        <CEP>98801680</CEP>
+        <DDD>55</DDD>
+        <TELEFONE>97094407</TELEFONE>
+        <PONTOREFERENCIA>Edificio TIRADENTES</PONTOREFERENCIA>
+        <CODIGOIDENT>7190627</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

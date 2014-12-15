@@ -1,102 +1,107 @@
 <?php
-	$this->title = "Listar produto";
-	$this->headTitle($this->title);
-	//echo $this->form ;
-	
+$this->title = "Listar produto";
+$this->headTitle($this->title);
+echo $this->form;
 ?>
 <div class="box">
-                                <div class="box-header">
-                                    <h3 class="box-title">Lista Produtos</h3>
-                                </div><!-- /.box-header -->
-                                <div class="box-body table-responsive">
-                                <div class="btn-group margin">
-                                            <button class="btn btn-default" type="button">Ação </button>
-                                            <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">
-                                                <span class="caret"></span>
-                                                <span class="sr-only">Toggle Dropdown</span>
-                                            </button>
-                                            <ul role="menu" class="dropdown-menu">
-                                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-produto', 'ativo'=>'1'),null, true);?>">Ativos</a></li>
-                                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-produto', 'ativo'=>'0'),null, true);?>">Inativo</a></li>
-                                                <li><a href="<?php echo $this->url(array('controller'=>'index','action'=>'lista-produto'),null, true);?>">Todos</a></li>
-                                                
-                                               
-                                            </ul>
-                                        </div>
-                                
-                                    <table id="example1" class="table table-bordered table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>Código</th>
-                                                <th>Imagem</th>
-                                                <th>Nome</th>
-                                                <th>Disponivel</th>
-                                                <th>Ativo</th>
-                                                <th>Preço de</th>
-                                                <th>Preço por</th>
-                                                <th>Saldo</th>
-                                                <th>Inserido dotz</th>
-                                                <th>Atualizado dotz</th>
-                                                <th>Ação</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        <?php if($this->listaProdutos>0){
-                                        foreach ($this->listaProdutos as $value){
-                                        ?>
-                                            <tr class="<?php echo ($value["atualizadoDotz"]=="0" || $value["inseridoDotz"]=="0")? "linhaNaoAtualizada":""?>">
-                                                <td><?php echo $value["id_referencia"]?></td>
-                                                <td><img width="73"  src="<?php echo $this->baseUrl()?>/upload/<?php echo $value["nomeArquivo"]?>"  alt="<?php echo $value["nome"]?>" /></td>
-                                                <td><?php echo $value["nome"]?></td>
-                                                <td> <?php echo $value["disponivel"]=="1"? "Sim":"Não"?></td>
-                                                <td><?php echo $value["ativo"]=="1"? "Sim":"Não"?></td>
-                                                <td><?php echo $value["precode"]?></td>
-                                                <td><?php echo $value["precopor"]?></td>
-                                                <td><?php echo $value["saldo"]?></td>
-                                                <td><?php echo $value["inseridoDotz"]=="1"? "Sim":"Não"?></td>
-                                                <td><?php echo $value["atualizadoDotz"]=="1"? "Sim":"Não"?></td>
-                                                <td> 
-                                              
-                                        
-                                                <a alt="Editar" title="Editar" href="<?php echo $this->url(array('controller'=>'index','action'=>'edit-produto', 'idReferencia'=>$value["id_referencia"]),null, true);?>" class="btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i></a>
-                                                <a alt="Visualizar" title="Visualizar" href="<?php echo $this->url(array('controller'=>'index','action'=>'visualiza-produto', 'idReferencia'=>$value["id_referencia"]),null, true);?>" class="btn-sm btn-info"><i class="glyphicon glyphicon-eye-open"></i></a>
-                                                 
-                                                </td>
-                                            </tr>
-                                          <?php }}?> 
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                               <th>Código</th>
-                                                <th>Imagem</th>
-                                                <th>Nome</th>
-                                                <th>Disponivel</th>
-                                                <th>Ativo</th>
-                                                <th>Preço de</th>
-                                                <th>Preço por</th>
-                                                <th>Saldo</th>
-                                                <th>Inserido dotz</th>
-                                                <th>Atualizado dotz</th>
-                                                <th>Ação</th>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div><!-- /.box-body -->
-                            </div><!-- /.box -->
-<link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
-<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
-<script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
+    <div class="box-header">
+        <h3 class="box-title">Lista Produtos</h3>
+    </div><!-- /.box-header -->
+    <div class="box-body table-responsive">
+        <div class="btn-group margin">
+            <button class="btn btn-default" type="button">Ação </button>
+            <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul role="menu" class="dropdown-menu">
+                <li><a href="<?php echo $this->url(array('controller' => 'index', 'action' => 'lista-produto', 'ativo' => '1'), null, true); ?>">Ativos</a></li>
+                <li><a href="<?php echo $this->url(array('controller' => 'index', 'action' => 'lista-produto', 'ativo' => '0'), null, true); ?>">Inativo</a></li>
+                <li><a href="<?php echo $this->url(array('controller' => 'index', 'action' => 'lista-produto'), null, true); ?>">Todos</a></li>
+
+
+            </ul>
+        </div>
+
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Imagem</th>
+                    <th>Nome</th>
+                    <th>Fornecedor</th>
+                    <th>Disponivel</th>
+                    <th>Ativo</th>
+                    <th>Preço de</th>
+                    <th>Preço por</th>
+                    <th>Saldo</th>
+                    <th>Inserido dotz</th>
+                    <th>Atualizado dotz</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                if ($this->listaProdutos > 0) {
+                    foreach ($this->listaProdutos as $value) {
+                        ?>
+                        <tr class="<?php echo ($value["atualizadoDotz"] == "0" || $value["inseridoDotz"] == "0") ? "linhaNaoAtualizada" : "" ?>">
+                            <td><?php echo $value["id_referencia"] ?></td>
+                            <td><img width="73"  src="<?php echo $this->baseUrl() ?>/upload/<?php echo $value["nomeArquivo"] ?>"  alt="<?php echo $value["nome"] ?>" /></td>
+                            <td><?php echo $value["nome"] ?></td>
+                            <td><?php echo $value["fk_fornecedor"] ?></td>
+                            <td> <?php echo $value["disponivel"] == "1" ? "Sim" : "Não" ?></td>
+                            <td><?php echo $value["ativo"] == "1" ? "Sim" : "Não" ?></td>
+                            <td><?php echo $value["precode"] ?></td>
+                            <td><?php echo $value["precopor"] ?></td>
+                            <td><?php echo $value["saldo"] ?></td>
+                            <td><?php echo $value["inseridoDotz"] == "1" ? "Sim" : "Não" ?></td>
+                            <td><?php echo $value["atualizadoDotz"] == "1" ? "Sim" : "Não" ?></td>
+                            <td> 
+
+
+                                <a alt="Editar" title="Editar" href="<?php echo $this->url(array('controller' => 'index', 'action' => 'edit-produto', 'idReferencia' => $value["id_referencia"]), null, true); ?>" class="btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i></a>
+                                <a alt="Visualizar" title="Visualizar" href="<?php echo $this->url(array('controller' => 'index', 'action' => 'visualiza-produto', 'idReferencia' => $value["id_referencia"]), null, true); ?>" class="btn-sm btn-info"><i class="glyphicon glyphicon-eye-open"></i></a>
+
+                            </td>
+                        </tr>
+                    <?php }
+                }
+                ?> 
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Código</th>
+                    <th>Imagem</th>
+                    <th>Nome</th>
+                    <th>Fornecedor</th>
+                    <th>Disponivel</th>
+                    <th>Ativo</th>
+                    <th>Preço de</th>
+                    <th>Preço por</th>
+                    <th>Saldo</th>
+                    <th>Inserido dotz</th>
+                    <th>Atualizado dotz</th>
+                    <th>Ação</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div><!-- /.box-body -->
+</div><!-- /.box -->
+<link href="<?php echo $this->baseUrl() ?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $this->baseUrl() ?>/js/plugins/datatables/jquery.dataTables.js" ></script>
+<script src="<?php echo $this->baseUrl() ?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
 <!-- page script -->
 <script type="text/javascript">
-            $(function() {
-                $("#example1").dataTable();
-                $('#example2').dataTable({
-                    "bPaginate": true,
-                    "bLengthChange": false,
-                    "bFilter": false,
-                    "bSort": true,
-                    "bInfo": true,
-                    "bAutoWidth": false
-                });
-            });
+    $(function() {
+        $("#example1").dataTable();
+        $('#example2').dataTable({
+            "bPaginate": true,
+            "bLengthChange": false,
+            "bFilter": false,
+            "bSort": true,
+            "bInfo": true,
+            "bAutoWidth": false
+        });
+    });
 </script>

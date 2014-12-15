@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>18</PRODUTOID>
+      <NOMEPRODUTO>Mini Frigobar e Aquecedor com 1 Ano de Garantia - Multilaser</NOMEPRODUTO>
+      <FORNECEDOR>Novy</FORNECEDOR>
+      <DESCRICAO>Mini Frigobar e Aquecedor com 1 Ano de Garantia - Multilaser</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\950dcfad4c7434af8a670f99db173a4f.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>mini frigobar</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>19</PRODUTOIDREFERENCIA>
+          <ATIVO>1</ATIVO>
+          <DISPONIVEL>1</DISPONIVEL>
+          <PRECODE>400.00</PRECODE>
+          <PRECOPOR>400.00</PRECOPOR>
+          <FRETEMEDIO>20.00</FRETEMEDIO>
+          <SALDO>700</SALDO>
+          <CODIGOEAN>0</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>teste</NOME>
+              <VALOR>Teste</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/950dcfad4c7434af8a670f99db173a4f.jpg</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

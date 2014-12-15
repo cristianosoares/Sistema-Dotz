@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9228800</PEDIDOID>
+      <DATACRIACAO>2014-11-17</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35201</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>05079814802</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Paulo Khoji</NOME>
+        <EMAIL>paulokhoji@globo.com</EMAIL>
+        <RUA>Av Dom Pedro I</RUA>
+        <NUMERO>744</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Bela Vista</BAIRRO>
+        <CIDADE>Arenapolis</CIDADE>
+        <UF>MT</UF>
+        <CEP>78420000</CEP>
+        <DDD>65</DDD>
+        <TELEFONE>33431301</TELEFONE>
+        <PONTOREFERENCIA>rua descendo a zagonel</PONTOREFERENCIA>
+        <CODIGOIDENT>1934431</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9231401</PEDIDOID>
+      <DATACRIACAO>2014-11-17</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35201</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>49523473891</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Roberto Gomes Nogueira</NOME>
+        <EMAIL>rgn1@terra.com.br</EMAIL>
+        <RUA>Rua Para</RUA>
+        <NUMERO>126</NUMERO>
+        <COMPL>52</COMPL>
+        <BAIRRO>Consolacao</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>01243020</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>32560865</TELEFONE>
+        <PONTOREFERENCIA>Av Angelica altura do n 1860</PONTOREFERENCIA>
+        <CODIGOIDENT>2144290</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9235329</PEDIDOID>
+      <DATACRIACAO>2014-11-17</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35201</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>40123871620</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marcio Pontes De Albuquerque</NOME>
+        <EMAIL>mpafalcon@yahoo.com.br</EMAIL>
+        <RUA>Avenida Engenheiro Carlos Goulart 900</RUA>
+        <NUMERO>900</NUMERO>
+        <COMPL>Bhtrans GECOT</COMPL>
+        <BAIRRO>Estoril</BAIRRO>
+        <CIDADE>Belo Horizonte</CIDADE>
+        <UF>MG</UF>
+        <CEP>30455902</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>33348192</TELEFONE>
+        <PONTOREFERENCIA>Proximo a Rua Jose Rodrigues Pereira</PONTOREFERENCIA>
+        <CODIGOIDENT>10073652</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9238210</PEDIDOID>
+      <DATACRIACAO>2014-11-17</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35201</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>08173242836</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>maria pires de almeida moraes</NOME>
+        <EMAIL>mariapires70@hotmail.com</EMAIL>
+        <RUA>Rua Caramuru</RUA>
+        <NUMERO>105</NUMERO>
+        <COMPL />
+        <BAIRRO>Vila Leao</BAIRRO>
+        <CIDADE>Sorocaba</CIDADE>
+        <UF>SP</UF>
+        <CEP>18040370</CEP>
+        <DDD>15</DDD>
+        <TELEFONE>32316928</TELEFONE>
+        <PONTOREFERENCIA>proximo ao sesi centro esportivo</PONTOREFERENCIA>
+        <CODIGOIDENT>3388866</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9238585</PEDIDOID>
+      <DATACRIACAO>2014-11-17</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35201</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>04676796811</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Emily Colette</NOME>
+        <EMAIL>lilicolette@hotmail.com</EMAIL>
+        <RUA>Rua Jorge Beretta</RUA>
+        <NUMERO>1105</NUMERO>
+        <COMPL>bloco 1 apartamento 32, condominio Gran Park</COMPL>
+        <BAIRRO>Parque Erasmo Assuncao</BAIRRO>
+        <CIDADE>Santo Andre</CIDADE>
+        <UF>SP</UF>
+        <CEP>09271400</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>83114013</TELEFONE>
+        <PONTOREFERENCIA>Rua de acesso da Avenida das Nacoes para Rua Itamarati.</PONTOREFERENCIA>
+        <CODIGOIDENT>3411586</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

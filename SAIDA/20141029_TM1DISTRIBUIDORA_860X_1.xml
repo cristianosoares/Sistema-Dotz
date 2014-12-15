@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9037722</PEDIDOID>
+      <DATACRIACAO>2014-10-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34568</ITEMID>
+          <PRODUTOIDDOTZ>4918335</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>15</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao Esportivo com Camera Embutida 4GB de memoria - Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>10471267880</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>denelson</NOME>
+        <EMAIL>denelsonmartins@bol.com.br</EMAIL>
+        <RUA>Rua Candido Leonardi</RUA>
+        <NUMERO>37</NUMERO>
+        <COMPL>A</COMPL>
+        <BAIRRO>Parque Maria Fernandes</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>04858430</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>59254559</TELEFONE>
+        <PONTOREFERENCIA>Escola Saraiva</PONTOREFERENCIA>
+        <CODIGOIDENT>10295419</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9041316</PEDIDOID>
+      <DATACRIACAO>2014-10-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34568</ITEMID>
+          <PRODUTOIDDOTZ>4966330</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>16</PRODUTOIDFORN>
+          <NOMEPRODUTO>Scanner de Mao Portatil com cartao SD de 2GB  Novy</NOMEPRODUTO>
+          <PRECO>349</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>04150724849</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Elimar Garcia</NOME>
+        <EMAIL>garcia.elimar@gmail.com</EMAIL>
+        <RUA>Rua Edson Francisco Scapol</RUA>
+        <NUMERO>200</NUMERO>
+        <COMPL />
+        <BAIRRO>Granja Olga II</BAIRRO>
+        <CIDADE>Sorocaba</CIDADE>
+        <UF>SP</UF>
+        <CEP>18017200</CEP>
+        <DDD>15</DDD>
+        <TELEFONE>33277286</TELEFONE>
+        <PONTOREFERENCIA>Condominio Granja Olga 2</PONTOREFERENCIA>
+        <CODIGOIDENT>14675466</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9042547</PEDIDOID>
+      <DATACRIACAO>2014-10-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34568</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>27467589620</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>GILBERTO DE OLIVEIRA</NOME>
+        <EMAIL>oliveira2536@yahoo.com.br</EMAIL>
+        <RUA>Rua B</RUA>
+        <NUMERO>55</NUMERO>
+        <COMPL />
+        <BAIRRO>Morro Alto</BAIRRO>
+        <CIDADE>Vespasiano</CIDADE>
+        <UF>MG</UF>
+        <CEP>33200000</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>36611648</TELEFONE>
+        <PONTOREFERENCIA>Antigo Curumim</PONTOREFERENCIA>
+        <CODIGOIDENT>17250768</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9044459</PEDIDOID>
+      <DATACRIACAO>2014-10-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34568</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>66194245700</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Vanilda Leonor Miranda Rocha</NOME>
+        <EMAIL>tiaogualberto@hotmail.com</EMAIL>
+        <RUA>Av Governador Valadares</RUA>
+        <NUMERO>306</NUMERO>
+        <COMPL>Caixa Postal 08</COMPL>
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>SIMONESIA</CIDADE>
+        <UF>MG</UF>
+        <CEP>36930000</CEP>
+        <DDD>33</DDD>
+        <TELEFONE>84556003</TELEFONE>
+        <PONTOREFERENCIA>Ao lado da loja Paulistana</PONTOREFERENCIA>
+        <CODIGOIDENT>4383981</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9045238</PEDIDOID>
+      <DATACRIACAO>2014-10-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34568</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>22114289672</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>conceicao de souza freitas marques</NOME>
+        <EMAIL>conceicao75sf@gmail.com</EMAIL>
+        <RUA>Rua Luther King</RUA>
+        <NUMERO>78</NUMERO>
+        <COMPL>201</COMPL>
+        <BAIRRO>Cidade Nova</BAIRRO>
+        <CIDADE>Belo Horizonte</CIDADE>
+        <UF>MG</UF>
+        <CEP>31170100</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>34844144</TELEFONE>
+        <PONTOREFERENCIA>esquina cav jose candido da silveira, dist. gas e pt taxi</PONTOREFERENCIA>
+        <CODIGOIDENT>1658984</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

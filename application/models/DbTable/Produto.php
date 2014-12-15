@@ -299,6 +299,15 @@ class Application_Model_DbTable_Produto extends Zend_Db_Table_Abstract
          
        return $this->update($data, 'id_produto = ' . (int) $id);
     }
+    public function getProdutoFornecedor($fornecedor){
+            $select =$this->_db->select()
+             ->from(array('r' => 'referencia'))
+             ->joinInner(array('p' => 'produto'),('p.id_produto =r.fk_produto'))
+             ->joinInner(array('a' => 'arquivo'),('a.id_arquivo =r.fk_arquivo'),array('nome as nomeArquivo'))
+             ->where("p.fk_fornecedor LIKE '%$fornecedor%'");               
+             $result = $this->getAdapter()->fetchAll($select);
+             return $result;                                                    
+    }
    
     
     public function pr ($id)

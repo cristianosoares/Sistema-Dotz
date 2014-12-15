@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9013801</PEDIDOID>
+      <DATACRIACAO>2014-10-26</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34481</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>04060204854</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>LUZINETE</NOME>
+        <EMAIL>lu63santos@hotmail.com</EMAIL>
+        <RUA>Avenida Adherbal da Costa Moreira</RUA>
+        <NUMERO>350</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim America</BAIRRO>
+        <CIDADE>Campo Limpo Paulista</CIDADE>
+        <UF>SP</UF>
+        <CEP>13231190</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>998065880</TELEFONE>
+        <PONTOREFERENCIA>BANCO DO BRASIL</PONTOREFERENCIA>
+        <CODIGOIDENT>2067858</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

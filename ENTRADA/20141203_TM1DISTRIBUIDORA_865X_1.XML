@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RASTREAMENTO>
+  <ARQUIVO>
+    <VERSAO>1.0</VERSAO>
+  </ARQUIVO>
+  <LOTE>
+    <NOMEARQUIVO>20141202_TM1DISTRIBUIDORA_860X_1.xml</NOMEARQUIVO>
+  </LOTE>
+  <PEDIDOS>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9451001</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>563</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9451394</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>564</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9452695</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>565</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9456320</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9460365</IDPEDIDODOTZ>
+      <IDPEDIDOFORN>567</IDPEDIDOFORN>
+      <CODIGO>0</CODIGO>
+      <OBSERVACAO>Pedido de troca processado com sucesso</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9460397</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+    <PEDIDO>
+      <IDPEDIDODOTZ>9461144</IDPEDIDODOTZ>
+      <IDPEDIDOFORN></IDPEDIDOFORN>
+      <CODIGO>1</CODIGO>
+      <OBSERVACAO>SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dotztm1`.`item`, CONSTRAINT `fk_item_referencia1` FOREIGN KEY (`fk_referencia`) REFERENCES `referencia` (`id_referencia`) ON DELETE NO ACTION ON UPDATE NO ACTION)</OBSERVACAO>
+    </PEDIDO>
+  </PEDIDOS>
+</RASTREAMENTO>

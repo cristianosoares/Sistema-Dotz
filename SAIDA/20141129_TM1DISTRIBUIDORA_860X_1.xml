@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9399397</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>34910859187</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ANA MARIA LEITE ESTEVES</NOME>
+        <EMAIL>ANALEITEESTEVES@GMAIL.COM</EMAIL>
+        <RUA>SQN 310 Bloco J</RUA>
+        <NUMERO>302</NUMERO>
+        <COMPL />
+        <BAIRRO>Asa Norte</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>70756100</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>35269387</TELEFONE>
+        <PONTOREFERENCIA>asa norte</PONTOREFERENCIA>
+        <CODIGOIDENT>2049854</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9399487</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>57357609634</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Rogerio Aparecido Soares Ribeiro</NOME>
+        <EMAIL>rogerioasribeiro@gmail.com</EMAIL>
+        <RUA>R WILSON GONCALVES</RUA>
+        <NUMERO>222</NUMERO>
+        <COMPL />
+        <BAIRRO>NOSSA SENHORA DA SAUDE</BAIRRO>
+        <CIDADE>BELO HORIZONTE</CIDADE>
+        <UF>MG</UF>
+        <CEP>31910750</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>34325026</TELEFONE>
+        <PONTOREFERENCIA>atras da igreja batista moria</PONTOREFERENCIA>
+        <CODIGOIDENT>1665379</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9399500</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5135229</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>39</PRODUTOIDFORN>
+          <NOMEPRODUTO>Camera Digital Kids - 2 em 1 Mini Camera Digital e Webcam  Ohtek</NOMEPRODUTO>
+          <PRECO>59.9</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>75077957991</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Hannelore</NOME>
+        <EMAIL>angelica.schmith@hotmail.com</EMAIL>
+        <RUA>Rua Triangulo Mineiro</RUA>
+        <NUMERO>175</NUMERO>
+        <COMPL />
+        <BAIRRO>Saguacu</BAIRRO>
+        <CIDADE>Joinville</CIDADE>
+        <UF>SC</UF>
+        <CEP>89221017</CEP>
+        <DDD>47</DDD>
+        <TELEFONE>34223906</TELEFONE>
+        <PONTOREFERENCIA>rua ao lado do Tenis clube</PONTOREFERENCIA>
+        <CODIGOIDENT>10701739</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9399506</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01077291132</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>PABLO DOS SANTOS REGIS</NOME>
+        <EMAIL>tatyane.silva@hotmail.com</EMAIL>
+        <RUA>Avenida Internacional</RUA>
+        <NUMERO>433</NUMERO>
+        <COMPL>CASA</COMPL>
+        <BAIRRO>Flamengo</BAIRRO>
+        <CIDADE>Barreiras</CIDADE>
+        <UF>BA</UF>
+        <CEP>47802662</CEP>
+        <DDD>77</DDD>
+        <TELEFONE>36135266</TELEFONE>
+        <PONTOREFERENCIA>FLAMENGO</PONTOREFERENCIA>
+        <CODIGOIDENT>1836635</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9399900</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>15117977890</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ines</NOME>
+        <EMAIL>ines.regina@uol.com.br</EMAIL>
+        <RUA>Rua Jacirendi</RUA>
+        <NUMERO>91</NUMERO>
+        <COMPL>apto 194A</COMPL>
+        <BAIRRO>Tatuape</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>03080000</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>22272158</TELEFONE>
+        <PONTOREFERENCIA>Av Celso Garcia altura 3000</PONTOREFERENCIA>
+        <CODIGOIDENT>7045886</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9400271</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>09497850832</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>eliana</NOME>
+        <EMAIL>madrid_eli@hotmail.com</EMAIL>
+        <RUA>Avenida Italia</RUA>
+        <NUMERO>243</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim Santa Lucia</BAIRRO>
+        <CIDADE>Varzea Paulista</CIDADE>
+        <UF>SP</UF>
+        <CEP>13223210</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>45951196</TELEFONE>
+        <PONTOREFERENCIA>Escola Irma Maria de Sao Luiz</PONTOREFERENCIA>
+        <CODIGOIDENT>10710775</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9400938</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5135227</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>41</PRODUTOIDFORN>
+          <NOMEPRODUTO>Aspirador Automotivo de Po e Liquidos com 1 Ano de Garantia - Multilaser</NOMEPRODUTO>
+          <PRECO>59.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>37894751812</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>valeria</NOME>
+        <EMAIL>veronica.castaldelli@yahoo.com.br</EMAIL>
+        <RUA>Rua Curitiba</RUA>
+        <NUMERO>131</NUMERO>
+        <COMPL />
+        <BAIRRO>Vila Maria Luiza</BAIRRO>
+        <CIDADE>Ribeirao Preto</CIDADE>
+        <UF>SP</UF>
+        <CEP>14055350</CEP>
+        <DDD>16</DDD>
+        <TELEFONE>39661433</TELEFONE>
+        <PONTOREFERENCIA>proximo ao du lanches</PONTOREFERENCIA>
+        <CODIGOIDENT>4843907</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9401273</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>85309931520</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>sergio mabote</NOME>
+        <EMAIL>sergio.fmpr@hotmail.com</EMAIL>
+        <RUA>Av.Leonidas Cardoso</RUA>
+        <NUMERO>213</NUMERO>
+        <COMPL>ao lado da secretaria da saude</COMPL>
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>Livramento de Nossa Senhora</CIDADE>
+        <UF>BA</UF>
+        <CEP>46140000</CEP>
+        <DDD>71</DDD>
+        <TELEFONE>92299274</TELEFONE>
+        <PONTOREFERENCIA>ao lado d secretaria da saude</PONTOREFERENCIA>
+        <CODIGOIDENT>5937221</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9402016</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5135227</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>41</PRODUTOIDFORN>
+          <NOMEPRODUTO>Aspirador Automotivo de Po e Liquidos com 1 Ano de Garantia - Multilaser</NOMEPRODUTO>
+          <PRECO>59.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>20067238807</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ANDRE LEANDRO COIADO ROSSI</NOME>
+        <EMAIL>brigada_rossi@hotmail.com</EMAIL>
+        <RUA>Rua Prudente de Moraes</RUA>
+        <NUMERO>780</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>ITARARE</CIDADE>
+        <UF>SP</UF>
+        <CEP>18460000</CEP>
+        <DDD>15</DDD>
+        <TELEFONE>81048385</TELEFONE>
+        <PONTOREFERENCIA>proximo a esquina com rua cel fructuoso</PONTOREFERENCIA>
+        <CODIGOIDENT>3278369</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9407780</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5040084</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>18</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Geladeira 4 Litros Frigobar Multilaser</NOMEPRODUTO>
+          <PRECO>279</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>93010508891</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>leonor</NOME>
+        <EMAIL>sevilhinha@hotmail.com</EMAIL>
+        <RUA>Rua Magda Perona Frossard</RUA>
+        <NUMERO>570</NUMERO>
+        <COMPL>802</COMPL>
+        <BAIRRO>Nova Alianca</BAIRRO>
+        <CIDADE>Ribeirao Preto</CIDADE>
+        <UF>SP</UF>
+        <CEP>14026596</CEP>
+        <DDD>16</DDD>
+        <TELEFONE>38776833</TELEFONE>
+        <PONTOREFERENCIA>faculdade unip</PONTOREFERENCIA>
+        <CODIGOIDENT>2625431</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9406578</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00738746711</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Tania Goz</NOME>
+        <EMAIL>thanyagoz@hotmail.com</EMAIL>
+        <RUA>Rua Alberto Pasqualine</RUA>
+        <NUMERO>20</NUMERO>
+        <COMPL />
+        <BAIRRO>Vila Santa Cecilia</BAIRRO>
+        <CIDADE>Volta Redonda</CIDADE>
+        <UF>RJ</UF>
+        <CEP>27260010</CEP>
+        <DDD>24</DDD>
+        <TELEFONE>33503446</TELEFONE>
+        <PONTOREFERENCIA>Em frente ao mercado popular</PONTOREFERENCIA>
+        <CODIGOIDENT>2404007</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9406642</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>36555533900</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Valdecir carneiro alves</NOME>
+        <EMAIL>macarvalho@uel.br</EMAIL>
+        <RUA>Rua Carlos Inacio Alves</RUA>
+        <NUMERO>874</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim Perola</BAIRRO>
+        <CIDADE>Londrina</CIDADE>
+        <UF>PR</UF>
+        <CEP>86038390</CEP>
+        <DDD>43</DDD>
+        <TELEFONE>33257892</TELEFONE>
+        <PONTOREFERENCIA>Seringueira da av robert kock</PONTOREFERENCIA>
+        <CODIGOIDENT>10600756</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9407621</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>05930146934</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>carlos roberto garcia baran</NOME>
+        <EMAIL>betobaran@ig.com.br</EMAIL>
+        <RUA>Rua Visconde do Rio Branco</RUA>
+        <NUMERO>1485</NUMERO>
+        <COMPL>ap 4</COMPL>
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Curitiba</CIDADE>
+        <UF>PR</UF>
+        <CEP>80420210</CEP>
+        <DDD>41</DDD>
+        <TELEFONE>33223451</TELEFONE>
+        <PONTOREFERENCIA>entre vicente machado e comendador araujo proximo</PONTOREFERENCIA>
+        <CODIGOIDENT>259034</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9400512</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00494839864</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>VALDEMAR CLEMENTE</NOME>
+        <EMAIL>clem@hotmail.com</EMAIL>
+        <RUA>R JOSE CARLOS DE QUEIROZ</RUA>
+        <NUMERO>645</NUMERO>
+        <COMPL>CASA</COMPL>
+        <BAIRRO>PARQUE SO CARLOS</BAIRRO>
+        <CIDADE>TRES LAGOAS</CIDADE>
+        <UF>MS</UF>
+        <CEP>79621240</CEP>
+        <DDD>67</DDD>
+        <TELEFONE>35240009</TELEFONE>
+        <PONTOREFERENCIA>em frente ao prEdio de tres andar amarelo</PONTOREFERENCIA>
+        <CODIGOIDENT>2093561</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9411341</PEDIDOID>
+      <DATACRIACAO>2014-11-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5135228</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>40</PRODUTOIDFORN>
+          <NOMEPRODUTO>Conversor de Vinil e VHS com 1 Ano de Garantia - Leadership</NOMEPRODUTO>
+          <PRECO>93.15</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>04644843830</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Prof. Augusto Piratelli</NOME>
+        <EMAIL>ajpiratelli@gmail.com</EMAIL>
+        <RUA>Rodovia Joao Leme dos Santos</RUA>
+        <NUMERO>110</NUMERO>
+        <COMPL>UFSCar Depto. Ciencias Ambientais</COMPL>
+        <BAIRRO>Parque Reserva Fazenda Imperial</BAIRRO>
+        <CIDADE>Sorocaba</CIDADE>
+        <UF>SP</UF>
+        <CEP>18052780</CEP>
+        <DDD>15</DDD>
+        <TELEFONE>32296118</TELEFONE>
+        <PONTOREFERENCIA>O campus fica no Km 110 da Rodovia</PONTOREFERENCIA>
+        <CODIGOIDENT>11155570</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9411357</PEDIDOID>
+      <DATACRIACAO>2014-11-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5052658</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>19</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Geladeira 4 Litros Frigobar Multilaser</NOMEPRODUTO>
+          <PRECO>279</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>29223652634</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>jesiel mesquita da silva</NOME>
+        <EMAIL>anacarolinemmesquita@yahoo.com.br</EMAIL>
+        <RUA>Inho Machado</RUA>
+        <NUMERO>557</NUMERO>
+        <COMPL />
+        <BAIRRO>Clarindo Lopes</BAIRRO>
+        <CIDADE>Montes Claros</CIDADE>
+        <UF>MG</UF>
+        <CEP>39402814</CEP>
+        <DDD>38</DDD>
+        <TELEFONE>32224923</TELEFONE>
+        <PONTOREFERENCIA>paralela avenida dos militare</PONTOREFERENCIA>
+        <CODIGOIDENT>7140411</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9407856</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5135227</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>41</PRODUTOIDFORN>
+          <NOMEPRODUTO>Aspirador Automotivo de Po e Liquidos com 1 Ano de Garantia - Multilaser</NOMEPRODUTO>
+          <PRECO>59.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>09926837778</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Rafael de A. Lima</NOME>
+        <EMAIL>leafar.araujo.lima@gmail.com</EMAIL>
+        <RUA>Goncalves Gato</RUA>
+        <NUMERO>290</NUMERO>
+        <COMPL>Bl 6, Ap 510</COMPL>
+        <BAIRRO>Vila Dagmar</BAIRRO>
+        <CIDADE>Belford Roxo</CIDADE>
+        <UF>RJ</UF>
+        <CEP>26130230</CEP>
+        <DDD>21</DDD>
+        <TELEFONE>35823775</TELEFONE>
+        <PONTOREFERENCIA>Cond. Parque Belo Campo, ao lado do bola Roxa</PONTOREFERENCIA>
+        <CODIGOIDENT>2480619</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9407795</PEDIDOID>
+      <DATACRIACAO>2014-11-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>60231467591</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Mairan A. De F. Cox</NOME>
+        <EMAIL>mairancox@gmail.com</EMAIL>
+        <RUA>Rua Floresta</RUA>
+        <NUMERO>475</NUMERO>
+        <COMPL>Bl 01 ap 301</COMPL>
+        <BAIRRO>Sao Caetano</BAIRRO>
+        <CIDADE>Itabuna</CIDADE>
+        <UF>BA</UF>
+        <CEP>45607090</CEP>
+        <DDD>73</DDD>
+        <TELEFONE>36128173</TELEFONE>
+        <PONTOREFERENCIA>Modulo Policial do Pedro Jeronimo</PONTOREFERENCIA>
+        <CODIGOIDENT>10284364</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9408375</PEDIDOID>
+      <DATACRIACAO>2014-11-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>03441363965</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Maria do Carmo Debur Rossa</NOME>
+        <EMAIL>mcdebur@ig.com.br</EMAIL>
+        <RUA>Rua Joao Caron</RUA>
+        <NUMERO>87</NUMERO>
+        <COMPL />
+        <BAIRRO>Sao Braz</BAIRRO>
+        <CIDADE>Curitiba</CIDADE>
+        <UF>PR</UF>
+        <CEP>82310070</CEP>
+        <DDD>41</DDD>
+        <TELEFONE>32728262</TELEFONE>
+        <PONTOREFERENCIA>Proximo Capela Nossa Senhora das Gracas Vila Real</PONTOREFERENCIA>
+        <CODIGOIDENT>3072679</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9408602</PEDIDOID>
+      <DATACRIACAO>2014-11-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>52280136104</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Paulo Cesar</NOME>
+        <EMAIL>paulinho@centralcv.com.br</EMAIL>
+        <RUA>Rua Tenente Sergio Xavier de Matos</RUA>
+        <NUMERO>284</NUMERO>
+        <COMPL />
+        <BAIRRO>Pocao</BAIRRO>
+        <CIDADE>Cuiaba</CIDADE>
+        <UF>MT</UF>
+        <CEP>78015605</CEP>
+        <DDD>65</DDD>
+        <TELEFONE>33224193</TELEFONE>
+        <PONTOREFERENCIA>Duas ruas abaixo do Sup Paulista do Bairro Pocao</PONTOREFERENCIA>
+        <CODIGOIDENT>2913598</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9410573</PEDIDOID>
+      <DATACRIACAO>2014-11-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>06753425896</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>vera helena de nadai dos reis</NOME>
+        <EMAIL>verinhapreta@uol.com.br</EMAIL>
+        <RUA>rua antonio ferreira franco</RUA>
+        <NUMERO>190</NUMERO>
+        <COMPL>--</COMPL>
+        <BAIRRO>jardim luis ometto</BAIRRO>
+        <CIDADE>iracemapolis</CIDADE>
+        <UF>SP</UF>
+        <CEP>13495000</CEP>
+        <DDD>19</DDD>
+        <TELEFONE>34562561</TELEFONE>
+        <PONTOREFERENCIA>avenida que va ipara santa barbara do oeste</PONTOREFERENCIA>
+        <CODIGOIDENT>2255402</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9409877</PEDIDOID>
+      <DATACRIACAO>2014-11-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>12275123504</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Jose Gabriel Monteiro Sampaio</NOME>
+        <EMAIL>jogabriel1956@gmail.com</EMAIL>
+        <RUA>Rua Emilio Odebrecht</RUA>
+        <NUMERO>626</NUMERO>
+        <COMPL>Apto 1402 - LA</COMPL>
+        <BAIRRO>Pituba</BAIRRO>
+        <CIDADE>Salvador</CIDADE>
+        <UF>BA</UF>
+        <CEP>41830300</CEP>
+        <DDD>71</DDD>
+        <TELEFONE>87427526</TELEFONE>
+        <PONTOREFERENCIA>Proximo a Lagoa dos Patos</PONTOREFERENCIA>
+        <CODIGOIDENT>18694058</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9412304</PEDIDOID>
+      <DATACRIACAO>2014-11-29</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35630</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>75077957991</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Hannelore</NOME>
+        <EMAIL>angelica.schmith@hotmail.com</EMAIL>
+        <RUA>Rua Triangulo Mineiro</RUA>
+        <NUMERO>175</NUMERO>
+        <COMPL />
+        <BAIRRO>Saguacu</BAIRRO>
+        <CIDADE>Joinville</CIDADE>
+        <UF>SC</UF>
+        <CEP>89221017</CEP>
+        <DDD>47</DDD>
+        <TELEFONE>34223906</TELEFONE>
+        <PONTOREFERENCIA>rua ao lado do Tenis clube</PONTOREFERENCIA>
+        <CODIGOIDENT>10701739</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

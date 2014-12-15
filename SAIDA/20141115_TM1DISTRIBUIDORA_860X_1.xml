@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9211337</PEDIDOID>
+      <DATACRIACAO>2014-11-15</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35141</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>21761510894</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ANDERSON DE SOUZA SALES</NOME>
+        <EMAIL>andersonsales27@hotmail.com</EMAIL>
+        <RUA>Maria Franceliana Braz</RUA>
+        <NUMERO>357</NUMERO>
+        <COMPL>casa 01</COMPL>
+        <BAIRRO>Jardim Nova America</BAIRRO>
+        <CIDADE>Campinas</CIDADE>
+        <UF>SP</UF>
+        <CEP>13053033</CEP>
+        <DDD>19</DDD>
+        <TELEFONE>32650372</TELEFONE>
+        <PONTOREFERENCIA>rua da farmacia</PONTOREFERENCIA>
+        <CODIGOIDENT>6899898</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9212092</PEDIDOID>
+      <DATACRIACAO>2014-11-15</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35141</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>39378616453</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>francisco de sales casado dos santos</NOME>
+        <EMAIL>salescasado@uol.com.br</EMAIL>
+        <RUA>Antonio Basilio</RUA>
+        <NUMERO>3660</NUMERO>
+        <COMPL>ap.301.bloco.b</COMPL>
+        <BAIRRO>Lagoa Nova</BAIRRO>
+        <CIDADE>Natal</CIDADE>
+        <UF>RN</UF>
+        <CEP>59056275</CEP>
+        <DDD>84</DDD>
+        <TELEFONE>30814105</TELEFONE>
+        <PONTOREFERENCIA>proximo au hospital da unimed</PONTOREFERENCIA>
+        <CODIGOIDENT>1833356</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9213967</PEDIDOID>
+      <DATACRIACAO>2014-11-15</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35141</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>54886597653</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Ana Celeste Machado Milagres Madeira Cotta</NOME>
+        <EMAIL>trocasememail@dotz.com.br</EMAIL>
+        <RUA>Cesario Alvim</RUA>
+        <NUMERO>386</NUMERO>
+        <COMPL>202</COMPL>
+        <BAIRRO>centro</BAIRRO>
+        <CIDADE>Abre Campo</CIDADE>
+        <UF>MG</UF>
+        <CEP>35365000</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>38721280</TELEFONE>
+        <PONTOREFERENCIA>igreja assembleia de Deus</PONTOREFERENCIA>
+        <CODIGOIDENT>18566436</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9215578</PEDIDOID>
+      <DATACRIACAO>2014-11-15</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35141</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>28909747900</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Valdete m de Jesus</NOME>
+        <EMAIL>val_moria@hotmail.com</EMAIL>
+        <RUA>Avenida Ledio Joao Martins</RUA>
+        <NUMERO>377</NUMERO>
+        <COMPL>Apto 04</COMPL>
+        <BAIRRO>Kobrasol</BAIRRO>
+        <CIDADE>Sao Jose</CIDADE>
+        <UF>SC</UF>
+        <CEP>88102001</CEP>
+        <DDD>48</DDD>
+        <TELEFONE>30344051</TELEFONE>
+        <PONTOREFERENCIA>Proximo ao banco Itau</PONTOREFERENCIA>
+        <CODIGOIDENT>5106389</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9215694</PEDIDOID>
+      <DATACRIACAO>2014-11-15</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35141</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>24557277853</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Maria Angela Zacchi</NOME>
+        <EMAIL>mazacchi@gmail.com</EMAIL>
+        <RUA>Rua Luis Carlini</RUA>
+        <NUMERO>178</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Planalto</BAIRRO>
+        <CIDADE>Artur Nogueira</CIDADE>
+        <UF>SP</UF>
+        <CEP>13160000</CEP>
+        <DDD>19</DDD>
+        <TELEFONE>38271126</TELEFONE>
+        <PONTOREFERENCIA>Proximo a Bicicletaria Irmaos Lobo</PONTOREFERENCIA>
+        <CODIGOIDENT>2076002</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8931204</PEDIDOID>
+      <DATACRIACAO>2014-10-19</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34268</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>11566960703</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Erika Simoes Martinez</NOME>
+        <EMAIL>thuannyalmeida@hotmail.com</EMAIL>
+        <RUA>Rua Irmaos Pila</RUA>
+        <NUMERO>252</NUMERO>
+        <COMPL />
+        <BAIRRO>Vila Mazzei</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>02309000</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>22676561</TELEFONE>
+        <PONTOREFERENCIA>Perto do carrefour</PONTOREFERENCIA>
+        <CODIGOIDENT>3126920</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8936879</PEDIDOID>
+      <DATACRIACAO>2014-10-20</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34268</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>39231517805</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Karen</NOME>
+        <EMAIL>karenraqueldesouza@hotmail.com</EMAIL>
+        <RUA>Rua Raymundo Frutuoso da Silva</RUA>
+        <NUMERO>195</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim Sao Conrado</BAIRRO>
+        <CIDADE>Sorocaba</CIDADE>
+        <UF>SP</UF>
+        <CEP>18076280</CEP>
+        <DDD>15</DDD>
+        <TELEFONE>32266185</TELEFONE>
+        <PONTOREFERENCIA>Fundo da Garagem da Passaro Tur</PONTOREFERENCIA>
+        <CODIGOIDENT>2602525</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8940489</PEDIDOID>
+      <DATACRIACAO>2014-10-20</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34268</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>34717048091</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marcio</NOME>
+        <EMAIL>marcio.tassi@dprf.gov.br</EMAIL>
+        <RUA>Rua Carolina Vergueiro</RUA>
+        <NUMERO>86</NUMERO>
+        <COMPL />
+        <BAIRRO>Centro</BAIRRO>
+        <CIDADE>Passo Fundo</CIDADE>
+        <UF>RS</UF>
+        <CEP>99020010</CEP>
+        <DDD>54</DDD>
+        <TELEFONE>33167331</TELEFONE>
+        <PONTOREFERENCIA>Proximo ao Jornal O Nacional</PONTOREFERENCIA>
+        <CODIGOIDENT>1837296</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8940804</PEDIDOID>
+      <DATACRIACAO>2014-10-20</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34268</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01285816625</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Magno, Magda ou Maria Aparecida</NOME>
+        <EMAIL>magnocpires@hotmail.com</EMAIL>
+        <RUA>Rua Flor-de-fogo</RUA>
+        <NUMERO>65</NUMERO>
+        <COMPL>6201</COMPL>
+        <BAIRRO>Liberdade</BAIRRO>
+        <CIDADE>Belo Horizonte</CIDADE>
+        <UF>MG</UF>
+        <CEP>31270217</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>34927757</TELEFONE>
+        <PONTOREFERENCIA>ao lado do telha norte da av antonio carlos</PONTOREFERENCIA>
+        <CODIGOIDENT>2015016</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

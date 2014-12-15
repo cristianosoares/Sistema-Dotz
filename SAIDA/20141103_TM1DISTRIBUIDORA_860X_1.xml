@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9089407</PEDIDOID>
+      <DATACRIACAO>2014-11-03</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34732</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01398490849</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>WALTER ESTEVES</NOME>
+        <EMAIL>westeves@terra.com.br</EMAIL>
+        <RUA>Doutor Emilio Ribas</RUA>
+        <NUMERO>181</NUMERO>
+        <COMPL>apto 33</COMPL>
+        <BAIRRO>Cambui</BAIRRO>
+        <CIDADE>Campinas</CIDADE>
+        <UF>SP</UF>
+        <CEP>13025141</CEP>
+        <DDD>0</DDD>
+        <TELEFONE />
+        <PONTOREFERENCIA>PONTO DE REFERENCIA NAO INFORMADO</PONTOREFERENCIA>
+        <CODIGOIDENT>2294457</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

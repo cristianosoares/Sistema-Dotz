@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9027426</PEDIDOID>
+      <DATACRIACAO>2014-10-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34535</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>19198760815</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>alexandre massaglia</NOME>
+        <EMAIL>sidney@italterm.com</EMAIL>
+        <RUA>Avenida Adolpho Massaglia</RUA>
+        <NUMERO>615</NUMERO>
+        <COMPL>prox.carrefour</COMPL>
+        <BAIRRO>Vossoroca</BAIRRO>
+        <CIDADE>Votorantim</CIDADE>
+        <UF>SP</UF>
+        <CEP>18116175</CEP>
+        <DDD>15</DDD>
+        <TELEFONE>33778474</TELEFONE>
+        <PONTOREFERENCIA>prox. carrefour</PONTOREFERENCIA>
+        <CODIGOIDENT>2291438</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9028405</PEDIDOID>
+      <DATACRIACAO>2014-10-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34535</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>259.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>39587855817</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marilia David Maurano</NOME>
+        <EMAIL>mmaurano91@gmail.com</EMAIL>
+        <RUA>Coronel Melo Oliveira</RUA>
+        <NUMERO>226</NUMERO>
+        <COMPL>182</COMPL>
+        <BAIRRO>Perdizes</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>05011040</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>43040774</TELEFONE>
+        <PONTOREFERENCIA>Proximo a Avenida Pompeia</PONTOREFERENCIA>
+        <CODIGOIDENT>15012349</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9029922</PEDIDOID>
+      <DATACRIACAO>2014-10-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34535</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>01232551473</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Diego Simonetti Galvao</NOME>
+        <EMAIL>isabelle_ramalho@yahoo.com.br</EMAIL>
+        <RUA>Governador Tarcisio de Vasconcelos Maia</RUA>
+        <NUMERO>2163</NUMERO>
+        <COMPL>Edificio Apollo, 302 bl. 1</COMPL>
+        <BAIRRO>Candelaria</BAIRRO>
+        <CIDADE>Natal</CIDADE>
+        <UF>RN</UF>
+        <CEP>59066035</CEP>
+        <DDD>84</DDD>
+        <TELEFONE>88994419</TELEFONE>
+        <PONTOREFERENCIA>Av Integracao</PONTOREFERENCIA>
+        <CODIGOIDENT>15161103</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9034724</PEDIDOID>
+      <DATACRIACAO>2014-10-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34535</ITEMID>
+          <PRODUTOIDDOTZ>4918338</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>12</PRODUTOIDFORN>
+          <NOMEPRODUTO>Fatiador de Legumes - Novy - QE</NOMEPRODUTO>
+          <PRECO>85.9</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>91685281320</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Syarla Aquino Matos</NOME>
+        <EMAIL>syarlamatos@yahoo.com.br</EMAIL>
+        <RUA>Rua Deputado Benoni Portela</RUA>
+        <NUMERO>6408</NUMERO>
+        <COMPL />
+        <BAIRRO>Gurupi</BAIRRO>
+        <CIDADE>Teresina</CIDADE>
+        <UF>PI</UF>
+        <CEP>64091180</CEP>
+        <DDD>86</DDD>
+        <TELEFONE>32319615</TELEFONE>
+        <PONTOREFERENCIA>Pousada Gurupi</PONTOREFERENCIA>
+        <CODIGOIDENT>10008760</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9036893</PEDIDOID>
+      <DATACRIACAO>2014-10-28</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34535</ITEMID>
+          <PRODUTOIDDOTZ>4918339</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>11</PRODUTOIDFORN>
+          <NOMEPRODUTO>Esfregao Mop 360 Inox  - Novy</NOMEPRODUTO>
+          <PRECO>139.9</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>03124990862</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Sonia</NOME>
+        <EMAIL>sobranofais@yahoo.com.br</EMAIL>
+        <RUA>rua boiadeira</RUA>
+        <NUMERO>790</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>vila nova</BAIRRO>
+        <CIDADE>itapolis</CIDADE>
+        <UF>SP</UF>
+        <CEP>14900000</CEP>
+        <DDD>16</DDD>
+        <TELEFONE>32622476</TELEFONE>
+        <PONTOREFERENCIA>perto da rodoviaria</PONTOREFERENCIA>
+        <CODIGOIDENT>6092897</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9189286</PEDIDOID>
+      <DATACRIACAO>2014-11-12</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00604958714</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ADRIANE MIRANDA</NOME>
+        <EMAIL>dimiranda@ig.com.br</EMAIL>
+        <RUA>Inacio Manuel lvares</RUA>
+        <NUMERO>643</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim Ester</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>05372111</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>23073315</TELEFONE>
+        <PONTOREFERENCIA>QUASE EM FRENTE IGREJA ADVENTISTA</PONTOREFERENCIA>
+        <CODIGOIDENT>17672096</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9198972</PEDIDOID>
+      <DATACRIACAO>2014-11-13</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>08305447634</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>fabia geraldo felix</NOME>
+        <EMAIL>veralucia.carvalho@yahoo.com.br</EMAIL>
+        <RUA>Gardenias</RUA>
+        <NUMERO>18</NUMERO>
+        <COMPL>casa</COMPL>
+        <BAIRRO>Sao Pedro</BAIRRO>
+        <CIDADE>Itabira</CIDADE>
+        <UF>MG</UF>
+        <CEP>35900132</CEP>
+        <DDD>31</DDD>
+        <TELEFONE>38312975</TELEFONE>
+        <PONTOREFERENCIA>NA RUA DO BAR DO PURI</PONTOREFERENCIA>
+        <CODIGOIDENT>17630394</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9201358</PEDIDOID>
+      <DATACRIACAO>2014-11-13</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>03286736503</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>LAUDITE DO CARMO HENRIQUE</NOME>
+        <EMAIL>lai.zdocarmo@gmail.com</EMAIL>
+        <RUA>Caminho 27</RUA>
+        <NUMERO>09</NUMERO>
+        <COMPL>CONJUNTO FEIRA 5</COMPL>
+        <BAIRRO>Mangabeira</BAIRRO>
+        <CIDADE>Feira de Santana</CIDADE>
+        <UF>BA</UF>
+        <CEP>44056204</CEP>
+        <DDD>75</DDD>
+        <TELEFONE>32240090</TELEFONE>
+        <PONTOREFERENCIA>CAMINHO EM FRENTE AO COLEGIO HILDA CARNEIRO</PONTOREFERENCIA>
+        <CODIGOIDENT>2679719</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9202160</PEDIDOID>
+      <DATACRIACAO>2014-11-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>65476247904</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Fatima</NOME>
+        <EMAIL>FATIMA@FISCHERTEXTIL.COM.BR</EMAIL>
+        <RUA>Rua Tiradentes</RUA>
+        <NUMERO>51</NUMERO>
+        <COMPL>Casa</COMPL>
+        <BAIRRO>Bom Retiro</BAIRRO>
+        <CIDADE>Blumenau</CIDADE>
+        <UF>SC</UF>
+        <CEP>89010630</CEP>
+        <DDD>47</DDD>
+        <TELEFONE>30362929</TELEFONE>
+        <PONTOREFERENCIA>proximo Ecomax</PONTOREFERENCIA>
+        <CODIGOIDENT>11812333</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9204003</PEDIDOID>
+      <DATACRIACAO>2014-11-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>08172102372</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>RICARDO DE FREITAS PEREIRA</NOME>
+        <EMAIL>ricardofreitas@hotmail.com.br</EMAIL>
+        <RUA>Osvaldo Cruz</RUA>
+        <NUMERO>241</NUMERO>
+        <COMPL>402</COMPL>
+        <BAIRRO>Meireles</BAIRRO>
+        <CIDADE>Fortaleza</CIDADE>
+        <UF>CE</UF>
+        <CEP>60125150</CEP>
+        <DDD>85</DDD>
+        <TELEFONE>32423648</TELEFONE>
+        <PONTOREFERENCIA>PONTO DE REFERENCIA NAO INFORMADO</PONTOREFERENCIA>
+        <CODIGOIDENT>2346039</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9205571</PEDIDOID>
+      <DATACRIACAO>2014-11-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>15.5</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>13245140860</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>MARIA AUGUSTA M C LANDI</NOME>
+        <EMAIL>gutalandi@hotmail.com</EMAIL>
+        <RUA>R PRF BENO S HARGER</RUA>
+        <NUMERO>112</NUMERO>
+        <COMPL>CASA</COMPL>
+        <BAIRRO>AMERICA</BAIRRO>
+        <CIDADE>JOINVILLE</CIDADE>
+        <UF>SC</UF>
+        <CEP>89204655</CEP>
+        <DDD>47</DDD>
+        <TELEFONE>30280479</TELEFONE>
+        <PONTOREFERENCIA>Nao Informado</PONTOREFERENCIA>
+        <CODIGOIDENT>7481360</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9205950</PEDIDOID>
+      <DATACRIACAO>2014-11-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>279.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>79526101715</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Renato Valle</NOME>
+        <EMAIL>vallecopa@gmail.com</EMAIL>
+        <RUA>Rua Dias da Rocha</RUA>
+        <NUMERO>24</NUMERO>
+        <COMPL>apto.1001</COMPL>
+        <BAIRRO>Copacabana</BAIRRO>
+        <CIDADE>Rio de Janeiro</CIDADE>
+        <UF>RJ</UF>
+        <CEP>22051020</CEP>
+        <DDD>21</DDD>
+        <TELEFONE>34770097</TELEFONE>
+        <PONTOREFERENCIA>proximo a rua santa clara</PONTOREFERENCIA>
+        <CODIGOIDENT>4649272</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9206644</PEDIDOID>
+      <DATACRIACAO>2014-11-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>4918336</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>14</PRODUTOIDFORN>
+          <NOMEPRODUTO>Relogio Espiao com Camera Embutida 4GB de memoria- Novy</NOMEPRODUTO>
+          <PRECO>242</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>92694144187</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>neuza</NOME>
+        <EMAIL>r_pereiramt@hotmail.com</EMAIL>
+        <RUA>rua espirito santo</RUA>
+        <NUMERO>17</NUMERO>
+        <COMPL>quadra 34</COMPL>
+        <BAIRRO>jardim dos estados</BAIRRO>
+        <CIDADE>Varzea Grande</CIDADE>
+        <UF>MT</UF>
+        <CEP>78150000</CEP>
+        <DDD>65</DDD>
+        <TELEFONE>36883504</TELEFONE>
+        <PONTOREFERENCIA>casa de esquina em frente ao campo de futebol</PONTOREFERENCIA>
+        <CODIGOIDENT>4785504</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9206763</PEDIDOID>
+      <DATACRIACAO>2014-11-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>07532873820</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Valldir Faravola</NOME>
+        <EMAIL>vfaravola@uol.com.br</EMAIL>
+        <RUA>Rua Quinze</RUA>
+        <NUMERO>108</NUMERO>
+        <COMPL />
+        <BAIRRO>Maitinga</BAIRRO>
+        <CIDADE>Bertioga</CIDADE>
+        <UF>SP</UF>
+        <CEP>11250000</CEP>
+        <DDD>0</DDD>
+        <TELEFONE />
+        <PONTOREFERENCIA>Proximo Padaria Bela Casa</PONTOREFERENCIA>
+        <CODIGOIDENT>3543017</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9208708</PEDIDOID>
+      <DATACRIACAO>2014-11-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>12139017900</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ALVAIR DOLZAN</NOME>
+        <EMAIL>nadirsdolzan@hotmail.com</EMAIL>
+        <RUA>RUA EUGENIO RAULINO KOERICH</RUA>
+        <NUMERO>619</NUMERO>
+        <COMPL>apto 204</COMPL>
+        <BAIRRO>CAMPINAS</BAIRRO>
+        <CIDADE>SAO JOSE</CIDADE>
+        <UF>SC</UF>
+        <CEP>88101060</CEP>
+        <DDD>48</DDD>
+        <TELEFONE>32412170</TELEFONE>
+        <PONTOREFERENCIA>PONTO DE REFERENCIA NAO INFORMADO</PONTOREFERENCIA>
+        <CODIGOIDENT>2278991</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>9209066</PEDIDOID>
+      <DATACRIACAO>2014-11-14</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>35101</ITEMID>
+          <PRODUTOIDDOTZ>5022087</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>17</PRODUTOIDFORN>
+          <NOMEPRODUTO>Maquina de Costura Portatil Bivolt com Pedal West 202  MacLen</NOMEPRODUTO>
+          <PRECO>149</PRECO>
+          <FRETE>18</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>60222964804</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>REGINALDO DA SILVA DUARTE</NOME>
+        <EMAIL>rh_duarte@yahoo.com.br</EMAIL>
+        <RUA>Rua Fredolin Wolf   Caixa Postal 44</RUA>
+        <NUMERO>35</NUMERO>
+        <COMPL>Agencia do CORREIO</COMPL>
+        <BAIRRO>Vila Santa Terezinha</BAIRRO>
+        <CIDADE>ALMIRANTE TAMANDARE</CIDADE>
+        <UF>PR</UF>
+        <CEP>83501970</CEP>
+        <DDD>41</DDD>
+        <TELEFONE>36571291</TELEFONE>
+        <PONTOREFERENCIA>Agencia dos correios de Almirante TamandarE</PONTOREFERENCIA>
+        <CODIGOIDENT>2183345</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

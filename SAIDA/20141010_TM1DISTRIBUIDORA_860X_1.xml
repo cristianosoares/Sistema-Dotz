@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8842323</PEDIDOID>
+      <DATACRIACAO>2014-10-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33963</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>06218777863</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marcia</NOME>
+        <EMAIL>marciaahenrique@hotmail.com</EMAIL>
+        <RUA>Rua Sao Paulo</RUA>
+        <NUMERO>300</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim Cunhambebe Vicente de Carvalho</BAIRRO>
+        <CIDADE>Guaruja</CIDADE>
+        <UF>SP</UF>
+        <CEP>11450060</CEP>
+        <DDD>13</DDD>
+        <TELEFONE>991027217</TELEFONE>
+        <PONTOREFERENCIA>proximo ao Chris Shopping</PONTOREFERENCIA>
+        <CODIGOIDENT>18307918</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8846403</PEDIDOID>
+      <DATACRIACAO>2014-10-09</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33963</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>00267259670</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>ELLEN eou DARIO eou MARLENE</NOME>
+        <EMAIL>ellenmg@bol.com.br</EMAIL>
+        <RUA>Rua Renato Dias</RUA>
+        <NUMERO>510</NUMERO>
+        <COMPL>APT 302 OU 401</COMPL>
+        <BAIRRO>Bom Pastor</BAIRRO>
+        <CIDADE>Juiz de Fora</CIDADE>
+        <UF>MG</UF>
+        <CEP>36021610</CEP>
+        <DDD>32</DDD>
+        <TELEFONE>88345538</TELEFONE>
+        <PONTOREFERENCIA>PERTO DO BAHAMAS SAO VICENTE</PONTOREFERENCIA>
+        <CODIGOIDENT>653648</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8847751</PEDIDOID>
+      <DATACRIACAO>2014-10-10</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33963</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>17366978892</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Claudinei</NOME>
+        <EMAIL>cfandrade1@hotmail.com</EMAIL>
+        <RUA>Rua Conego Ladeira</RUA>
+        <NUMERO>333</NUMERO>
+        <COMPL>apto  14</COMPL>
+        <BAIRRO>Vila Mazzei</BAIRRO>
+        <CIDADE>Sao Paulo</CIDADE>
+        <UF>SP</UF>
+        <CEP>02309080</CEP>
+        <DDD>11</DDD>
+        <TELEFONE>34671530</TELEFONE>
+        <PONTOREFERENCIA>Igreja Av Mazzei</PONTOREFERENCIA>
+        <CODIGOIDENT>6254093</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8848151</PEDIDOID>
+      <DATACRIACAO>2014-10-10</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33963</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>13690384702</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Mariana Dias Castela de Carvalho</NOME>
+        <EMAIL>marianacastela@gmail.com</EMAIL>
+        <RUA>Rua Barao de Mesquita</RUA>
+        <NUMERO>98</NUMERO>
+        <COMPL>apto. 801</COMPL>
+        <BAIRRO>Tijuca</BAIRRO>
+        <CIDADE>Rio de Janeiro</CIDADE>
+        <UF>RJ</UF>
+        <CEP>20540006</CEP>
+        <DDD>21</DDD>
+        <TELEFONE>988818248</TELEFONE>
+        <PONTOREFERENCIA>Lateral do Colegio Militar</PONTOREFERENCIA>
+        <CODIGOIDENT>17032598</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8849351</PEDIDOID>
+      <DATACRIACAO>2014-10-10</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33963</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>48331031687</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Porteiro</NOME>
+        <EMAIL>mzinato@gmail.com</EMAIL>
+        <RUA>Quadra CA 5</RUA>
+        <NUMERO>3</NUMERO>
+        <COMPL>Edif Manoel Barros . apt. 313</COMPL>
+        <BAIRRO>Setor de Habitacoes Individuais Norte</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>71503505</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>30323200</TELEFONE>
+        <PONTOREFERENCIA>Proximo ao Colegio do Sol do lado da Personal MP</PONTOREFERENCIA>
+        <CODIGOIDENT>4625157</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8852396</PEDIDOID>
+      <DATACRIACAO>2014-10-10</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>33963</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>16005858840</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>alessandra banietti</NOME>
+        <EMAIL>alebanietti@ig.com.br</EMAIL>
+        <RUA>Rua Sylvio Campolim</RUA>
+        <NUMERO>545</NUMERO>
+        <COMPL />
+        <BAIRRO>Jardim America</BAIRRO>
+        <CIDADE>Sorocaba</CIDADE>
+        <UF>SP</UF>
+        <CEP>18046800</CEP>
+        <DDD>15</DDD>
+        <TELEFONE>32212200</TELEFONE>
+        <PONTOREFERENCIA>av . Washington luiz</PONTOREFERENCIA>
+        <CODIGOIDENT>2463923</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

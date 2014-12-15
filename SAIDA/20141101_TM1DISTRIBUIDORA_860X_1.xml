@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>9075937</PEDIDOID>
+      <DATACRIACAO>2014-11-01</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34675</ITEMID>
+          <PRODUTOIDDOTZ>4918337</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>13</PRODUTOIDFORN>
+          <NOMEPRODUTO>Mini Frigobar e Aquecedor 4L - Novy</NOMEPRODUTO>
+          <PRECO>279.9</PRECO>
+          <FRETE>20</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>06109849693</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Marisa Singulano</NOME>
+        <EMAIL>marisasingulano@gmail.com</EMAIL>
+        <RUA>Rua Marques de Pombal</RUA>
+        <NUMERO>295</NUMERO>
+        <COMPL>3</COMPL>
+        <BAIRRO>Rosario</BAIRRO>
+        <CIDADE>Mariana</CIDADE>
+        <UF>MG</UF>
+        <CEP>35420000</CEP>
+        <DDD>32</DDD>
+        <TELEFONE>99103855</TELEFONE>
+        <PONTOREFERENCIA>Proximo a rua Wenceslau Braz</PONTOREFERENCIA>
+        <CODIGOIDENT>1421757</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

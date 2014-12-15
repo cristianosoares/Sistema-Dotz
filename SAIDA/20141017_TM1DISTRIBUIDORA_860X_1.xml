@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><TROCA>
+  <ARQUIVO>
+    <VERSAO>860X</VERSAO>
+  </ARQUIVO>
+  <PEDIDOS>
+    <PEDIDO>
+      <PEDIDOID>8918694</PEDIDOID>
+      <DATACRIACAO>2014-10-17</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34214</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>31345263791</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>Lenize</NOME>
+        <EMAIL>lezire@gmail.com</EMAIL>
+        <RUA>Quadra AOS 4 Bloco E</RUA>
+        <NUMERO>0</NUMERO>
+        <COMPL>apto. 411</COMPL>
+        <BAIRRO>rea Octogonal</BAIRRO>
+        <CIDADE>Brasilia</CIDADE>
+        <UF>DF</UF>
+        <CEP>70660045</CEP>
+        <DDD>61</DDD>
+        <TELEFONE>32341235</TELEFONE>
+        <PONTOREFERENCIA>entre o Colegio Ciman e a Ireja Batista Shaloon</PONTOREFERENCIA>
+        <CODIGOIDENT>1826892</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8918978</PEDIDOID>
+      <DATACRIACAO>2014-10-17</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34214</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>20952619253</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>IRANETH SILERD MEDEIROS LOBATO VILHENA</NOME>
+        <EMAIL>iravil@ig.com.br</EMAIL>
+        <RUA>Rondon Pacheco</RUA>
+        <NUMERO>4488</NUMERO>
+        <COMPL />
+        <BAIRRO>Tibery</BAIRRO>
+        <CIDADE>Uberlandia</CIDADE>
+        <UF>MG</UF>
+        <CEP>38405142</CEP>
+        <DDD>34</DDD>
+        <TELEFONE>32399011</TELEFONE>
+        <PONTOREFERENCIA>Center Shopping Uberlandia</PONTOREFERENCIA>
+        <CODIGOIDENT>18343755</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+    <PEDIDO>
+      <PEDIDOID>8918979</PEDIDOID>
+      <DATACRIACAO>2014-10-17</DATACRIACAO>
+      <ITENS>
+        <ITEM>
+          <ITEMID>34214</ITEMID>
+          <PRODUTOIDDOTZ>4850986</PRODUTOIDDOTZ>
+          <PRODUTOIDFORN>8</PRODUTOIDFORN>
+          <NOMEPRODUTO>Pulseira do Bem</NOMEPRODUTO>
+          <PRECO>24.31</PRECO>
+          <FRETE>15</FRETE>
+          <QTDE>1</QTDE>
+        </ITEM>
+      </ITENS>
+      <DESTINATARIO>
+        <DOCUMENTO>20952619253</DOCUMENTO>
+        <TIPOPESSOA>F</TIPOPESSOA>
+        <NOME>IRANETH SILERD MEDEIROS LOBATO VILHENA</NOME>
+        <EMAIL>iravil@ig.com.br</EMAIL>
+        <RUA>Rondon Pacheco</RUA>
+        <NUMERO>4488</NUMERO>
+        <COMPL />
+        <BAIRRO>Tibery</BAIRRO>
+        <CIDADE>Uberlandia</CIDADE>
+        <UF>MG</UF>
+        <CEP>38405142</CEP>
+        <DDD>34</DDD>
+        <TELEFONE>32399011</TELEFONE>
+        <PONTOREFERENCIA>Center Shopping Uberlandia</PONTOREFERENCIA>
+        <CODIGOIDENT>18343755</CODIGOIDENT>
+      </DESTINATARIO>
+      <OBSERVACAO />
+    </PEDIDO>
+  </PEDIDOS>
+</TROCA>

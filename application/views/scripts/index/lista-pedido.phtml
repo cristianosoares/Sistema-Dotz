@@ -19,11 +19,10 @@
                                                 <th>Cod. pedido dotz</th>
                                                 <th>Data criação</th>
                                                 <th>Nome</th>
+                                                <th>Fornecedor</th>
                                                 <th>E-mail</th>
                                                 <th>Uf</th>
-                                                <th>Cidade</th>
-                                                <th>Bairro</th> 
-                                                 <th>Rua</th>  
+                                                <th>Cidade</th> 
                                                 <th>CEP</th>
                                                 <th>Telefone</th>
                                                <!--  <th>Canal do pedido</th>
@@ -42,11 +41,10 @@
                                                 <td><?php echo $value["id_pedido_dotz"]?></td>
                                                 <td><?php echo $value["datacriacao"]?></td>
                                                 <td><?php echo $value["nome"]?></td>
+                                                <td><?php echo $value["fk_fornecedor"]?></td>
                                                 <td><?php echo $value["email"]?></td>
                                                 <td><?php echo $value["uf"]?></td>
-                                                <td><?php echo $value["cidade"]?></td>
-                                                <td><?php echo $value["bairro"]?></td>
-                                                <td><?php echo $value["rua"]?></td>                                
+                                                <td><?php echo $value["cidade"]?></td>                                
                                                 <td><?php echo $value["cep"]?></td>
                                                 <td><?php echo "(".$value["ddd"].")".$value["telefone"]?></td>
                                                 <!--  <td><?php echo $value["canalpedido"]?></td>
@@ -72,7 +70,6 @@
                                                 <th>Uf</th>
                                                 <th>Cidade</th>
                                                 <th>Bairro</th> 
-                                                 <th>Rua</th>  
                                                 <th>CEP</th>
                                                 <th>Telefone</th>
                                                <!--  <th>Canal do pedido</th>
