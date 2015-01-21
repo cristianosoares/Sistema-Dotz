@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>158</PRODUTOID>
+      <NOMEPRODUTO>HUB USB Slim com 4 portas Multilaser</NOMEPRODUTO>
+      <FORNECEDOR>Multilaser</FORNECEDOR>
+      <DESCRICAO>Conecte até 4 USB`s com esse HUB. Facilidade e praticidade com esse produto!&#13;
+&#13;
+Características&#13;
+. HUB USB 3.0 de alta velocidade com 4 portas&#13;
+. Velocidade de 5Gbps (high speed)&#13;
+. Plug </DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\f733ff8e7274e9d9e78f2aad9189e336.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>hub usb</PALAVRA>
+        <PALAVRA>hub</PALAVRA>
+        <PALAVRA>usb</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>160</PRODUTOIDREFERENCIA>
+          <ATIVO>0</ATIVO>
+          <DISPONIVEL>0</DISPONIVEL>
+          <PRECODE>0.09</PRECODE>
+          <PRECOPOR>0.09</PRECOPOR>
+          <FRETEMEDIO>0.09</FRETEMEDIO>
+          <SALDO>9</SALDO>
+          <CODIGOEAN>0</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Marca</NOME>
+              <VALOR>Multilaser</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/f733ff8e7274e9d9e78f2aad9189e336.jpg</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

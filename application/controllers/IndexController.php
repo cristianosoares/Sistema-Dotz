@@ -452,7 +452,7 @@ class IndexController extends Zend_Controller_Action {
                 //Zend_Registry::get('logger')->log("Clicou vincularReferencia ".$formData['id_referencia'], Zend_Log::INFO);
             } else {//clicou adicionar
             }
-
+            var_dump($formData);die;
             $listaNomeCaract = array();
             $listaValorCaract = $formData["valorCaracteristica"];
             Zend_Registry::get('logger')->log(count($listaValorCaract), Zend_Log::INFO);
@@ -460,11 +460,10 @@ class IndexController extends Zend_Controller_Action {
                 $form->getElement('nomeCaracteristica')->setErrors(array('nomeCaracteristica' => 'CaracterÃ­stica do produto'));
                 $form->getElement('valorCaracteristica')->setErrors(array('valorCaracteristica' => 'Valor referente Ã  caracterÃ­stica do produto'));
             }
-
+            
             if ($form->isValid($formData) and (count($listaValorCaract) >= 1)) {
 
                 try {
-
                     $imageAdapter = new Zend_File_Transfer_Adapter_Http();
                     $imageAdapter->setDestination(BASE_PATH . '/upload');
                     $nomedaimagem = $_FILES['fileUpload']['name'];
@@ -878,15 +877,21 @@ class IndexController extends Zend_Controller_Action {
             $del = $this->getRequest()->getPost('del');
             $enviarDotz = $this->getRequest()->getPost('enviarDotz');
             if (isset($enviarDotz)) {
-                Zend_Registry::get('logger')->log("Enviar novo produto dotz", Zend_Log::INFO);
-                try {
-                    $this->log->gerarLayout950X();
-                    $this->view->mensagem = "Enviado com sucesso";
-                    $this->view->erro = 0;
-                } catch (Exception $e) {
-                    $this->view->mensagem = $e->getMessage();
+                // Verifica se usuÃ¡rio escolheu algum nÃºmero   
+                if (isset($_POST["enviar_prod_dotz"])) {
+                    try {
+                        $this->log->gerarLayout950X($_POST["enviar_prod_dotz"]);
+                        $this->view->mensagem = "Enviado com sucesso";
+                        $this->view->erro = 0;
+                    } catch (Exception $e) {
+                        $this->view->mensagem = $e->getMessage();
+                        $this->view->erro = 1;
+                        $this->view->mensagemExcecao = $e->getMessage();
+                    }
+                } else {
+                    $this->view->mensagem = "Favor escolher algum produto para ser enviado para dotz";
                     $this->view->erro = 1;
-                    $this->view->mensagemExcecao = $e->getMessage();
+                    $this->view->mensagemExcecao = "";
                 }
             } elseif ($del == 'Yes') {
                 $id = $this->getRequest()->getPost('id');
@@ -1535,6 +1540,7 @@ class IndexController extends Zend_Controller_Action {
                     $fk_item = $form->getValue('fk_item');
                     $fk_ocorrencia = $form->getValue('fk_ocorrencia');
                     $observacao = $form->getValue('observacao');
+                    $dataentrega = date("Y-m-d H:i:s", strtotime($form->getValue('datahora')));
                     $final = $form->getValue('final');
 
                     //$nr_rastreio = $form->getValue('nr_rastreio');
@@ -1546,7 +1552,7 @@ class IndexController extends Zend_Controller_Action {
 
                     try {
 
-                        $itemHasOcorrencia->addItemHasOcorrencia($fk_item, $fk_ocorrencia, $observacao, $final);
+                        $itemHasOcorrencia->addItemHasOcorrencia($fk_item, $fk_ocorrencia, $observacao,$dataentrega, $final);
                         $this->view->mensagem = "Adicionado com sucesso";
                         $this->view->erro = 0;
                     } catch (Exception $e) {

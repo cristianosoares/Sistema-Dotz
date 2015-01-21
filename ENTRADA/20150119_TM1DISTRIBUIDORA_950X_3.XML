@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>52</PRODUTOID>
+      <NOMEPRODUTO>Ímãs de geladeira personalizados</NOMEPRODUTO>
+      <FORNECEDOR>On The Case</FORNECEDOR>
+      <DESCRICAO>Imãs personalizadas impressos em alta resolução em uma manta magnética de 3mm de espessura. Cada kit vai com 12 ímãs no formato 5x5cm cada, que podem ser montados no site, utilizando imagens do Facebook, Instagram ou do próprio computador.&#13;
+Deixe a sua casa com a sua cara! As melhores lembranças, os melhores momentos, família, amigos, o seu cachorro, gato ou papagaio também podem participar. É só escolher a foto, finalizar os ajustes e fazer o pedido. A impressão acontece em 24 horas e então despachamos o seu ímã pelos correios. Depois disso, é só aguardar! Não demora muito e o carteiro vai bater a sua porta com o seu kit exclusivo de ímãs personalizados.&#13;
+&#13;
+Ao trocar seus pontos pelos ímãs personalizados, você receberá um link no email cadastrado na Dotz com um código promocional, o qual deverá ser utilizado no site www.onthecase.com.br para dar continuidade no envio das fotos e personalização do ímã. No próprio site você usa as fotos do facebook, instagram ou computador para fazer as montagens. Finalize o seu pedido utilizando o código promocional. Agora é só aguardar. Você receberá os seus ímãs personalizados em sua casa.&#13;
+&#13;
+Política de troca: Produtos personalizados são trocados caso seja detectado algum problema ou falha de impressão. Por favor entre em contato por email assim que receber o seu produto. Se confirmada a falha, um novo kit é enviado em 48 horas para você.&#13;
+</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\07f2cf4ef60a7630a03db09dedf7efc5.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>ímã</PALAVRA>
+        <PALAVRA>ímãs</PALAVRA>
+        <PALAVRA>ima</PALAVRA>
+        <PALAVRA>imas</PALAVRA>
+        <PALAVRA>ímãs personalizados</PALAVRA>
+        <PALAVRA>on the case</PALAVRA>
+        <PALAVRA>ímãs de geladeira</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>54</PRODUTOIDREFERENCIA>
+          <ATIVO>0</ATIVO>
+          <DISPONIVEL>0</DISPONIVEL>
+          <PRECODE>29.90</PRECODE>
+          <PRECOPOR>29.90</PRECOPOR>
+          <FRETEMEDIO>15.00</FRETEMEDIO>
+          <SALDO>500</SALDO>
+          <CODIGOEAN>0</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Marca</NOME>
+              <VALOR>On the Case</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/07f2cf4ef60a7630a03db09dedf7efc5.jpg</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

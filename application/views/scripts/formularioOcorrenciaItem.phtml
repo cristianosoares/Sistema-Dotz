@@ -1,4 +1,11 @@
+<script type="text/javascript">
 
+$(document).ready(function() {
+    $("#datahora").datepicker({"dateFormat":"dd-mm-yy"});
+});
+
+
+</script>
 <div class="row">
                         <!-- left column -->
                         <div class="col-md-12">
@@ -29,13 +36,15 @@
                                            
                                        <?php echo $this->element->fk_ocorrencia; ?>
                                        </div>
+                                       <div class="form-group">
+                                                <?php echo $this->element->datahora; ?>
+                                        </div>
                                         <div class="form-group">
                                             <label for="exampleInputPassword1">Observação</label>
                                            
                                        <?php echo $this->element->observacao; ?>
                                        </div>
                                         <div class="form-group">
-                                           
                                            
                                        <?php echo $this->element->final; ?>
                                        </div>

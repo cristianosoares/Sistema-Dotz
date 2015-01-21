@@ -94,8 +94,39 @@ class Application_Model_DbTable_Produto extends Zend_Db_Table_Abstract
 		}
 		return $result;
 	}
-	public function getProdutosNovosXml(){
+        public function getListProdutosNovosXml($listaReferencias){
+		$where="and (";
+	$i=0;
+		foreach ($listaReferencias as $ref){
+			if($i==0){
+				$where=$where."id_referencia ='$ref' ";
+			}else{
+				$where=$where." or id_referencia ='$ref' ";
+			}
+			$i++;
+			
+		}
+		$where=$where.")";
+		$select =$this->_db->select()
+		->from(array('r' => 'referencia'))
+		->joinInner(array('p' => 'produto'),('p.id_produto =r.fk_produto'))
+		->joinInner(array('a' => 'arquivo'),('a.id_arquivo =r.fk_arquivo'),array('nome as nomeArquivo'))
+		->where('  r.inseridoDotz =0 '.$where )
+		->group('p.id_produto')
+		->order('  p.id_produto desc ' );
 		
+	
+		$result = $this->getAdapter()->fetchAll($select);
+		$i=0;
+		foreach($result as $value){
+		$listaReferencia=$this->getProdutosNovosIdreferencia($value["id_produto"]);
+		//Zend_Registry::get('logger')->log($listaReferencia, Zend_Log::INFO);
+		$result[$i]["referencias"]=$listaReferencia;
+		$i++;
+		}
+		return $result;
+	}
+	public function getProdutosNovosXml(){
 		$select =$this->_db->select()
 		->from(array('r' => 'referencia'))
 		->joinInner(array('p' => 'produto'),('p.id_produto =r.fk_produto'))
@@ -104,7 +135,6 @@ class Application_Model_DbTable_Produto extends Zend_Db_Table_Abstract
 		->group('p.id_produto')
 		->order('  p.id_produto desc ' );
 		
-	
 		$result = $this->getAdapter()->fetchAll($select);
 		$i=0;
 		foreach($result as $value){

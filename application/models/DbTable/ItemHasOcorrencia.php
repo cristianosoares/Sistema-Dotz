@@ -61,13 +61,12 @@ class Application_Model_DbTable_ItemHasOcorrencia extends Zend_Db_Table_Abstract
 		}
 		return true;
 	}
-	public function addItemHasOcorrencia($fk_item,$fk_ocorrencia,$observacao,$final)
+	public function addItemHasOcorrencia($fk_item,$fk_ocorrencia,$observacao,$dataentrega,$final)
     {
     	$item= new Application_Model_DbTable_Item();
     	$item->atualizaItemDotz($fk_item, 0);
-    	
-    	$data_atual = date("Y-m-d H:i:s");
-        $data = array('fk_item' => $fk_item,'fk_ocorrencia' => $fk_ocorrencia,'observacao' => $observacao,'final' => $final,'datahora' => $data_atual);
+    	 
+       $data = array('fk_item' => $fk_item,'fk_ocorrencia' => $fk_ocorrencia,'observacao' => $observacao,'final' => $final,'datahora' => $dataentrega);
         return $this->insert($data);
     }
    

@@ -160,7 +160,7 @@ class Application_Form_Produto extends Zend_Form
         ->removeDecorator('HtmlTag')
         ->removeDecorator('Label');
         
-          $fileUpload = new Zend_Form_Element_File('fileUpload');
+        $fileUpload = new Zend_Form_Element_File('fileUpload');
 		  $fileUpload->setLabel('Imagem produto')
 		   ->setRequired(true)
 		->addValidator('Extension', false, array('jpg', 'png', 'gif'))

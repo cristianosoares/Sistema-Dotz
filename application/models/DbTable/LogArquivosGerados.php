@@ -138,12 +138,13 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
         $data = array('sequencial' => $sequencial,'layout' => $layout, 'datacriacao' => $data_atual, 'enviadorecebido' => $enviadorecebido,'fk_arquivo'=>$fk_arquivo);
         return $this->insert($data);
     }
-    public function gerarLayout950X(){
+    public function gerarLayout950X($referencias){
     	$layout= "950X";
     	
 			Zend_Registry::get('logger')->log("entrou layout 950x", Zend_Log::INFO);
 			$produto = new Application_Model_DbTable_Produto();
-                        $listaProdutos=$produto->getProdutosNovosXml();
+                        $listaProdutos=$produto->getListProdutosNovosXml($referencias);
+                        
 			if(count($listaProdutos)<=0){
 				throw new Exception("Não existe novos produtos para enviar para DOTZ");
 			}
@@ -184,7 +185,10 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 					
 					$REFERENCIAS = $dom->createElement("REFERENCIAS");
 					Zend_Registry::get('logger')->log($value["referencias"], Zend_Log::INFO);
+                                        
+                                        $r=new Application_Model_DbTable_Referencia();
 				    foreach ($value["referencias"] as $value3){
+                                                $r->updateReferenciaInseridoDotz ($value3["id_referencia"]);//atualiza referencia
 				    		$REFERENCIA = $dom->createElement("REFERENCIA");
 							$PRODUTOIDREFERENCIA = $dom->createElement("PRODUTOIDREFERENCIA", $value3["id_referencia"]);
 							$ATIVO = $dom->createElement("ATIVO", $value3["ativo"]);
@@ -262,8 +266,7 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 			try {
 		   		//Salva arquivo na pasta local e dotz
 				$this->validaCriaUploadDotzArquivo($dom,$layout);
-				$r=new Application_Model_DbTable_Referencia();
-				$r->updateReferenciaInseridoDotz();
+				//$r->updateReferenciaInseridoDotz();
 		    	$this->_db->commit();
 		  
 		 		
@@ -358,10 +361,8 @@ public function atualizarLayout950X($referencias){
 
 			Zend_Registry::get('logger')->log("entrou layout gerarLayout955X", Zend_Log::INFO);
 			$produto = new Application_Model_DbTable_Produto();
-		
+                        
 			$listaProdutos=$produto->getProdutosAtualizadosXml($referencias);
-
-
 
 			#versao do encoding xml
 			$dom = new DOMDocument("1.0", "ISO-8859-1");

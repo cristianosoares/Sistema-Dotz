@@ -4,6 +4,7 @@
 	//echo $this->form ;
 	
 ?>
+<form role="form" action="" method="post" id="formularioEnviarDotz" name="formularioEnviarDotz">
 <div class="row ">
                             <div class="col-xs-12 ">
                             <div class="box box-primary fundoDotz">
@@ -21,10 +22,9 @@
                                         <div class="col-sm-6 ">
                                           
                                         	<div class="form-group">
-                                        	<form role="form" action="" method="post" id="formularioEnviarDotz" enctype="multipart/form-data" name="formularioEnviarDotz">
+                                        	
                                         		<input type="submit" alt="Enviar Produtos para Dotz" title="Enviar Produtos para Dotz"  class="btn btn-primary " value="Enviar Produtos para Dotz" id="submitbutton" name="enviarDotz">                                        		                                        		<button value="vincular" class="btn btn-primary" id="vincularReferencia" name="vincularReferencia" type="submit" style="display: none">Vincular Refêrencia</button>
-                                    			<input type="hidden" id="enviarDotz" name="enviarDotz" value="1"/>
-                                    		</form>
+                                    			<input type="hidden" id="fk_item" name="fk_item" value="<?php echo $this->fk_item ?>"/>
                                     		</div>
                                         </div><!-- /.col -->
                                         
@@ -42,6 +42,7 @@
                                     <table id="example1" class="table table-bordered table-striped">
                                         <thead>
                                             <tr>
+                                                <th class="semSeta" ><input type="checkbox" id="check-all"/></th>
                                                 <th>Código</th>
                                                 <th>Imagem</th>
                                                 <th>Nome</th>
@@ -59,6 +60,7 @@
                                         foreach ($this->listaProdutos as $value){
                                         ?>
                                             <tr>
+                                                <td class="small-col"><?php echo $value["atualizadoDotz"]=="1"? "":"<input type='checkbox' name='enviar_prod_dotz[]' value='".$value["id_referencia"]."'/>"?></td>
                                                 <td><?php echo $value["id_referencia"]?></td>
                                                 <td><img width="73"  src="<?php echo $this->baseUrl()?>/upload/<?php echo $value["nomeArquivo"]?>"  alt="<?php echo $value["nome"]?>" /></td>
                                                 <td><?php echo $value["nome"]?></td>
@@ -106,6 +108,7 @@
                             </div><!-- /.box -->
                         </div>
                         </div>
+</form>                            
 <link href="<?php echo $this->baseUrl()?>/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
 <script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/jquery.dataTables.js" ></script>
 <script src="<?php echo $this->baseUrl()?>/js/plugins/datatables/dataTables.bootstrap.js" ></script>
@@ -120,6 +123,23 @@
                     "bSort": true,
                     "bInfo": true,
                     "bAutoWidth": false
+                });
+                $('input[type="checkbox"]').iCheck({
+                    checkboxClass: 'icheckbox_minimal-blue',
+                    radioClass: 'iradio_minimal-blue'
+                });
+
+                //When unchecking the checkbox
+                $("#check-all").on('ifUnchecked', function(event) {
+                    //Uncheck all checkboxes
+                   
+                    $("input[type='checkbox']", ".table").iCheck("uncheck");
+                });
+                //When checking the checkbox
+                $("#check-all").on('ifChecked', function(event) {
+                    //Check all checkboxes
+                     
+                    $("input[type='checkbox']", ".table").iCheck("check");
                 });
             });
 </script>

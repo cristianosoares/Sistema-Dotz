@@ -158,11 +158,11 @@ class Application_Model_DbTable_Referencia extends Zend_Db_Table_Abstract
 		return false;
         
     }
-    public function updateReferenciaInseridoDotz ()
+    public function updateReferenciaInseridoDotz ($id_referencia)
     {
     	$data = array('inseridoDotz'=>'1','atualizadoDotz'=>'1');
-    
-    	return $this->update($data,'inseridoDotz = 0' );
+        Zend_Registry::get('logger')->log("updateReferenciaAtualizadoDotz", Zend_Log::INFO);
+    	return $this->update($data,'id_referencia = ' . (int) $id_referencia );
     }
     public function updateReferenciaAtualizadoDotz ($id_referencia)
     {

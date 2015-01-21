@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOGO>
+  <PRODUTOS>
+    <PRODUTO>
+      <PRODUTOID>156</PRODUTOID>
+      <NOMEPRODUTO>Pelúcia Minnie Booh Multikids</NOMEPRODUTO>
+      <FORNECEDOR>Multilaser</FORNECEDOR>
+      <DESCRICAO>Diretamente da Disney para brincar com você,  Minnie a ratinha mais charmosa e famosa do universo dos desenhos!  Pelúcia super macia, fofinha e com mecanismos e som deste clássico personagem da Disney! Possui duas diferentes funções para você se divertir! Ela adora brincar de se esconder, aperte o pézinho dela  e surpreenda-se com esta ratinha super legal e  divertida! Aperte o outro pézinho e ouça ela cantarolar e dar risadas! Muita Diversão em apenas uma Pelúcia, a criançada vai adorar!&#13;
+&#13;
+Especificações técnicas&#13;
+Material: PELÚCIA PLUSH / COMPONENTES ELETRÔNICOS&#13;
+Conteúdo da embalagem: Contém 1 Pelúcia&#13;
+Alimentação: AA (LR6 - Pequena) inclusas&#13;
+Peso: 0,49 kg&#13;
+Dimensões: 29.5 x 21 x 22 cm (A,L,C)&#13;
+&#13;
+</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\ce0a6cfd1268358ccba856ef7a0f6efa.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>pelúcia</PALAVRA>
+        <PALAVRA>urso de pelúcia</PALAVRA>
+        <PALAVRA>minnie</PALAVRA>
+        <PALAVRA>brinquedo</PALAVRA>
+        <PALAVRA>brinquedos</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>158</PRODUTOIDREFERENCIA>
+          <ATIVO>0</ATIVO>
+          <DISPONIVEL>0</DISPONIVEL>
+          <PRECODE>0.09</PRECODE>
+          <PRECOPOR>0.09</PRECOPOR>
+          <FRETEMEDIO>0.09</FRETEMEDIO>
+          <SALDO>9</SALDO>
+          <CODIGOEAN>0</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Marca</NOME>
+              <VALOR>Multilaser</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/ce0a6cfd1268358ccba856ef7a0f6efa.jpg</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+    <PRODUTO>
+      <PRODUTOID>153</PRODUTOID>
+      <NOMEPRODUTO>Pelúcia Mickey Booh Multikids</NOMEPRODUTO>
+      <FORNECEDOR>Multilaser</FORNECEDOR>
+      <DESCRICAO>Diretamente da Disney para brincar com você,  Mickey o Ratinho mais aventureiro, adorável e bondoso do universo dos desenhos!  Pelúcia super macia, fofinha e com mecanismos e som deste clássico personagem da Disney! Possui duas diferentes funções para você se divertir! Ele adora brincar de se esconder, aperte o pézinho dele  e surpreenda-se com este ratinho super legal e  divertido! Aperte o outro pézinho e ouça ele cantarolar e dar risadas! Muita Diversão em apenas uma Pelúcia, a criançada vai adorar!&#13;
+&#13;
+Especificações técnicas&#13;
+Material: PELÚCIA PLUSH / COMPONENTES ELETRÔNICOS&#13;
+Conteúdo da embalagem: Contém 1 Pelúcia&#13;
+Alimentação: AA (LR6 - Pequena) inclusa&#13;
+Peso: 0,49 Kg&#13;
+Dimensões: 29.5 x 21 x 22 cm (A,L,C)&#13;
+&#13;
+&#13;
+&#13;
+</DESCRICAO>
+      <URL>http:\\www.tm1.com.br\dotz\upload\b13f506c35518996a26ce73cbeb6ad00.jpg</URL>
+      <PALAVRASCHAVE>
+        <PALAVRA>urso de pelúcia</PALAVRA>
+        <PALAVRA>pelúcia</PALAVRA>
+        <PALAVRA>mickey</PALAVRA>
+        <PALAVRA>ursinho</PALAVRA>
+      </PALAVRASCHAVE>
+      <REFERENCIAS>
+        <REFERENCIA>
+          <PRODUTOIDREFERENCIA>155</PRODUTOIDREFERENCIA>
+          <ATIVO>0</ATIVO>
+          <DISPONIVEL>0</DISPONIVEL>
+          <PRECODE>0.09</PRECODE>
+          <PRECOPOR>0.09</PRECOPOR>
+          <FRETEMEDIO>0.09</FRETEMEDIO>
+          <SALDO>9</SALDO>
+          <CODIGOEAN>0</CODIGOEAN>
+          <CARACTERISTICAS>
+            <CARACTERISTICA>
+              <NOME>Marca</NOME>
+              <VALOR>Multilaser</VALOR>
+            </CARACTERISTICA>
+          </CARACTERISTICAS>
+          <IMAGENS>
+            <URLIMAGEM>http://www.tm1.com.br/dotz/upload/b13f506c35518996a26ce73cbeb6ad00.jpg</URLIMAGEM>
+          </IMAGENS>
+        </REFERENCIA>
+      </REFERENCIAS>
+      <LOJAS>
+        <LOJA>
+          <ID>1</ID>
+          <NOME>TM1DISTRIBUIDORA</NOME>
+        </LOJA>
+      </LOJAS>
+      <DEPARTAMENTOS>
+        <ID>1</ID>
+        <NOME>1</NOME>
+        <IDPAI>1</IDPAI>
+        <NOMEPAI>1</NOMEPAI>
+      </DEPARTAMENTOS>
+    </PRODUTO>
+  </PRODUTOS>
+</CATALOGO>

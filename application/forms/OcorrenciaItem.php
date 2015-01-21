@@ -43,6 +43,22 @@ class Application_Form_OcorrenciaItem extends Zend_Form
         ->removeDecorator('Label')
          ->setAttrib('class', 'form-control')
     	->setAttrib('rows', '5');
+        
+                
+        $dataentrega = new Zend_Form_Element_Text('datahora',
+            array(
+                 'label' => 'Data da Ocorrência',
+                 'required' => false,
+                 'filters' => array('StringTrim', 'StripTags'),
+                 'class' => 'input-small datepicker',
+                 'data-date' => date("d-m-Y"),
+                 'data-date-format' => 'dd-mm-yyyy',
+                 'value' => date("d-m-Y")
+            )
+        );
+
+        // date validator
+        $dataentrega->addValidator(new Zend_Validate_Date('d-m-Y'));
             
 		
 		
@@ -58,7 +74,7 @@ class Application_Form_OcorrenciaItem extends Zend_Form
        
     
         
-        $this->addElements(array($id,$fk_item,$fk_ocorrencia,$observacao,$final,$submit)); 
+        $this->addElements(array($id,$fk_item,$fk_ocorrencia,$observacao,$dataentrega,$final,$submit)); 
         
         $this->setDecorators( array( array('ViewScript', array('viewScript' => 'formularioOcorrenciaItem.phtml'))));
     }
