@@ -452,7 +452,6 @@ class IndexController extends Zend_Controller_Action {
                 //Zend_Registry::get('logger')->log("Clicou vincularReferencia ".$formData['id_referencia'], Zend_Log::INFO);
             } else {//clicou adicionar
             }
-            var_dump($formData);die;
             $listaNomeCaract = array();
             $listaValorCaract = $formData["valorCaracteristica"];
             Zend_Registry::get('logger')->log(count($listaValorCaract), Zend_Log::INFO);

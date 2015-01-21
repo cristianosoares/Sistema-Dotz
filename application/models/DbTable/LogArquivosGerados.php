@@ -10,9 +10,9 @@ class Application_Model_DbTable_LogArquivosGerados extends Zend_Db_Table_Abstrac
 	protected $identificacaoParceiro="TM1DISTRIBUIDORA";
 	protected $caminhoPastaFtp = BASE_PATH;
 	protected $pastaFtp ='/uploadXml/';
-	protected $ftp_server = "ftp.made4u.com.br"; // Nome ou IP do Servidor
-	protected $login      = "made4u"; // UsuÃ¡rio
-	protected $senha      = "digital4u887";   // Senha
+	protected $ftp_server = ""; // Nome ou IP do Servidor
+	protected $login      = ""; // UsuÃ¡rio
+	protected $senha      = "";   // Senha
 	protected $diretorioEntrada  = "/ENTRADA/"; // DiretÃ³rio onde deverÃ¡ acessar (default)
 	protected $diretorioEntradaLocal  = "ENTRADA"; // DiretÃ³rio onde deverÃ¡ acessar (default)
 	protected $diretorioSaida  = "/SAIDA/"; // DiretÃ³rio onde deverÃ¡ acessar (default)
